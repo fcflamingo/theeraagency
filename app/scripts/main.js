@@ -5,7 +5,6 @@ $(document).ready(function() {
         $('#login-container').toggleClass('active');
     });
 
-
     $('.lookbook-item').on('click', function() {
 
         if($(this).hasClass('active')) {
@@ -20,5 +19,18 @@ $(document).ready(function() {
     });
 
 
+    var profilesWrap = $('#profiles-wrap');
+
+    $("#submit").on("click", function(e) {
+        e.preventDefault();
+        profilesWrap.addClass('active');
+        $.get("profiles-home.html",function(data){
+            profilesWrap.append(data);
+            setTimeout(function() {
+                $('#profiles').addClass('active');
+            }, 400);
+        });
+
+    });
 });
 
