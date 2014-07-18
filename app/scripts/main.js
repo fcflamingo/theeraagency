@@ -29,6 +29,8 @@ $(document).ready(function() {
             setTimeout(function() {
                 $('#profiles').addClass('active');
             }, 400);
+            $('#login-container').removeClass('active');
+            $('#login-container').addClass('hide');
         });
     });
 });
