@@ -38,7 +38,8 @@ $(document).ready(function() {
         $('#splash').add('.navbar').add('body').toggleClass('active');
     });
     $('.logo').on('click', function() {
-        $('#splash').add('.navbar').add('body').removeClass('active');
+        $('#splash').add('.navbar').add('body').add('.lookbook-item').removeClass('active');
+        $('.lookbook-item').removeClass('inactive');
     });
 });
 
