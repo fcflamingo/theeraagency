@@ -3,14 +3,20 @@ $(document).ready(function() {
 
     $('a.is-toggle-login').on('click', function() {
         $('#login-container').toggleClass('active');
+        $('.lookbook-item').removeClass('active');
+        $('.lookbook-item').removeClass('inactive');
     });
 
     $('.lookbook-item').on('click', function() {
 
+        $('#login-container').removeClass('active');
+
         if($(this).hasClass('active')) {
             $('.lookbook-item').removeClass('active');
             $('.lookbook-item').removeClass('inactive');
-        } else {
+            $('#login-container').toggleClass('active');
+        }
+        else {
             $('.lookbook-item').removeClass('active');
             $('.lookbook-item').removeClass('inactive');
             $(this).toggleClass('active');
@@ -38,7 +44,8 @@ $(document).ready(function() {
         $('#splash').add('.navbar').add('body').toggleClass('active');
     });
     $('.logo').on('click', function() {
-        $('#splash').add('.navbar').add('body').add('.lookbook-item').removeClass('active');
+        $('#splash').add('.navbar').add('body').removeClass('active');
+        $('.lookbook-item').removeClass('active');
         $('.lookbook-item').removeClass('inactive');
     });
 });
