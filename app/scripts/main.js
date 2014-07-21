@@ -14,7 +14,6 @@ $(document).ready(function() {
         if($(this).hasClass('active')) {
             $('.lookbook-item').removeClass('active');
             $('.lookbook-item').removeClass('inactive');
-            $('#login-container').toggleClass('active');
         }
         else {
             $('.lookbook-item').removeClass('active');
