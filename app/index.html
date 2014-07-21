@@ -25,25 +25,12 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header style="position: fixed; top: 0; left: 0; width: 100%; z-index: 999;">
+        <header class="navbar" style="position: fixed; left: 0; width: 100%; z-index: 999;">
             <div style="position: relative; width: 300px; margin: 0 auto;">
                 <div class="logo" style="padding: 6px 20px 6px 26px; background: rgba(0, 0, 0, 1); display: inline-block; color: #fff; font-size: 18px; font-family: 'Open Sans', sans-serif; font-weight: 100; letter-spacing: 10px;">MYMODEL<span style="font-weight: 700;">MGMT</span></div>
             </div>
         </header>
-        <section id="splash"></section>
-
         <section id="lookbook">
-            <div id="login-container">
-                <a class="is-toggle-login">ACCESS MODEL PROFILES</a>
-                <div class="login-screen">
-                    <form>
-                        <div class="form-inner">
-                            <input id="password" type="text" name="password" required>
-                            <input id="submit" type="submit" value="LOGIN">
-                        </div>
-                    </form>
-                </div>
-            </div>
             <div class="lookbook-item"><img src="images/primary-ashleyh.jpg"/>
                 <div class="next">NEXT</div>
             </div>
@@ -68,9 +55,36 @@
             <div class="lookbook-item"> <img src="images/primary-kandace.jpg">
                 <div class="prev">PREV</div>
             </div>
+            <div id="login-container">
+                <a class="is-toggle-login">ACCESS MODEL PROFILES</a>
+                <div class="login-screen">
+                    <form>
+                        <div class="form-inner">
+                            <input id="password" type="text" name="password" required>
+                            <input id="submit" type="submit" value="LOGIN">
+                        </div>
+                    </form>
+                </div>
+            </div>
 
             <section id="profiles-wrap"></section>
 
+        </section>
+        <section id="splash">
+            <div class="overlay"></div>
+            <div class="content-container">
+                <div class="content-container-header">
+                    <header>
+                        <div class="logo" style="padding: 6px 20px 6px 26px;  display: inline-block; color: #000; font-size: 80px; font-family: 'Open Sans', sans-serif; font-weight: 100; letter-spacing: 10px;">MYMODEL<span style="font-weight: 700;">MGMT</span></div>
+                    </header>
+                    <div class="content-header-nav">
+                        <div class="inner">
+                            <a id="look">LOOK</a>
+                            <a id="learn">LEARN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- build:js scripts/vendor.js -->

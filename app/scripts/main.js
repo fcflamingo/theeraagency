@@ -33,5 +33,12 @@ $(document).ready(function() {
             $('#login-container').addClass('hide');
         });
     });
+
+    $('.content-header-nav a').on('click', function() {
+        $('#splash').add('.navbar').add('body').toggleClass('active');
+    });
+    $('.logo').on('click', function() {
+        $('#splash').add('.navbar').add('body').removeClass('active');
+    });
 });
 
