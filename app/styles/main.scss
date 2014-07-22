@@ -91,7 +91,7 @@ body.active-look {
     -webkit-transition: all 2s ease;
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
-    height: 66vh;
+    height: 100vh;
     position: relative;
     top: 0;
   }
@@ -100,7 +100,7 @@ body.active-look {
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
     height: 100vh;
-    top: 0;
+    top: -34vh;
     .content-container-header {
       display: table;
       position: relative;
