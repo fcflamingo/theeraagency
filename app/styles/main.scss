@@ -67,12 +67,14 @@ body.active-look {
   position: relative;
   display: block;
   overflow-x: hidden;
-  -webkit-transition: all 2s ease;
+  -webkit-transition: z-index 0s ease 0s;
   .overlay, .content-container {
     position: relative;
     -webkit-transition: all 2s ease;
   }
   &.active-look {
+    z-index: 0;
+    -webkit-transition: z-index 0s ease 2s;
     .overlay {
       top: -200vh;
     }
