@@ -43,7 +43,7 @@ $(document).ready(function() {
 
     $('.logo').on('click', function() {
         $('#splash').add('.navbar').add('body').removeClass('active-look');
-        $('#splash').removeClass('active-learn');
+        $('#splash').add('body').removeClass('active-learn');
         deactivateLookBookItems();
         $('#login-container').removeClass('active');
     });
