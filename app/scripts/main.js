@@ -31,11 +31,19 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
-    $('.content-header-nav a').on('click', function() {
-        $('#splash').add('.navbar').add('body').toggleClass('active');
+    $('#look').on('click', function() {
+        $('#splash').add('.navbar').add('body').toggleClass('active-look');
+        $('#splash').removeClass('active-learn');
     });
+
+    $('#learn').on('click', function() {
+        $('#splash').add('body').toggleClass('active-learn');
+    });
+
+
     $('.logo').on('click', function() {
-        $('#splash').add('.navbar').add('body').removeClass('active');
+        $('#splash').add('.navbar').add('body').removeClass('active-look');
+        $('#splash').removeClass('active-learn');
         deactivateLookBookItems();
         $('#login-container').removeClass('active');
     });

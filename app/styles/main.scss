@@ -1,5 +1,10 @@
 @import 'fonts';
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 html, body {
   background: rgba(0, 0, 0, 0);
   overflow-x: hidden;
@@ -14,9 +19,10 @@ html, body {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
+  -webkit-transition: all 2s ease;
 }
 
-body.active {
+body.active-look {
   height: 100vh;
   overflow: hidden;
 }
@@ -44,7 +50,7 @@ body.active {
       color: #000;
     }
   }
-  &.active {
+  &.active-look {
     top: 0;
   }
 }
@@ -64,7 +70,7 @@ body.active {
     position: relative;
     -webkit-transition: all 2s ease;
   }
-  &.active {
+  &.active-look {
     z-index: 0;
     .overlay {
       opacity: 0;
@@ -73,6 +79,11 @@ body.active {
     }
     .content-container {
       margin-top: 100%;
+    }
+  }
+  &.active-learn {
+    .content-container {
+      margin-top: -66vh;
     }
   }
   .overlay {
@@ -101,11 +112,17 @@ body.active {
         display: table-cell;
         vertical-align: middle;
         .logo {
+          display: block;
           text-align: center;
           width: auto;
-          display: block;
           float: left;
           clear: both;
+          padding: 6px 20px 6px 26px;
+          color: #000;
+          font-size: 80px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 100;
+          letter-spacing: 10px;
         }
       }
     }
@@ -359,6 +376,27 @@ $lookbookItemWidth: calc(100% / 6);
   -webkit-transition: all 0.75s ease;
   &.active {
     -webkit-transform: scale(1.0);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #splash .content-container .content-container-header header .logo {
+    font-size: 60px;
+  }
+  #splash .content-container .content-header-nav .inner {
+    -webkit-transform: scale(0.75);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #splash .content-container .content-container-header header .logo {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #splash .content-container .content-container-header header .logo {
+    font-size: 36px;
   }
 }
 
