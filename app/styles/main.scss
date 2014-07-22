@@ -72,13 +72,12 @@ body.active-look {
   }
   &.active-look {
     z-index: 0;
+    -webkit-transition: z-index 2s ease 2s;
     .overlay {
       opacity: 0;
-      height: 100vh;
-      margin-top: -100%;
     }
     .content-container {
-      margin-top: 100%;
+      margin-top: 100vh;
     }
   }
   &.active-learn {
@@ -98,6 +97,7 @@ body.active-look {
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
     height: 100vh;
+    margin-top: 0;
     .content-container-header {
       display: table;
       margin-top: 66vh;
