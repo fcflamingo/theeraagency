@@ -1,42 +1,34 @@
 $(document).ready(function() {
     'use strict';
 
+    var lookBookItem = $('.lookbook-item');
+
+    var deactivateLookBookItems = function () {
+        lookBookItem.removeClass('active');
+        lookBookItem.removeClass('inactive');
+    };
+
     $('a.is-toggle-login').on('click', function() {
         $('#login-container').toggleClass('active');
-        $('.lookbook-item').removeClass('active');
-        $('.lookbook-item').removeClass('inactive');
+        deactivateLookBookItems();
     });
 
-    $('.lookbook-item').on('click', function() {
+    lookBookItem.on('click', function() {
 
         $('#login-container').removeClass('active');
 
         if($(this).hasClass('active')) {
-            $('.lookbook-item').removeClass('active');
-            $('.lookbook-item').removeClass('inactive');
+            deactivateLookBookItems();
         }
         else {
-            $('.lookbook-item').removeClass('active');
-            $('.lookbook-item').removeClass('inactive');
+            deactivateLookBookItems();
             $(this).toggleClass('active');
-            $('.lookbook-item').not(this).toggleClass('inactive');
+            lookBookItem.not(this).toggleClass('inactive');
         }
     });
 
-
-    var profilesWrap = $('#profiles-wrap');
-
     $("#submit").on("click", function(e) {
         e.preventDefault();
-        profilesWrap.addClass('active');
-        $.get("profiles-home.html",function(data){
-            profilesWrap.append(data);
-            setTimeout(function() {
-                $('#profiles').addClass('active');
-            }, 400);
-            $('#login-container').removeClass('active');
-            $('#login-container').addClass('hide');
-        });
     });
 
     $('.content-header-nav a').on('click', function() {
@@ -44,8 +36,7 @@ $(document).ready(function() {
     });
     $('.logo').on('click', function() {
         $('#splash').add('.navbar').add('body').removeClass('active');
-        $('.lookbook-item').removeClass('active');
-        $('.lookbook-item').removeClass('inactive');
+        deactivateLookBookItems();
     });
 });
 
