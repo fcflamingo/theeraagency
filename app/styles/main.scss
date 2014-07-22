@@ -122,15 +122,42 @@ body.active {
         width: 100px;
         left: 160px;
         position: relative;
+        overflow: hidden;
       }
       a {
+        position: relative;
         font-size: 40px;
         opacity: 0.25;
         display: block;
         cursor: pointer;
         -webkit-transition: opacity 0.25s ease-in;
+        overflow: visible;
+        &#look:before {
+          top: 41px;
+        }
+        &#learn:before {
+          top: 14px;
+        }
+        &:before {
+          content: "";
+          overflow: hidden;
+          width: 2px;
+          position: absolute;
+          height: 0;
+          background: rgba(0, 0, 0, 0.75);
+          display: block;
+          left: 4px;
+          -webkit-transition: all 0.25s ease-in;
+        }
         &:hover {
           opacity: 1;
+          &#look:before {
+            height: 100px;
+            margin-top: -100px;
+          }
+          &#learn:before {
+            padding-top: 100px;
+          }
         }
       }
     }
