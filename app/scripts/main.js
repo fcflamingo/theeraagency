@@ -37,6 +37,7 @@ $(document).ready(function() {
     $('.logo').on('click', function() {
         $('#splash').add('.navbar').add('body').removeClass('active');
         deactivateLookBookItems();
+        $('#login-container').removeClass('active');
     });
 });
 
