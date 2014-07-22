@@ -23,7 +23,7 @@ html, body {
 }
 
 body.active-look {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -38,6 +38,8 @@ body.active-look {
   -webkit-transition: all 0.5s ease-out;
   -webkit-user-select: none;
 }
+
+
 
 .navbar {
   top: -100%;
@@ -65,19 +67,17 @@ body.active-look {
   position: relative;
   display: block;
   overflow-x: hidden;
-  -webkit-transition: z-index 2s ease;
+  -webkit-transition: all 2s ease;
   .overlay, .content-container {
     position: relative;
     -webkit-transition: all 2s ease;
   }
   &.active-look {
-    z-index: 0;
-    -webkit-transition: z-index 2s ease 2s;
     .overlay {
-      opacity: 0;
+      top: -200vh;
     }
     .content-container {
-      margin-top: 100vh;
+      top: 66vh;
     }
   }
   &.active-learn {
@@ -90,23 +90,21 @@ body.active-look {
     width: 100%;
     background: rgba(0, 0, 0, 0.5);
     height: 66vh;
-    position: absolute;
+    position: relative;
+    top: 0;
   }
   .content-container {
     position: relative;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
     height: 100vh;
-    margin-top: 0;
+    top: 0;
     .content-container-header {
       display: table;
-      margin-top: 66vh;
       position: relative;
       width: 100%;
-      height: calc(100vh - 66vh);
+      height: 34vh;
       header {
-        height: 100%;
-        width: calc(100% - 200px);
         position: relative;
         z-index: 1;
         display: table-cell;
@@ -117,12 +115,16 @@ body.active-look {
           width: auto;
           float: left;
           clear: both;
-          padding: 6px 20px 6px 26px;
           color: #000;
-          font-size: 80px;
+          font-size: 160px;
           font-family: 'Open Sans', sans-serif;
           font-weight: 100;
-          letter-spacing: 10px;
+          padding-left: 20px;
+          opacity: 1;
+          &#logo-responsive {
+            position: absolute;
+            opacity: 0;
+          }
         }
       }
     }
@@ -130,16 +132,15 @@ body.active-look {
       right: 0;
       width: 320px;
       height: 100%;
-      position: absolute;
+      position: relative;
       z-index: 2;
-      display: table;
+      display: table-cell;
+      vertical-align: middle;
       .inner {
-        display: table-cell;
-        vertical-align: middle;
-        width: 100px;
-        left: 160px;
+        padding: 0;
+        display: block;
         position: relative;
-        overflow: hidden;
+        overflow: visible;
       }
       a {
         position: relative;
@@ -379,8 +380,28 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-@media screen and (max-width: 960px) {
-  #splash .content-container .content-container-header header .logo {
+
+@media screen and (max-width: 1600px) {
+  #splash .content-container .content-container-header header .logo  {
+    font-size: 120px;
+  }
+  #splash .content-container .content-header-nav .inner {
+    -webkit-transform: scale(0.95);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #splash .content-container .content-container-header header .logo  {
+    font-size: 100px;
+  }
+  #splash .content-container .content-header-nav .inner {
+    -webkit-transform: scale(0.85);
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  #splash .content-container .content-container-header header .logo  {
     font-size: 60px;
   }
   #splash .content-container .content-header-nav .inner {
@@ -388,15 +409,17 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-@media screen and (max-width: 768px) {
-  #splash .content-container .content-container-header header .logo {
-    font-size: 48px;
+@media screen and (max-width: 960px) {
+  #splash .content-container .content-container-header header  {
+    .logo {
+      opacity: 0;
+      width: 150px;
+      font-size: 100px;
+      &#logo-responsive {
+        opacity: 1;
+      }
+    }
   }
 }
 
-@media screen and (max-width: 580px) {
-  #splash .content-container .content-container-header header .logo {
-    font-size: 36px;
-  }
-}
 
