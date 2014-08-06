@@ -27,10 +27,6 @@ $(document).ready(function() {
         }
     });
 
-    $("#submit").on("click", function(e) {
-        e.preventDefault();
-    });
-
     $('#look').on('click', function() {
         $('#splash').add('.navbar').add('body').toggleClass('active-look');
         $('#splash').removeClass('active-learn');
@@ -40,12 +36,20 @@ $(document).ready(function() {
         $('#splash').add('body').toggleClass('active-learn');
     });
 
-
     $('.logo').on('click', function() {
         $('#splash').add('.navbar').add('body').removeClass('active-look');
         $('#splash').add('body').removeClass('active-learn');
         deactivateLookBookItems();
         $('#login-container').removeClass('active');
+        $('#profiles-wrap').removeClass('active');
+        $('#login-container').removeClass('hide');
+    });
+
+    $('#login').on('click', function(e) {
+        e.preventDefault();
+        $('#profiles-wrap').addClass('active');
+        $('#login-container').removeClass('active');
+        $('#login-container').addClass('hide');
     });
 });
 
