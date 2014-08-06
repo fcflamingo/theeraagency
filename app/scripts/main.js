@@ -27,7 +27,7 @@ $(document).ready(function() {
         }
     });
 
-    $('#look').on('click', function() {
+    $('#look').add('.overlay').on('click', function() {
         $('#splash').add('.navbar').add('body').toggleClass('active-look');
         $('#splash').removeClass('active-learn');
     });
@@ -43,6 +43,7 @@ $(document).ready(function() {
         $('#login-container').removeClass('active');
         $('#profiles-wrap').removeClass('active');
         $('#login-container').removeClass('hide');
+        $('#lookbook').add('#splash').removeClass('logged-in');
     });
 
     $('#login').on('click', function(e) {
@@ -50,6 +51,23 @@ $(document).ready(function() {
         $('#profiles-wrap').addClass('active');
         $('#login-container').removeClass('active');
         $('#login-container').addClass('hide');
+        $('body').removeClass('active-look');
+        $('#lookbook').add('#splash').addClass('logged-in');
+    });
+
+    // Client Grid Item Sizing (Make Square) //
+
+    var gridItemHeight = function(tag) {
+        var gridItemWidth = $('.grid-item').width();
+        $(tag).css({'height': gridItemWidth + 'px'});
+    };
+    $('.grid-item').each(function(){
+        gridItemHeight(this);
+    });
+    $(window).resize(function() {
+        $('.grid-item').each(function(){
+            gridItemHeight(this);
+        });
     });
 });
 
