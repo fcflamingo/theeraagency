@@ -43,8 +43,12 @@ body.active-look {
 
 .navbar {
   top: -100%;
-  -webkit-transition: all 1s ease;
+  position: fixed;
+  width: 33.33333%;
+  z-index: 999;
+  left: 33.33333%;
   cursor: pointer;
+  -webkit-transition: all 1s ease;
   .logo {
     background: rgba(0, 0, 0, 1);
     &:hover {
@@ -54,10 +58,6 @@ body.active-look {
   }
   &.active-look {
     top: 0;
-    position: fixed;
-    width: 33.33333%;
-    z-index: 999;
-    left: 33.33333%;
   }
 }
 
