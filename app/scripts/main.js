@@ -36,7 +36,7 @@ $(document).ready(function() {
         $('#splash').add('body').toggleClass('active-learn');
     });
 
-    $('.logo').on('click', function() {
+    $('.back').on('click', function() {
         $('#splash').add('.navbar').add('body').removeClass('active-look');
         $('#splash').add('body').removeClass('active-learn');
         deactivateLookBookItems();
