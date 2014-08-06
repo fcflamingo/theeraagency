@@ -226,9 +226,9 @@ $lookbookItemWidth: calc(100% / 6);
     left: -100%;
     -webkit-transition: all 1s ease;
     box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5);
-    opacity: 0.5;
+    opacity: 0.75;
     &:hover {
-      opacity: 0.75;
+      opacity: 1;
     }
   }
   &.active {
@@ -248,13 +248,15 @@ $lookbookItemWidth: calc(100% / 6);
     img {
       left: 0;
       -webkit-transform: scale(0.75);
-      opacity: 1;
     }
   }
   &.inactive {
     width: 50px;
     .next, .prev {
       opacity: 0;
+    }
+    img {
+      opacity: 0.5;
     }
     &:hover {
       img {
