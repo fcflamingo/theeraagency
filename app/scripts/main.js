@@ -69,5 +69,15 @@ $(document).ready(function() {
             gridItemHeight(this);
         });
     });
+
+    $('.grid-item').on('click', function(e) {
+        $('.profile-overlay').addClass('active');
+        $('html, body').addClass('noScroll');
+    });
+
+    $('.is-close-overlay').on('click', function(e) {
+        $('.profile-overlay').removeClass('active');
+        $('html, body').removeClass('noScroll');
+    });
 });
 
