@@ -398,25 +398,24 @@ $lookbookItemWidth: calc(100% / 6);
 
 .grid-item .content {
   background: rgba(0, 0, 0, 0.85);
-  top: -125%;
+  top: 0;
   left: -25%;
   width: calc(150% + 1px);
   height: 150%;
   opacity: 0;
-  -webkit-transform: scale(0);
   -webkit-transition: all .35s ease;
 }
 
 .grid-item:hover {
   .content {
     opacity: 1;
-    -webkit-transform: scale(1);
+    top: -125%;
   }
   .client-logo {
     opacity: 0;
   }
   .is-view-more {
-    -webkit-transform: rotate(90deg);
+    opacity: 1;
   }
 }
 
@@ -439,21 +438,13 @@ $lookbookItemWidth: calc(100% / 6);
 }
 
 .is-view-more {
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
   margin: 10px auto;
   -webkit-transition: all .35s ease .25s;
   -webkit-transform-origin: 50% 50%;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 100;
   text-align: center;
-  span {
-    position: relative;
-    top: -2px;
-    left: 2px;
-  }
+  opacity: 0;
 }
 
 
