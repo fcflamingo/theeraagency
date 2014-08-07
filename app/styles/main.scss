@@ -486,6 +486,141 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
+.profile-info {
+  width: 400px;
+  height: 100%;
+  overflow: hidden;
+  float: left;
+}
+
+.profile-headshot {
+  position: relative;
+  z-index: 1;
+  img {
+    max-height: 100%;
+    position: relative;
+    left: -100px;
+  }
+}
+
+.profile-stats {
+  background: rgba(0, 0, 0, 0.6);
+//  box-shadow: inset 0 0 20px #000000;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  top: -300px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.9);
+  h1, h3 {
+    font-weight: 100;
+  }
+  h1 {
+    font-size: 40px;
+    margin: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+  }
+  h3 {
+    span {
+      margin-right: 20px;
+    }
+  }
+  ul {
+    text-align: right;
+    list-style: none;
+    padding: 20px 15px;
+    width: 33.33333%;
+    display: block;
+    float: left;
+    margin: 0;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  li {
+    padding: 0;
+    line-height: 200%;
+    span {
+      float: left;
+    }
+  }
+  span {
+    font-weight: 700;
+  }
+}
+
+.profile-slider {
+  width: calc(100% - 400px);
+  height: 100%;
+  float: left;
+}
+
+.slider-item {
+  display: block;
+  float: left;
+  height: 100%;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+  -webkit-transition: all 1s ease;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+  backface-visibility:     hidden;
+  .next, .prev {
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+    top: -50%;
+    display: block;
+    letter-spacing: 6px;
+    padding-left: 6px;
+    font-size: 12px;
+    opacity: 0;
+    font-weight: 100;
+    -webkit-transition: all 1s ease;
+  }
+  .next {
+    float: right;
+    top: calc(-50% - 22px);
+  }
+  img {
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    left: -100%;
+    -webkit-transition: all 1s ease;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+  &.active {
+    opacity: 1;
+    img {
+      left: 0;
+    }
+  }
+  &.inactive {
+    width: 50px;
+    .next, .prev {
+      opacity: 0;
+    }
+    img {
+      opacity: 0.5;
+    }
+    &:hover {
+      img {
+        opacity: 0.75;
+      }
+    }
+  }
+}
+
+
 .is-close-overlay {
   position: absolute;
   top: 0;
@@ -499,8 +634,10 @@ $lookbookItemWidth: calc(100% / 6);
   font-weight: 100;
   cursor: pointer;
   -webkit-transition: all 0.35s ease;
+  z-index: 999;
+  background: rgba(0, 0, 0, 1.0);
   &:hover {
-    -webkit-transform: scale(1.25);
+    background: rgba(0, 0, 0, 0.75);
   }
 }
 
