@@ -95,11 +95,30 @@ $(document).ready(function() {
     $('.grid-item').on('click', function(e) {
         $('.profile-overlay').addClass('active');
         $('html, body').addClass('noScroll');
+
+            var profileGridItemHeight = function(tag) {
+                var gridItemWidth = $('.profile-grid-item').width();
+                $(tag).css({'height': gridItemWidth + 'px'});
+            };
+            $('.profile-grid-item').each(function(){
+                profileGridItemHeight(this);
+            });
+            $(window).resize(function() {
+                $('.grid-item').each(function(){
+                    profileGridItemHeight(this);
+                });
+            });
+
+
     });
 
     $('.is-close-overlay').on('click', function(e) {
         $('.profile-overlay').removeClass('active');
         $('html, body').removeClass('noScroll');
     });
+
+    // Client Grid Item Sizing (Make Square) //
+
+
 });
 
