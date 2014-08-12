@@ -11,6 +11,7 @@ $(document).ready(function() {
     $('a.is-toggle-login').on('click', function() {
         $('#login-container').toggleClass('active');
         deactivateLookBookItems();
+        deactivateContactOptions();
     });
 
     lookBookItem.on('click', function() {
@@ -27,19 +28,40 @@ $(document).ready(function() {
         }
     });
 
+    var contactOption = $('.contact-option');
+
+    var deactivateContactOptions = function () {
+        contactOption.removeClass('active');
+        contactOption.removeClass('inactive');
+    };
+
+    contactOption.on('click', function() {
+
+        if($(this).hasClass('active')) {
+            deactivateContactOptions();
+        }
+        else {
+            deactivateContactOptions();
+            $(this).toggleClass('active');
+            contactOption.not(this).toggleClass('inactive');
+        }
+    });
+
     $('#look').add('.overlay').on('click', function() {
         $('#splash').add('.navbar').add('body').toggleClass('active-look');
         $('#splash').removeClass('active-learn');
     });
 
-    $('#learn').on('click', function() {
+    $('.js-toggle-contact').on('click', function() {
         $('#splash').add('body').toggleClass('active-learn');
+        $('.navbar').toggleClass('active-look');
     });
 
     $('.back').on('click', function() {
         $('#splash').add('.navbar').add('body').removeClass('active-look');
         $('#splash').add('body').removeClass('active-learn');
         deactivateLookBookItems();
+        deactivateContactOptions();
         $('#login-container').removeClass('active');
         $('#profiles-wrap').removeClass('active');
         $('#login-container').removeClass('hide');
