@@ -57,6 +57,12 @@ $(document).ready(function() {
         $('.navbar').toggleClass('active-look');
     });
 
+    $('.js-toggle-social').on('click', function() {
+        $('.navbar').toggleClass('active-look');
+        $('#social-wrap').addClass('active');
+        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
+    });
+
     $('.back').on('click', function() {
         $('#splash').add('.navbar').add('body').removeClass('active-look');
         $('#splash').add('body').removeClass('active-learn');
@@ -64,6 +70,7 @@ $(document).ready(function() {
         deactivateContactOptions();
         $('#login-container').removeClass('active');
         $('#profiles-wrap').removeClass('active');
+        $('#social-wrap').removeClass('active');
         $('#login-container').removeClass('hide');
         $('#lookbook').add('#splash').removeClass('logged-in');
     });
