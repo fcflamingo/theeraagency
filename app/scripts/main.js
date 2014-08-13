@@ -143,6 +143,5 @@ $(document).ready(function() {
 
     // Client Grid Item Sizing (Make Square) //
 
-
 });
 
