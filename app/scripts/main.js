@@ -92,25 +92,42 @@ $(document).ready(function() {
         });
     });
 
+    var profileGridItemHeight = function(tag) {
+        var gridItemWidth = $('.profile-grid-item').width();
+        $(tag).css({'height': gridItemWidth + 'px'});
+    };
+
     $('.grid-item').on('click', function(e) {
         $('.profile-overlay').addClass('active');
         $('html, body').addClass('noScroll');
-
-            var profileGridItemHeight = function(tag) {
-                var gridItemWidth = $('.profile-grid-item').width();
-                $(tag).css({'height': gridItemWidth + 'px'});
-            };
-            $('.profile-grid-item').each(function(){
-                profileGridItemHeight(this);
-            });
-            $(window).resize(function() {
-                $('.grid-item').each(function(){
-                    profileGridItemHeight(this);
-                });
-            });
-
-
+        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
+        $('.profile-grid-item').each(function(){
+            profileGridItemHeight(this);
+        });
     });
+
+    $(window).resize(function() {
+        $('.profile-grid-item').each(function(){
+            profileGridItemHeight(this);
+        });
+    });
+
+
+    var modelInfoHeight = function(tag) {
+        var windowHeight = $(window).height();
+        $(tag).css({'height': windowHeight + 'px'});
+    };
+
+    $('.model-info').each(function(){
+        modelInfoHeight(this);
+    });
+
+    $(window).resize(function() {
+        $('.model-info').each(function(){
+            modelInfoHeight(this);
+        });
+    });
+
 
     $('.is-close-overlay').on('click', function(e) {
         $('.profile-overlay').removeClass('active');
