@@ -742,6 +742,9 @@ $lookbookItemWidth: calc(100% / 6);
 @media screen and (max-width: 768px) {
   .lookbook-item {
     width: 25%;
+    img {
+      left: -125%;
+    }
     &:nth-child(5), &:nth-child(6) {
       display: none;
     }
@@ -754,6 +757,9 @@ $lookbookItemWidth: calc(100% / 6);
 @media screen and (max-width: 480px) {
   .lookbook-item {
     width: 33.33333%;
+    img {
+      left: -150%;
+    }
     &:nth-child(4) {
       display: none;
     }
