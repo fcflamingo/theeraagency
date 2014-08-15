@@ -728,7 +728,12 @@ $lookbookItemWidth: calc(100% / 6);
 }
 
 @media screen and (max-width: 960px) {
-
+  .grid-item .inner .client-name {
+    font-size: 16px;
+  }
+  .is-view-more {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 768px) {
