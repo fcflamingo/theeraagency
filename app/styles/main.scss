@@ -743,6 +743,10 @@ $lookbookItemWidth: calc(100% / 6);
     }
   }
 
+  .grid-item, .profile-grid-item {
+    width: 50%;
+  }
+
   .lookbook-item {
     width: 25%;
     img {
@@ -789,5 +793,8 @@ $lookbookItemWidth: calc(100% / 6);
   }
   .lookbook-item.active {
     width: calc(100% - (50px * 2));
+  }
+  .grid-item, .profile-grid-item {
+    width: 100%;
   }
 }
