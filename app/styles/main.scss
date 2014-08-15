@@ -309,7 +309,7 @@ $lookbookItemWidth: calc(100% / 6);
       opacity: 0;
       -webkit-transition: all 0.75s ease;
       display: table;
-      width: 600px;
+      max-width: 600px;
       margin: 0 auto;
       height: 100%;
       font-size: 30px;
@@ -329,7 +329,7 @@ $lookbookItemWidth: calc(100% / 6);
       outline: none;
     }
     #password {
-      width: 300px;
+      max-width: 400px;
     }
     #login {
       height: 80px;
@@ -758,6 +758,9 @@ $lookbookItemWidth: calc(100% / 6);
   }
   .lookbook-item.active {
     width: calc(100% - (50px * 3));
+    img {
+      left: 0%;
+    }
   }
 
   .profile-info {
@@ -826,8 +829,18 @@ $lookbookItemWidth: calc(100% / 6);
   }
   .lookbook-item.active {
     width: calc(100% - (50px * 2));
+    img {
+      left: -33.33333%;
+    }
   }
   .grid-item, .profile-grid-item {
     width: 100%;
   }
+
+  #splash .content-container .content-container-header header  {
+    .logo {
+      font-size: 55px;
+    }
+  }
+
 }
