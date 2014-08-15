@@ -755,6 +755,18 @@ $lookbookItemWidth: calc(100% / 6);
   .lookbook-item.active {
     width: calc(100% - (50px * 3));
   }
+
+  .profile-info {
+    width: 100%;
+    position: relative;
+    float: left;
+    .profile-headshot img {
+      max-height: initial;
+      max-width: 100%;
+      position: relative;
+      left: 0;
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
