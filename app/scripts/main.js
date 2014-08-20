@@ -87,8 +87,6 @@ $(document).ready(function() {
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
 
-
-
     // Client Grid Item Sizing (Make Square) //
 
     var gridItemHeight = function(tag) {
