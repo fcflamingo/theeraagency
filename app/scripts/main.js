@@ -77,7 +77,7 @@ $(document).ready(function() {
 
     $('#login').on('click', function(e) {
         e.preventDefault();
-        window.location='http://fcflamingo.github.io/mymodelmgmt//profiles-home.html';
+        window.location='http://fcflamingo.github.io/mymodelmgmt/profiles-home.html';
 //        $('#profiles-wrap').addClass('active');
 //        $('#login-container').removeClass('active');
 //        $('#login-container').addClass('hide');
