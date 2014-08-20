@@ -125,6 +125,13 @@ $(document).ready(function() {
 //        $('.profile-grid-item').each(function(){
 //            profileGridItemHeight(this);
 //        });
+    })
+
+    $('.profile-grid-item').on('mouseenter', function() {
+        $('.profile-grid-item').not(this).addClass('is-not-hovered');
+    });
+    $('.profile-grid-item').on('mouseleave', function() {
+        $('.profile-grid-item').not(this).removeClass('is-not-hovered');
     });
 
     var profileGridItemHeight = function(tag) {
