@@ -165,9 +165,5 @@ $(document).ready(function() {
 
     // Client Grid Item Sizing (Make Square) //
 
-    var BV = new $.BigVideo();
-    BV.init();
-    BV.show('videos/vimeosample.mp4',{ambient:true});
-
 });
 

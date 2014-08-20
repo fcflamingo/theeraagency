@@ -20,6 +20,7 @@
         <script src="bower_components/modernizr/modernizr.js"></script>
 
     </head>
+
     <body class="noScroll">
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -168,5 +169,10 @@
         <script src="bower_components/video.js/dist/video-js/video.js"></script>
         <script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
         <!-- endbuild -->
+        <script>
+            var BV = new $.BigVideo();
+            BV.init();
+            BV.show('images/samplevid.mp4', {ambient: true});
+        </script>
 </body>
 </html>
