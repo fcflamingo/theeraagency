@@ -358,7 +358,7 @@ module.exports = function (grunt) {
             },
             pages: {
                 options: {
-                    remote: 'https://github.com/every2ndcountsxc/mymodelmgmt.git',
+                    remote: 'https://github.com/fcflamingo/mymodelmgmt.git',
                     branch: 'gh-pages'
                 }
             },
