@@ -695,11 +695,8 @@ $lookbookItemWidth: calc(100% / 6);
       position: absolute;
       font-size: 20px;
       padding: 15px;
-      opacity: 1;
-      font-weight: normal;
       &:hover {
-        opacity: 1;
-        background: rgba(0, 0, 0, 0.75);
+        text-decoration: none;
       }
     }
   }
@@ -710,14 +707,9 @@ $lookbookItemWidth: calc(100% / 6);
     position: relative;
   }
   a, a h3 {
-    font-weight: 400;
-    opacity: 1;
     &:hover {
-      opacity: 0.5;
+      text-decoration: underline;
     }
-  }
-  a h3 {
-    font-weight: 700;
   }
 }
 
