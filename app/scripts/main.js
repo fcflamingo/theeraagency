@@ -50,6 +50,7 @@ $(document).ready(function() {
     $('#look').add('.overlay').on('click', function() {
         $('#splash').add('.navbar').add('body').toggleClass('active-look');
         $('#splash').removeClass('active-learn');
+        $('#login-container').removeClass('hide');
     });
 
     $('.js-toggle-contact').on('click', function() {
@@ -151,6 +152,10 @@ $(document).ready(function() {
 //    });
 
     // Client Grid Item Sizing (Make Square) //
+
+    var BV = new $.BigVideo();
+    BV.init();
+    BV.show('http://pdl.vimeocdn.com/50616/820/280058397.mp4?token2=1408565671_a9090c832a56cc8a3b258ec19e454eff&aksessionid=5de33764ae0bbd73',{ambient:true});
 
 });
 
