@@ -712,6 +712,16 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
+#big-video-wrap {
+  height: 100vh;
+  background: url(../images/poster.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  .vjs-control-bar {
+    display: none;
+  }
+}
+
 
 @media screen and (max-width: 1600px) {
   #splash .content-container .content-container-header header .logo  {
