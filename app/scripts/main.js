@@ -105,7 +105,7 @@ $(document).ready(function() {
 
     $('.grid-item').on('click', function(e) {
         e.preventDefault();
-        window.location='http://fcflamingo.github.io/mymodelmgmt//profiles-individual.html';
+        window.location='http://fcflamingo.github.io/mymodelmgmt/profiles-individual.html';
 //        $('.profile-overlay').addClass('active');
 //        $('html, body').addClass('noScroll');
 //        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
