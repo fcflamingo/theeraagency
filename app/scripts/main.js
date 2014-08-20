@@ -63,17 +63,17 @@ $(document).ready(function() {
         $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
     });
 
-//    $('.back').on('click', function() {
-//        $('#splash').add('.navbar').add('body').removeClass('active-look');
-//        $('#splash').add('body').removeClass('active-learn');
-//        deactivateLookBookItems();
-//        deactivateContactOptions();
-//        $('#login-container').removeClass('active');
-//        $('#profiles-wrap').removeClass('active');
-//        $('#social-wrap').removeClass('active');
-//        $('#login-container').removeClass('hide');
-//        $('#lookbook').add('#splash').removeClass('logged-in');
-//    });
+    $('.back').on('click', function() {
+        $('#splash').add('.navbar').add('body').removeClass('active-look');
+        $('#splash').add('body').removeClass('active-learn');
+        deactivateLookBookItems();
+        deactivateContactOptions();
+        $('#login-container').removeClass('active');
+        $('#profiles-wrap').removeClass('active');
+        $('#social-wrap').removeClass('active');
+        $('#login-container').removeClass('hide');
+        $('#lookbook').add('#splash').removeClass('logged-in');
+    });
 
     $('#login').on('click', function(e) {
         e.preventDefault();
