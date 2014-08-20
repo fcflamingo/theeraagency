@@ -63,26 +63,31 @@ $(document).ready(function() {
         $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
     });
 
-    $('.back').on('click', function() {
-        $('#splash').add('.navbar').add('body').removeClass('active-look');
-        $('#splash').add('body').removeClass('active-learn');
-        deactivateLookBookItems();
-        deactivateContactOptions();
-        $('#login-container').removeClass('active');
-        $('#profiles-wrap').removeClass('active');
-        $('#social-wrap').removeClass('active');
-        $('#login-container').removeClass('hide');
-        $('#lookbook').add('#splash').removeClass('logged-in');
-    });
+//    $('.back').on('click', function() {
+//        $('#splash').add('.navbar').add('body').removeClass('active-look');
+//        $('#splash').add('body').removeClass('active-learn');
+//        deactivateLookBookItems();
+//        deactivateContactOptions();
+//        $('#login-container').removeClass('active');
+//        $('#profiles-wrap').removeClass('active');
+//        $('#social-wrap').removeClass('active');
+//        $('#login-container').removeClass('hide');
+//        $('#lookbook').add('#splash').removeClass('logged-in');
+//    });
 
     $('#login').on('click', function(e) {
         e.preventDefault();
-        $('#profiles-wrap').addClass('active');
-        $('#login-container').removeClass('active');
-        $('#login-container').addClass('hide');
-        $('body').removeClass('active-look');
-        $('#lookbook').add('#splash').addClass('logged-in');
+        window.location='/profiles-home.html';
+//        $('#profiles-wrap').addClass('active');
+//        $('#login-container').removeClass('active');
+//        $('#login-container').addClass('hide');
+//        $('body').removeClass('active-look');
+//        $('#lookbook').add('#splash').addClass('logged-in');
     });
+    $('#profiles-wrap').addClass('active');
+    $('.profile-overlay').addClass('active');
+
+
 
     // Client Grid Item Sizing (Make Square) //
 
@@ -99,20 +104,26 @@ $(document).ready(function() {
         });
     });
 
+
+    $('.grid-item').on('click', function(e) {
+        e.preventDefault();
+        window.location='/profiles-individual.html';
+//        $('.profile-overlay').addClass('active');
+//        $('html, body').addClass('noScroll');
+//        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
+//        $('.profile-grid-item').each(function(){
+//            profileGridItemHeight(this);
+//        });
+    });
+
     var profileGridItemHeight = function(tag) {
         var gridItemWidth = $('.profile-grid-item').width();
         $(tag).css({'height': gridItemWidth + 'px'});
     };
 
-    $('.grid-item').on('click', function(e) {
-        $('.profile-overlay').addClass('active');
-        $('html, body').addClass('noScroll');
-        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
-        $('.profile-grid-item').each(function(){
-            profileGridItemHeight(this);
-        });
+    $('.profile-grid-item').each(function(){
+        profileGridItemHeight(this);
     });
-
     $(window).resize(function() {
         $('.profile-grid-item').each(function(){
             profileGridItemHeight(this);
@@ -136,10 +147,10 @@ $(document).ready(function() {
     });
 
 
-    $('.is-close-overlay').on('click', function(e) {
-        $('.profile-overlay').removeClass('active');
-        $('html, body').removeClass('noScroll');
-    });
+//    $('.is-close-overlay').on('click', function(e) {
+//        $('.profile-overlay').removeClass('active');
+//        $('html, body').removeClass('noScroll');
+//    });
 
     // Client Grid Item Sizing (Make Square) //
 
