@@ -76,6 +76,18 @@ $(document).ready(function() {
         $('#lookbook').add('#splash').removeClass('logged-in');
     });
 
+    $('.logo').on('click', function() {
+        $('#splash').add('.navbar').add('body').removeClass('active-look');
+        $('#splash').add('body').removeClass('active-learn');
+        deactivateLookBookItems();
+        deactivateContactOptions();
+        $('#login-container').removeClass('active');
+        $('#profiles-wrap').removeClass('active');
+        $('#social-wrap').removeClass('active');
+        $('#login-container').addClass('hide');
+        $('#lookbook').add('#splash').removeClass('logged-in');
+    });
+
     $('#login').on('click', function(e) {
         e.preventDefault();
         window.location='http://fcflamingo.github.io/mymodelmgmt/profiles-home.html';
