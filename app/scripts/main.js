@@ -155,7 +155,7 @@ $(document).ready(function() {
 
     var BV = new $.BigVideo();
     BV.init();
-    BV.show('http://pdl.vimeocdn.com/50616/820/280058397.mp4?token2=1408565671_a9090c832a56cc8a3b258ec19e454eff&aksessionid=5de33764ae0bbd73',{ambient:true});
+    BV.show('http://pdl.vimeocdn.com/50616/820/280058397.mp4?token2=1408570025_ab8bb62ef6bf60d0a9fd83d05404acac&aksessionid=04fe195ce675fdd6',{ambient:true});
 
 });
 
