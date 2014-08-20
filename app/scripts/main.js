@@ -77,7 +77,7 @@ $(document).ready(function() {
 
     $('#login').on('click', function(e) {
         e.preventDefault();
-        window.location='/profiles-home.html';
+        window.location='http://fcflamingo.github.io/mymodelmgmt//profiles-home.html';
 //        $('#profiles-wrap').addClass('active');
 //        $('#login-container').removeClass('active');
 //        $('#login-container').addClass('hide');
@@ -105,7 +105,7 @@ $(document).ready(function() {
 
     $('.grid-item').on('click', function(e) {
         e.preventDefault();
-        window.location='/profiles-individual.html';
+        window.location='http://fcflamingo.github.io/mymodelmgmt//profiles-individual.html';
 //        $('.profile-overlay').addClass('active');
 //        $('html, body').addClass('noScroll');
 //        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
