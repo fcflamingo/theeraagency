@@ -166,12 +166,15 @@ $(document).ready(function() {
     });
 
 
-//    $('.is-close-overlay').on('click', function(e) {
-//        $('.profile-overlay').removeClass('active');
-//        $('html, body').removeClass('noScroll');
-//    });
+    // If user scrolls to contact //
+    var topOfWindow = $('#splash').scrollTop();
 
-    // Client Grid Item Sizing (Make Square) //
-
+    if ($('.content-container-header') > topOfWindow + 100) {
+        $('.navbar').addClass('active-look');
+        $('.navbar').removeClass('hide');
+    } else {
+        $('.navbar').removeClass('active-look');
+        $('.navbar').addClass('hide');
+    }
 });
 
