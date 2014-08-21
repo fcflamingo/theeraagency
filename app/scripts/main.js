@@ -60,7 +60,6 @@ $(document).ready(function() {
 
     $('.js-toggle-social').on('click', function() {
         $('.navbar').toggleClass('active-look');
-        $('#social-wrap').addClass('active');
         $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
     });
 
@@ -99,6 +98,8 @@ $(document).ready(function() {
     });
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
+    $('#social-wrap').addClass('active');
+
 
     // Client Grid Item Sizing (Make Square) //
 
