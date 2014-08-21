@@ -108,11 +108,18 @@ $(document).ready(function() {
         $(tag).css({'height': gridItemWidth + 'px'});
     };
 
-    setTimeout(function() {
+
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+        setTimeout(function() {
+            $('.grid-item').each(function(){
+                gridItemHeight(this);
+            });
+        }, 2000);
+    } else {
         $('.grid-item').each(function(){
             gridItemHeight(this);
         });
-    }, 2000);
+    }
 
     $(window).resize(function() {
         $('.grid-item').each(function(){
@@ -144,11 +151,19 @@ $(document).ready(function() {
         $(tag).css({'height': gridItemWidth + 'px'});
     };
 
-    setTimeout(function() {
+
+
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+        setTimeout(function() {
+            $('.profile-grid-item').each(function(){
+                profileGridItemHeight(this);
+            });
+        }, 2000);
+    }  else {
         $('.profile-grid-item').each(function(){
             profileGridItemHeight(this);
         });
-    }, 2000);
+    }
 
 
     $(window).resize(function() {
