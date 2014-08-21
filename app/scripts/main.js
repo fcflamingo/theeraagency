@@ -165,16 +165,5 @@ $(document).ready(function() {
         });
     });
 
-
-    // If user scrolls to contact //
-    var topOfWindow = $('#splash').scrollTop();
-
-    if ($('.content-container-header') > topOfWindow + 100) {
-        $('.navbar').addClass('active-look');
-        $('.navbar').removeClass('hide');
-    } else {
-        $('.navbar').removeClass('active-look');
-        $('.navbar').addClass('hide');
-    }
 });
 
