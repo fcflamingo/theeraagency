@@ -1,4 +1,6 @@
 @import 'fonts';
+@import '../bower_components/bigvideo.js/css/bigvideo.css';
+
 
 a {
   text-decoration: none;
@@ -82,11 +84,14 @@ html, body {
 }
 
 #splash {
+  background: url(../images/poster.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
   z-index: 3;
   position: relative;
   display: block;
   overflow: hidden;
-  -webkit-transition: z-index 0s ease 0s;
+  -webkit-transition: all 0s ease 0s;
   .overlay, .content-container {
     position: relative;
     -webkit-transition: all 1.5s ease;
@@ -679,7 +684,7 @@ $lookbookItemWidth: calc(100% / 6);
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   -webkit-transition: opacity 1s ease;
   border-left: 1.5px solid rgba(0, 0, 0, 0.15);
   &.contact-option-form {
@@ -713,19 +718,21 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-#big-video-wrap {
-  height: 100vh;
-  background: url(../images/poster.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  position: absolute;
-  .vjs-control-bar {
-    display: none;
-  }
-}
+//#big-video-wrap {
+//  width: 100%;
+//  height: 100vh;
+//  background: url(../images/poster.jpg) no-repeat;
+//  background-size: cover;
+//  background-position: center;
+//  z-index: 0;
+//  top: 0;
+//  left: 0;
+//  position: absolute;
+//  .vjs-control-bar {
+//    display: none;
+//  }
+//}
+
 
 
 @media screen and (max-width: 1600px) {

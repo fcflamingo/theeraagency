@@ -167,9 +167,14 @@
         <script src="bower_components/BigVideo.js/lib/bigvideo.js"></script>
         <!-- endbuild -->
         <script>
-            var BV = new $.BigVideo();
-            BV.init();
-            BV.show('videos/samplevid.mp4', {ambient: true});
+
+            setTimeout(function() {
+                var BV = new $.BigVideo();
+                BV.init();
+                BV.show('videos/samplevid.mp4', {ambient: true});
+                $('#splash').css({'background': 'none'});
+            }, 2000);
+
         </script>
 </body>
 </html>
