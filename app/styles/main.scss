@@ -1,3 +1,6 @@
+@import '../bower_components/sass-bootstrap/lib/variables';
+@import '../bower_components/sass-bootstrap/lib/mixins';
+@import '../bower_components/sass-bootstrap/lib/modals';
 @import 'fonts';
 @import '../bower_components/bigvideo.js/css/bigvideo.css';
 
@@ -497,13 +500,13 @@ $lookbookItemWidth: calc(100% / 6);
   overflow-y: auto;
   background: rgba(0, 0, 0, 0.75);
   z-index: 999;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   display: none;
   .inner {
     width: 100%;
-    position: absolute;
+    position: relative;
     float: left;
     top: 0;
     left: 0;
