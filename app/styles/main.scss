@@ -103,7 +103,8 @@ html, body {
     }
   }
   &.active-learn {
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
     .overlay {
       top: -67vh;
     }
@@ -127,8 +128,8 @@ html, body {
     position: relative;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
-    height: 134vh;
     top: 0;
+    min-height: 134vh;
     .content-container-header {
       display: table;
       position: relative;
@@ -826,7 +827,11 @@ $lookbookItemWidth: calc(100% / 6);
   }
   .contact-option.active {
     width: 100%;
-    height: calc(100% - 150px);
+    height: auto;
+    .contact-option-container.contact-option-form {
+      position: relative;
+      margin-top: -121px;
+    }
   }
 
   .contact-option-container {
