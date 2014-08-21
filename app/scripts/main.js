@@ -146,12 +146,23 @@ $(document).ready(function() {
         $('.profile-grid-item').not(this).removeClass('is-not-hovered');
     });
 
+    var modalHeight = function(tag) {
+        var windowHeight = $(window).height();
+        $(tag).css({'height': windowHeight - '60' + 'px'});
+    };
+
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+        setTimeout(function() {
+            $('.modal-content').each(function(){
+                modalHeight(this);
+            });
+        }, 2000);
+    }
+
     var profileGridItemHeight = function(tag) {
         var gridItemWidth = $('.profile-grid-item').width();
         $(tag).css({'height': gridItemWidth + 'px'});
     };
-
-
 
     if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
         setTimeout(function() {
