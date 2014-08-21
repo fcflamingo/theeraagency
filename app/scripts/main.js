@@ -112,7 +112,7 @@ $(document).ready(function() {
         $('.grid-item').each(function(){
             gridItemHeight(this);
         });
-    }, 1000);
+    }, 2000);
 
     $(window).resize(function() {
         $('.grid-item').each(function(){
@@ -144,11 +144,13 @@ $(document).ready(function() {
         $(tag).css({'height': gridItemWidth + 'px'});
     };
 
+    setTimeout(function() {
+        $('.profile-grid-item').each(function(){
+            profileGridItemHeight(this);
+        });
+    }, 2000);
 
 
-    $('.profile-grid-item').each(function(){
-        profileGridItemHeight(this);
-    });
     $(window).resize(function() {
         $('.profile-grid-item').each(function(){
             profileGridItemHeight(this);
