@@ -738,6 +738,9 @@ $lookbookItemWidth: calc(100% / 6);
 .vjs-control-bar {
   display: none;
 }
+#big-video-image {
+  max-height: 100%;
+}
 
 
 @media screen and (max-width: 1600px) {
