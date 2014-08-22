@@ -1,22 +1,29 @@
 $(document).ready(function() {
     'use strict';
-
+    var windowHeight = $(window).height();
     var lookBookItem = $('.lookbook-item');
+    var gridItem = $('.grid-item');
+    var profileGridItem = $('.profile-grid-item');
+    var modelInfo = $('.model-info');
+    var splash = $('#splash');
+    var toggleLogin = $('a.is-toggle-login');
+    var loginContainer = $('#login-container');
+    var login = $('#login');
 
     var deactivateLookBookItems = function () {
         lookBookItem.removeClass('active');
         lookBookItem.removeClass('inactive');
     };
 
-    $('a.is-toggle-login').on('click', function() {
-        $('#login-container').toggleClass('active');
+    toggleLogin.on('click', function() {
+        loginContainer.toggleClass('active');
         deactivateLookBookItems();
         deactivateContactOptions();
     });
 
     lookBookItem.on('click', function() {
 
-        $('#login-container').removeClass('active');
+        loginContainer.removeClass('active');
 
         if($(this).hasClass('active')) {
             deactivateLookBookItems();
@@ -48,13 +55,13 @@ $(document).ready(function() {
     });
 
     $('#look').add('.overlay').on('click', function() {
-        $('#splash').add('.navbar').add('body').toggleClass('active-look');
-        $('#splash').removeClass('active-learn');
-        $('#login-container').removeClass('hide');
+        splash.add('.navbar').add('body').toggleClass('active-look');
+        splash.removeClass('active-learn');
+        loginContainer.removeClass('hide');
     });
 
     $('.js-toggle-contact').on('click', function() {
-        $('#splash').add('body').toggleClass('active-learn');
+        splash.add('body').toggleClass('active-learn');
         $('.navbar').toggleClass('active-look');
     });
 
@@ -64,37 +71,32 @@ $(document).ready(function() {
     });
 
     $('.back').on('click', function() {
-        $('#splash').add('.navbar').add('body').removeClass('active-look');
-        $('#splash').add('body').removeClass('active-learn');
+        splash.add('.navbar').add('body').removeClass('active-look');
+        splash.add('body').removeClass('active-learn');
         deactivateLookBookItems();
         deactivateContactOptions();
-        $('#login-container').removeClass('active');
+        loginContainer.removeClass('active');
         $('#profiles-wrap').removeClass('active');
         $('#social-wrap').removeClass('active');
-        $('#login-container').removeClass('hide');
-        $('#lookbook').add('#splash').removeClass('logged-in');
+        loginContainer.removeClass('hide');
+        $('#lookbook').add(splash).removeClass('logged-in');
     });
 
     $('.logo').on('click', function() {
-        $('#splash').add('.navbar').add('body').removeClass('active-look');
-        $('#splash').add('body').removeClass('active-learn');
+        splash.add('.navbar').add('body').removeClass('active-look');
+        splash.add('body').removeClass('active-learn');
         deactivateLookBookItems();
         deactivateContactOptions();
-        $('#login-container').removeClass('active');
+        loginContainer.removeClass('active');
         $('#profiles-wrap').removeClass('active');
         $('#social-wrap').removeClass('active');
-        $('#login-container').addClass('hide');
-        $('#lookbook').add('#splash').removeClass('logged-in');
+        loginContainer.addClass('hide');
+        $('#lookbook').add(splash).removeClass('logged-in');
     });
 
-    $('#login').on('click', function(e) {
+    login.on('click', function(e) {
         e.preventDefault();
         window.location='http://fcflamingo.github.io/mymodelmgmt/profiles-home.html';
-//        $('#profiles-wrap').addClass('active');
-//        $('#login-container').removeClass('active');
-//        $('#login-container').addClass('hide');
-//        $('body').removeClass('active-look');
-//        $('#lookbook').add('#splash').addClass('logged-in');
     });
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
@@ -104,46 +106,38 @@ $(document).ready(function() {
     // Client Grid Item Sizing (Make Square) //
 
     var gridItemHeight = function(tag) {
-        var gridItemWidth = $('.grid-item').width();
+        var gridItemWidth = gridItem.width();
         $(tag).css({'height': gridItemWidth + 'px'});
     };
 
-
     if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
         setTimeout(function() {
-            $('.grid-item').each(function(){
+            gridItem.each(function(){
                 gridItemHeight(this);
             });
         }, 2000);
     } else {
-        $('.grid-item').each(function(){
+        gridItem.each(function(){
             gridItemHeight(this);
         });
     }
 
     $(window).resize(function() {
-        $('.grid-item').each(function(){
+        gridItem.each(function(){
             gridItemHeight(this);
         });
     });
 
-
-    $('.grid-item').on('click', function(e) {
+    gridItem.on('click', function(e) {
         e.preventDefault();
         window.location='http://fcflamingo.github.io/mymodelmgmt/profiles-individual.html';
-//        $('.profile-overlay').addClass('active');
-//        $('html, body').addClass('noScroll');
-//        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
-//        $('.profile-grid-item').each(function(){
-//            profileGridItemHeight(this);
-//        });
-    })
-
-    $('.profile-grid-item').on('mouseenter', function() {
-        $('.profile-grid-item').not(this).addClass('is-not-hovered');
     });
-    $('.profile-grid-item').on('mouseleave', function() {
-        $('.profile-grid-item').not(this).removeClass('is-not-hovered');
+
+    profileGridItem.on('mouseenter', function() {
+        profileGridItem.not(this).addClass('is-not-hovered');
+    });
+    profileGridItem.on('mouseleave', function() {
+        profileGridItem.not(this).removeClass('is-not-hovered');
     });
 
     var modalHeight = function(tag) {
@@ -160,41 +154,38 @@ $(document).ready(function() {
     }
 
     var profileGridItemHeight = function(tag) {
-        var gridItemWidth = $('.profile-grid-item').width();
-        $(tag).css({'height': gridItemWidth + 'px'});
+        var profileGridItemWidth = profileGridItem.width();
+        $(tag).css({'height': profileGridItemWidth + 'px'});
     };
 
     if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
         setTimeout(function() {
-            $('.profile-grid-item').each(function(){
+            profileGridItem.each(function(){
                 profileGridItemHeight(this);
             });
         }, 2000);
     }  else {
-        $('.profile-grid-item').each(function(){
+        profileGridItem.each(function(){
             profileGridItemHeight(this);
         });
     }
 
-
     $(window).resize(function() {
-        $('.profile-grid-item').each(function(){
+        profileGridItem.each(function(){
             profileGridItemHeight(this);
         });
     });
 
-
     var modelInfoHeight = function(tag) {
-        var windowHeight = $(window).height();
         $(tag).css({'height': windowHeight + 'px'});
     };
 
-    $('.model-info').each(function(){
+    modelInfo.each(function(){
         modelInfoHeight(this);
     });
 
     $(window).resize(function() {
-        $('.model-info').each(function(){
+        modelInfo.each(function(){
             modelInfoHeight(this);
         });
     });
