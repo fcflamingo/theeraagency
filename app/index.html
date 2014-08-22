@@ -166,7 +166,10 @@
         <script>
             var BV = new $.BigVideo();
 
-            if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+            BV.init();
+            if (Modernizr.touch) {
+                BV.show('images/poster.jpg');
+            } else if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
                 setTimeout(function() {
                     BV.init();
                     BV.show('videos/samplevid.mp4', {ambient: true});
