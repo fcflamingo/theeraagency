@@ -902,3 +902,15 @@ $lookbookItemWidth: calc(100% / 6);
   }
 
 }
+
+@media screen and (max-device-width: 480px) {
+  #splash .content-container .content-container-header {
+    header .logo {
+      font-size: 45px;
+    }
+    a {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+}
