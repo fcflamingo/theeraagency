@@ -193,14 +193,14 @@ $(document).ready(function() {
     var BV = new $.BigVideo();
 
     BV.init();
-    if (Modernizr.touch) {
-        setTimeout(function() {
-            BV.show('images/poster.jpg');
-        }, 2000);
-    } else if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
         setTimeout(function() {
             BV.init();
             BV.show('videos/samplevid.mp4', {ambient: true});
+        }, 2000);
+    } else if (Modernizr.touch) {
+        setTimeout(function() {
+            BV.show('images/poster.jpg');
         }, 2000);
     } else {
         BV.init();
