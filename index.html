@@ -6,9 +6,16 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');</script><script src=scripts/64e98cc5.main.js></script><script src=scripts/27894e01.plugins.js></script><script>var BV = new $.BigVideo();
-            if (Modernizr.touch) {
-
-            } else {
+            if (!(Modernizr.touch)) {
+                if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+                    setTimeout(function() {
+                        BV.init();
+                        BV.show('videos/samplevid.mp4', {ambient: true});
+                    }, 2000);
+                } else {
                     BV.init();
                     BV.show('videos/samplevid.mp4', {ambient: true});
+                }
+            } else {
+
             }</script>
