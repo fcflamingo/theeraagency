@@ -194,7 +194,9 @@ $(document).ready(function() {
 
     BV.init();
     if (Modernizr.touch) {
-        BV.show('images/poster.jpg');
+        setTimeout(function() {
+            BV.show('images/poster.jpg');
+        }, 2000);
     } else if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
         setTimeout(function() {
             BV.init();
