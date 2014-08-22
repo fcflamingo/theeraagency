@@ -911,6 +911,12 @@ $lookbookItemWidth: calc(100% / 6);
     display: block;
   }
 
+  #splash {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
   #splash.active-learn .content-container {
     height: 134vh;
   }
