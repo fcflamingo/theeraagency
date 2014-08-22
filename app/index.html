@@ -178,7 +178,9 @@
                     BV.show('videos/samplevid.mp4', {ambient: true});
                 }
             } else {
-
+                setTimeout(function() {
+                    $('#big-video-wrap').remove();
+                }, 2000);
             }
 
         </script>
