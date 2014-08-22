@@ -6,7 +6,8 @@
     "modernizr": "~2.6.2",
     "jquery": "~1.10.2",
     "BigVideo.js": "~1.1.1",
-    "videojs": "~4.7.2"
+    "videojs": "~4.7.2",
+    "fc-whatPage": "https://github.com/fcflamingo/fc-whatPage.git#0.1.0"
   },
   "devDependencies": {}
 }
