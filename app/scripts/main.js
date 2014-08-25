@@ -203,5 +203,9 @@ $(document).ready(function() {
         });
     });
 
+    $('.modal-open').add('.modal-content').on('click', function() {
+        $('#myModal').modal('toggle');
+    });
+
 });
 
