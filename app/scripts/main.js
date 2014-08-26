@@ -219,13 +219,13 @@ $(document).ready(function() {
         }, 100);
     });
 
-$(window).resize(function() {
-    activeForm.each(function(){
-        setTimeout(function() {
-            safariWindowHeight(this);
-        }, 100);
-    });
+    $(window).resize(function() {
+        activeForm.each(function(){
+            setTimeout(function() {
+                safariWindowHeight(this);
+            }, 100);
         });
+    });
 
 });
 
