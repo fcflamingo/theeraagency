@@ -70,6 +70,14 @@ html, body {
   &.active-look {
     top: 0;
   }
+  .mini-nav a {
+    padding: 0 6px;
+    cursor: pointer;
+    font-size: 14px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 #splash, #lookbook {
