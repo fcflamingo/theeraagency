@@ -67,15 +67,17 @@ $(document).ready(function() {
         }
     });
 
-    $('#look').add('.overlay').on('click', function() {
-        splash.add('.navbar').add('body').toggleClass('active-look');
+    $('.look').add('.overlay').on('click', function() {
+        splash.add('.navbar').add('body').addClass('active-look');
         splash.removeClass('active-learn');
         loginContainer.removeClass('hide');
     });
 
     $('.js-toggle-contact').on('click', function() {
-        splash.add('body').toggleClass('active-learn');
-        $('.navbar').toggleClass('active-look');
+        splash.add('body').removeClass('active-look');
+        $('.navbar').addClass('active-look');
+        splash.add('body').addClass('active-learn');
+        $('.navbar').removeClass('hide');
     });
 
     $('.js-toggle-social').on('click', function() {
