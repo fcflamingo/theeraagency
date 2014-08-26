@@ -207,5 +207,25 @@ $(document).ready(function() {
         $('#myModal').modal('toggle');
     });
 
+    var safariWindowHeight = function(tag) {
+        $(tag).css({'height': windowHeight + 'px'});
+    };
+
+    var activeForm = $('.contact-option .active');
+
+    activeForm.each(function () {
+        setTimeout(function() {
+            safariWindowHeight(this);
+        }, 100);
+    });
+
+$(window).resize(function() {
+    activeForm.each(function(){
+        setTimeout(function() {
+            safariWindowHeight(this);
+        }, 100);
+    });
+        });
+
 });
 
