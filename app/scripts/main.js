@@ -111,7 +111,7 @@ $(document).ready(function() {
 
     login.on('click', function(e) {
         e.preventDefault();
-        window.location='/profiles-home.html';
+        window.location='profiles-home.html';
     });
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
