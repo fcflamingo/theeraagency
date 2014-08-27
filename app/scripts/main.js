@@ -229,5 +229,11 @@ $(document).ready(function() {
         });
     });
 
+    $('.loader-content').find('.line').addClass('active');
+
+    $(window).on('load', function() {
+       $('.loader').addClass('is-loaded');
+    });
+
 });
 
