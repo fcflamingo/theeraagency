@@ -774,27 +774,12 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-//#big-video-wrap {
-//  width: 100%;
-//  height: 100vh;
-//  background: url(../images/poster.jpg) no-repeat;
-//  background-size: cover;
-//  background-position: center;
-//  z-index: 0;
-//  top: 0;
-//  left: 0;
-//  position: absolute;
-//  .vjs-control-bar {
-//    display: none;
-//  }
-//}
 .vjs-control-bar {
   display: none;
 }
 #big-video-image {
   max-height: 100%;
 }
-
 
 @media screen and (max-width: 1600px) {
   #splash .content-container .content-container-header header .logo  {
