@@ -113,6 +113,7 @@ $(document).ready(function() {
         e.preventDefault();
         window.location='profiles-home.html';
     });
+
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
     $('#social-wrap').addClass('active');
