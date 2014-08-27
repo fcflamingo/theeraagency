@@ -305,7 +305,7 @@ module.exports = function (grunt) {
                         'images/{,*/}*.webp',
                         'videos/{,*/}*.mp4',
                         '{,*/}*.html',
-                        '{,*/views/}*.html',
+                        '{,*/models/}*.html',
                         'styles/fonts/{,*/}*.*',
                         'bower_components/sass-bootstrap/fonts/*.*'
                     ]

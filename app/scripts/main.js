@@ -111,7 +111,7 @@ $(document).ready(function() {
 
     login.on('click', function(e) {
         e.preventDefault();
-        window.location='http://fcflamingo.github.io/mymodelmgmt/profiles-home.html';
+        window.location='/profiles-home.html';
     });
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
@@ -141,11 +141,6 @@ $(document).ready(function() {
         gridItem.each(function(){
             gridItemHeight(this);
         });
-    });
-
-    gridItem.on('click', function(e) {
-        e.preventDefault();
-        window.location='http://fcflamingo.github.io/mymodelmgmt/profiles-individual.html';
     });
 
     profileGridItem.on('mouseenter', function() {
