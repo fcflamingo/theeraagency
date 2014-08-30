@@ -24,7 +24,71 @@
 <![endif]-->
 
 <script id="entry-template" type="text/x-handlebars-template">
-    {{foo}}
+    <div class="loader">
+        <div class="loader-content">
+            <div class="inner">
+                <div class="logo">the<span style="font-weight: 700; padding: 0 30px;">ERA</span>AGENCY</div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-overlay">
+        <div class="inner">
+            <a class="is-close-overlay" href="profiles-home.html">X</a>
+            <div class="profile-info">
+                <div class="profile-headshot">
+                    <img src="images/RileyRichardson3.jpg"/>
+                    <div class="profile-stats">
+                        <h1>{{ modelName }}</h1>
+                        <ul>
+                            <li><span>Height:</span> {{ height }}</li>
+                            <li><span>Weight:</span>{{ weight }}</li>
+                            <li><span>Shoe:</span>{{ shoe }}</li>
+                        </ul>
+                        <ul>
+                            <li><span>Dress:</span>{{ dress }}</li>
+                            <li><span>Bust:</span>{{ bust }}</li>
+                            <li><span>Waist:</span>{{ waist }}</li>
+                        </ul>
+                        <ul>
+                            <li><span>Hips:</span>{{ hips }}</li>
+                            <li><span>Hair:</span> {{ hair }}  </li>
+                            <li><span>Eyes:</span>{{ eyes }}</li>
+                        </ul>
+                        <a href="http://instagram.com/{{ instagram }}" target="_blank" class="instagram-link">
+                            <h3><span>Gram:</span>@{{ instagram }}</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-grid">
+                <div class="profile-grid-inner">
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson2.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson3.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson4.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson5.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson6.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson7.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson8.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson9.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson10.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson11.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="height: calc(100vh - 60px); background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;">
+                <p style="width: 100%; position: absolute; bottom: -20px; color: #fff; text-align: center; font-size: 10px; margin-bottom: 0;">click anywhere to close</p>
+            </div>
+        </div>
+    </div>
 </script>
 
 <div id="js-body"></div>
@@ -49,6 +113,7 @@
 
 <!-- build:js scripts/main.js -->
 <script src="scripts/main-hbs.js"></script>
+<script src="scripts/main.js"></script>
 <!-- endbuild -->
 
 <!-- build:js scripts/plugins.js -->
