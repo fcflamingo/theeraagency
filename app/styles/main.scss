@@ -580,22 +580,22 @@ $lookbookItemWidth: calc(100% / 6);
 }
 
 .profile-headshot {
-  height: 100%;
-  position: relative;
+  width: 400px;
+  height: 600px;
   z-index: 1;
   img {
-    height: 120%;
-    left: -10%;
-    position: relative;
+    width: initial;
+    height: 800px;
+    float: left;
   }
 }
 
 .profile-stats {
   background: rgba(0, 0, 0, 0.6);
-//  box-shadow: inset 0 0 20px #000000;
   height: 300px;
-  width: 100%;
-  position: absolute;
+  width: 400px;
+  position: fixed;
+  left: 0;
   bottom: 0;
   z-index: 2;
   text-align: center;
@@ -810,16 +810,7 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-@media screen and (max-width: 960px) {
-  .grid-item .inner .client-name {
-    font-size: 16px;
-  }
-  .is-view-more {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
   #splash .content-container .content-container-header header  {
     .logo {
       opacity: 0;
@@ -852,21 +843,27 @@ $lookbookItemWidth: calc(100% / 6);
   }
 
   .profile-info {
-    width: 100%;
-    position: relative;
     float: left;
-    .profile-headshot {
-      height: 100%;
-    }
-    .profile-headshot img {
-      max-height: initial;
-      max-width: 150%;
-      width: 150%;
-      position: relative;
-      left: -25%;
+    width: 100%;
+      .profile-stats {
+        width: 100%;
+        position: absolute;
+        top: 22em;
+        left: 0em;
+      }
+     .profile-headshot {
+      float: left;
+      width: 100%;
+      height: 900px;
+      img {
+        float: left;
+        width: 100%;
+        height: initial;
+      }
     }
   }
   .profile-grid {
+    margin-top: 40em;
     width: 100%;
     margin-left: 0;
   }
@@ -934,7 +931,20 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 618px) {
+
+  .profile-info {
+    float: left;
+    width: 100%;
+    .profile-stats {
+      position: absolute;
+      top: 22em;
+      left: 0em;
+    }
+    .profile-headshot {
+      height: 700px;
+    }
+  }
 
   .lookbook-item {
     width: 33.33333%;
@@ -1039,7 +1049,22 @@ $lookbookItemWidth: calc(100% / 6);
     }
   }
 
-  .profile-info, .profile-stats {
-    height: auto;
+ .profile-info {
+   float: left;
+   width: 100%;
+    .profile-stats {
+      position: absolute;
+      top: 21em;
+      left: 0em;
+      height: 500px;
+    }
+    .profile-headshot {
+      height: 700px;
+      img {
+        height: 750px;
+        width: initial;
+      }
+    }
   }
+
 }
