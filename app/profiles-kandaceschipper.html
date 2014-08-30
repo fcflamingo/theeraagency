@@ -23,80 +23,17 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="loader">
-    <div class="loader-content">
-        <div class="inner">
-            <div class="logo">the<span style="font-weight: 700; padding: 0 30px;">ERA</span>AGENCY</div>
-            <div class="line"></div>
-        </div>
-    </div>
-</div>
+<script id="entry-template" type="text/x-handlebars-template">
+    {{foo}}
+</script>
 
-<div class="profile-overlay">
-    <div class="inner">
-        <a class="is-close-overlay" href="profiles-home.html">X</a>
-        <div class="profile-info">
-            <div class="profile-headshot">
-                <img src="images/Kandace%20MP.jpg"/>
-                <div class="profile-stats">
-                    <h1>Kandace Schipper</h1>
-                    <ul>
-                        <li><span>Height:</span> 5’10.5’’</li>
-                        <li><span>Weight:</span> 130  </li>
-                        <li><span>Shoe:</span> 10      </li>
-                    </ul>
-                    <ul>
-                        <li><span>Dress:</span> 2/4   </li>
-                        <li><span>Bust:</span> 34C    </li>
-                        <li><span>Waist:</span> 26    </li>
-                    </ul>
-                    <ul>
-                        <li><span>Hips:</span> 35     </li>
-                        <li><span>Hair:</span> Strawberry Blonde  </li>
-                        <li><span>Eyes:</span> Blue   </li>
-                    </ul>
-                    <a href="http://instagram.com/kandyxo" target="_blank" class="instagram-link">
-                        <h3><span>Gram:</span>@kandyxo</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="profile-grid">
-            <div class="profile-grid-inner">
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 1.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 2.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 3.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 4.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 5.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 6.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 7.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 8.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 9.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 10.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 11.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 12.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 13.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 14.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/Kandace 15.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content" style="height: calc(100vh - 60px); background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;">
-            <p style="width: 100%; position: absolute; bottom: -20px; color: #fff; text-align: center; font-size: 10px; margin-bottom: 0;">click anywhere to close</p>
-        </div>
-    </div>
-</div>
-
+<div id="js-body"></div>
 
 
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
 <script src="bower_components/jquery/jquery.js"></script>
+<script src="bower_components/handlebars/handlebars.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
@@ -111,7 +48,7 @@
 </script>
 
 <!-- build:js scripts/main.js -->
-<script src="scripts/main.js"></script>
+<script src="scripts/main-hbs.js"></script>
 <!-- endbuild -->
 
 <!-- build:js scripts/plugins.js -->
