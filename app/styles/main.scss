@@ -222,7 +222,7 @@ html, body {
     }
     .content-header-nav {
       right: 0;
-      width: 320px;
+      width: 200px;
       height: 100%;
       position: relative;
       z-index: 2;
@@ -236,7 +236,7 @@ html, body {
       }
       a {
         position: relative;
-        font-size: 40px;
+        font-size: 30px;
         display: block;
         cursor: pointer;
         opacity: 0.25;
@@ -784,7 +784,7 @@ $lookbookItemWidth: calc(100% / 6);
 
 @media screen and (max-width: 1600px) {
   #splash .content-container .content-container-header header .logo  {
-    font-size: 120px;
+    font-size: 110px;
   }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.95);
@@ -793,7 +793,7 @@ $lookbookItemWidth: calc(100% / 6);
 
 @media screen and (max-width: 1280px) {
   #splash .content-container .content-container-header header .logo  {
-    font-size: 100px;
+    font-size: 80px;
   }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.85);
@@ -803,7 +803,7 @@ $lookbookItemWidth: calc(100% / 6);
 
 @media screen and (max-width: 1024px) {
   #splash .content-container .content-container-header header .logo  {
-    font-size: 60px;
+    font-size: 50px;
   }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.75);
