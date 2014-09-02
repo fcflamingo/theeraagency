@@ -957,6 +957,12 @@ $lookbookItemWidth: calc(100% / 6);
       font-size: 55px;
     }
   }
+  .loader-content .inner {
+    .logo {
+      padding: 0px 2px;
+      font-size: 10px;
+    }
+  }
 
 }
 
@@ -1033,6 +1039,13 @@ $lookbookItemWidth: calc(100% / 6);
     }
     .is-view-more {
       opacity: 1;
+    }
+  }
+
+  .loader-content .inner {
+    .logo {
+      padding: 0px 2px;
+      font-size: 10px;
     }
   }
 
