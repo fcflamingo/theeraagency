@@ -113,9 +113,9 @@ html, body {
     top: 0;
   }
   .mini-nav a {
-    padding: 0 6px;
+    padding: 0 12px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 18px;
     &:hover {
       text-decoration: underline;
     }
@@ -222,7 +222,7 @@ html, body {
     }
     .content-header-nav {
       right: 0;
-      width: 320px;
+      width: 200px;
       height: 100%;
       position: relative;
       z-index: 2;
@@ -236,7 +236,7 @@ html, body {
       }
       a {
         position: relative;
-        font-size: 40px;
+        font-size: 30px;
         display: block;
         cursor: pointer;
         opacity: 0.25;
@@ -425,7 +425,7 @@ $lookbookItemWidth: calc(100% / 6);
   header {
     position: relative;
     z-index: 9;
-    padding: 20px;
+    padding: 3.5em 20px 20px;
     clear: both;
     float: left;
     width: 100%;
@@ -663,9 +663,6 @@ $lookbookItemWidth: calc(100% / 6);
   -ms-backface-visibility:     hidden;
   backface-visibility:     hidden;
   cursor: pointer;
-  &.is-not-hovered {
-    opacity: 0.5;
-  }
 }
 
 
@@ -784,7 +781,7 @@ $lookbookItemWidth: calc(100% / 6);
 
 @media screen and (max-width: 1600px) {
   #splash .content-container .content-container-header header .logo  {
-    font-size: 120px;
+    font-size: 110px;
   }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.95);
@@ -793,7 +790,7 @@ $lookbookItemWidth: calc(100% / 6);
 
 @media screen and (max-width: 1280px) {
   #splash .content-container .content-container-header header .logo  {
-    font-size: 100px;
+    font-size: 80px;
   }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.85);
@@ -803,7 +800,7 @@ $lookbookItemWidth: calc(100% / 6);
 
 @media screen and (max-width: 1024px) {
   #splash .content-container .content-container-header header .logo  {
-    font-size: 60px;
+    font-size: 50px;
   }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.75);
@@ -970,6 +967,12 @@ $lookbookItemWidth: calc(100% / 6);
       font-size: 55px;
     }
   }
+  .loader-content .inner {
+    .logo {
+      padding: 0px 2px;
+      font-size: 10px;
+    }
+  }
 
 }
 
@@ -1046,6 +1049,13 @@ $lookbookItemWidth: calc(100% / 6);
     }
     .is-view-more {
       opacity: 1;
+    }
+  }
+
+  .loader-content .inner {
+    .logo {
+      padding: 0px 2px;
+      font-size: 10px;
     }
   }
 
