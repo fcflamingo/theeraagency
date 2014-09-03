@@ -252,83 +252,7 @@ html, body {
 
 $lookbookItemWidth: calc(100% / 6);
 
-.lookbook-item {
-  cursor: -webkit-zoom-in; cursor: -moz-zoom-in;
-  display: block;
-  float: left;
-  width: $lookbookItemWidth;
-  height: 100%;
-  background: #000;
-  overflow: hidden;
-  -webkit-transition: all 1s ease;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility:    hidden;
-  -ms-backface-visibility:     hidden;
-  backface-visibility:     hidden;
-  .next, .prev {
-    cursor: pointer;
-    position: relative;
-    color: #fff;
-    top: -50%;
-    display: block;
-    letter-spacing: 6px;
-    padding-left: 6px;
-    font-size: 12px;
-    opacity: 0;
-    font-weight: 100;
-    -webkit-transition: all 1s ease;
-  }
-  .next {
-    float: right;
-    top: calc(-50% - 22px);
-  }
-  img {
-    height: 100%;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    left: -100%;
-    -webkit-transition: all 1s ease;
-    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.5);
-    opacity: 0.75;
-    &:hover {
-      opacity: 1;
-    }
-  }
-  &.active {
-    background: rgba(0, 0, 0, 0.85);
-    cursor: default;
-    width: calc(100% - (50px * 5));
-    .next, .prev {
-      //display: block;
-      display: none;
-      opacity: 0.5;
-      -webkit-transition-delay: .75s;
-      &:hover {
-        opacity: 1;
-        -webkit-transition-delay: 0s;
-      }
-    }
-    img {
-      left: 0;
-    }
-  }
-  &.inactive {
-    width: 50px;
-    .next, .prev {
-      opacity: 0;
-    }
-    img {
-      opacity: 0.5;
-    }
-    &:hover {
-      img {
-        opacity: 0.75;
-      }
-    }
-  }
-}
+
 
 #login-container {
   position: absolute;
@@ -491,7 +415,7 @@ $lookbookItemWidth: calc(100% / 6);
   display: table;
 }
 
-.grid-item .cover, .lookbook-item .cover {
+.grid-item .cover {
   width: calc(100% + 1px);
   height: 100%;
 }
@@ -823,22 +747,6 @@ $lookbookItemWidth: calc(100% / 6);
     width: 50%;
   }
 
-  .lookbook-item {
-    width: 25%;
-    img {
-      left: -125%;
-    }
-    &:nth-child(5), &:nth-child(6) {
-      display: none;
-    }
-  }
-  .lookbook-item.active {
-    width: calc(100% - (50px * 3));
-    img {
-      left: 0%;
-    }
-  }
-
   .profile-info {
     float: left;
     width: 100%;
@@ -943,21 +851,6 @@ $lookbookItemWidth: calc(100% / 6);
     }
   }
 
-  .lookbook-item {
-    width: 33.33333%;
-    img {
-      left: -150%;
-    }
-    &:nth-child(4) {
-      display: none;
-    }
-  }
-  .lookbook-item.active {
-    width: calc(100% - (50px * 2));
-    img {
-      left: -33.33333%;
-    }
-  }
   .grid-item, .profile-grid-item {
     width: 100%;
   }

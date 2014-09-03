@@ -14,7 +14,6 @@ $(document).ready(function() {
     }
 
     var windowHeight = $(window).height();
-    var lookBookItem = $('.lookbook-item');
     var gridItem = $('.grid-item');
     var profileGridItem = $('.profile-grid-item');
     var modelInfo = $('.model-info');
@@ -23,30 +22,13 @@ $(document).ready(function() {
     var loginContainer = $('#login-container');
     var login = $('#login');
 
-    var deactivateLookBookItems = function () {
-        lookBookItem.removeClass('active');
-        lookBookItem.removeClass('inactive');
-    };
+
 
     toggleLogin.on('click', function() {
         loginContainer.toggleClass('active');
-        deactivateLookBookItems();
         deactivateContactOptions();
     });
 
-    lookBookItem.on('click', function() {
-
-        loginContainer.removeClass('active');
-
-        if($(this).hasClass('active')) {
-            deactivateLookBookItems();
-        }
-        else {
-            deactivateLookBookItems();
-            $(this).toggleClass('active');
-            lookBookItem.not(this).toggleClass('inactive');
-        }
-    });
 
     var contactOption = $('.contact-option');
 
