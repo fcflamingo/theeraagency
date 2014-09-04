@@ -164,34 +164,28 @@ $(document).ready(function() {
         }, 2000);
     }
 
+    var profileGridItemHeight = function(tag) {
+        var profileGridItemWidth = profileGridItem.width();
+        $(tag).css({'height': profileGridItemWidth + 'px'});
+    };
 
-    //need your help to fire this code at the right screen size!!!
-    //yes... you guru Riley
-
-    if (! Modernizr.touch) {
-        var profileGridItemHeight = function (tag) {
-            var profileGridItemWidth = profileGridItem.width();
-            $(tag).css({'height': profileGridItemWidth + 'px'});
-        };
-
-        if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-            setTimeout(function () {
-                profileGridItem.each(function () {
-                    profileGridItemHeight(this);
-                });
-            }, 2000);
-        } else {
-            profileGridItem.each(function () {
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+        setTimeout(function() {
+            profileGridItem.each(function(){
                 profileGridItemHeight(this);
             });
-        }
-
-        $(window).resize(function () {
-            profileGridItem.each(function () {
-                profileGridItemHeight(this);
-            });
+        }, 2000);
+    }  else {
+        profileGridItem.each(function(){
+            profileGridItemHeight(this);
         });
     }
+
+    $(window).resize(function() {
+        profileGridItem.each(function(){
+            profileGridItemHeight(this);
+        });
+    });
 
     var modelInfoHeight = function(tag) {
         $(tag).css({'height': windowHeight + 'px'});

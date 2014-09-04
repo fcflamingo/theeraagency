@@ -34,6 +34,19 @@ html, body {
   }
 }
 
+video#bgvid, #home_background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(../images/mobile_background.jpg) top center no-repeat;
+  background-size: cover;
+}
+
 .loader {
   background: #000;
   color: #fff;
@@ -914,7 +927,6 @@ $lookbookItemWidth: calc(100% / 6);
     }
   }
   .grid-item, .profile-grid-item {
-    overflow: initial;
     width: 100%;
   }
 
@@ -928,6 +940,10 @@ $lookbookItemWidth: calc(100% / 6);
       padding: 0px 2px;
       font-size: 10px;
     }
+  }
+
+  video#bgvid {
+    display: none;
   }
 
 }
@@ -1014,4 +1030,10 @@ $lookbookItemWidth: calc(100% / 6);
       font-size: 10px;
     }
   }
+  
+
+  video#bgvid {
+    display: none;
+  }
+
 }
