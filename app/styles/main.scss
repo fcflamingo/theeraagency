@@ -34,6 +34,19 @@ html, body {
   }
 }
 
+video#bgvid, #home_background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(../images/mobile_background.jpg) top center no-repeat;
+  background-size: cover;
+}
+
 .loader {
   background: #000;
   color: #fff;
@@ -99,7 +112,6 @@ html, body {
   text-align: center;
   width: 315px;
   left: calc(50% - 157.5px);
-  top: -100%;
   .logo {
     cursor: pointer;
     background: rgba(0, 0, 0, 1);
@@ -140,9 +152,6 @@ html, body {
 }
 
 #splash {
-//  background: url(../images/poster.jpg) no-repeat;
-//  background-size: cover;
-//  background-position: center;
   z-index: 3;
   position: relative;
   display: block;
@@ -179,7 +188,6 @@ html, body {
   .overlay {
     -webkit-transition: all 2s ease;
     width: 100%;
-    background: rgba(255,255,255,.35);
     height: 100vh;
     position: relative;
     top: 0;
@@ -188,63 +196,36 @@ html, body {
   .content-container {
     position: relative;
     width: 100%;
-    background: rgba(255, 255, 255, 0.8);
     top: 0;
     min-height: 134vh;
-    .content-container-header {
-      display: table;
-      position: relative;
-      width: 100%;
-      height: 34vh;
-      header {
-        position: relative;
-        z-index: 1;
-        display: table-cell;
-        vertical-align: middle;
-        .logo {
-          display: block;
-          text-align: center;
-          width: auto;
-          float: left;
-          clear: both;
-          color: #000;
-          font-size: 160px;
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 100;
-          padding-left: 20px;
-          opacity: 1;
-          &#logo-responsive {
-            position: absolute;
-            opacity: 0;
-          }
-        }
-      }
-    }
-    .content-header-nav {
-      right: 0;
-      width: 200px;
-      height: 100%;
-      position: relative;
-      z-index: 2;
-      display: table-cell;
-      vertical-align: middle;
-      .inner {
-        padding: 0;
-        display: block;
-        position: relative;
-        overflow: visible;
-      }
-      a {
-        position: relative;
-        font-size: 30px;
-        display: block;
-        cursor: pointer;
-        opacity: 0.25;
-        -webkit-transition: opacity 0.25s ease-in;
-        overflow: visible;
-        &:hover {
-          opacity: 1;
-        }
+  }
+}
+
+.content-container-header {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 34vh;
+  header {
+    position: relative;
+    z-index: 1;
+    display: table-cell;
+    vertical-align: middle;
+    .logo {
+      display: block;
+      text-align: center;
+      width: auto;
+      float: left;
+      clear: both;
+      color: #fff;
+      font-size: 160px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 100;
+      padding-left: 20px;
+      opacity: 1;
+      &#logo-responsive {
+        position: absolute;
+        opacity: 0;
       }
     }
   }
@@ -580,22 +561,22 @@ $lookbookItemWidth: calc(100% / 6);
 }
 
 .profile-headshot {
-  height: 100%;
-  position: relative;
+  width: 400px;
+  height: 600px;
   z-index: 1;
   img {
-    height: 120%;
-    left: -10%;
-    position: relative;
+    width: initial;
+    height: 800px;
+    float: left;
   }
 }
 
 .profile-stats {
   background: rgba(0, 0, 0, 0.6);
-//  box-shadow: inset 0 0 20px #000000;
   height: 300px;
-  width: 100%;
-  position: absolute;
+  width: 400px;
+  position: fixed;
+  left: 0;
   bottom: 0;
   z-index: 2;
   text-align: center;
@@ -807,16 +788,7 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-@media screen and (max-width: 960px) {
-  .grid-item .inner .client-name {
-    font-size: 16px;
-  }
-  .is-view-more {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
   #splash .content-container .content-container-header header  {
     .logo {
       opacity: 0;
@@ -849,18 +821,24 @@ $lookbookItemWidth: calc(100% / 6);
   }
 
   .profile-info {
-    width: 100%;
     position: relative;
     float: left;
-    .profile-headshot {
-      height: 100%;
-    }
-    .profile-headshot img {
-      max-height: initial;
-      max-width: 150%;
-      width: 150%;
-      position: relative;
-      left: -25%;
+    width: 100%;
+    height: 650px;
+      .profile-stats {
+        width: 100%;
+        position: absolute;
+        left: 0em;
+      }
+     .profile-headshot {
+      float: left;
+      width: 100%;
+      height: 900px;
+      img {
+        float: left;
+        width: 100%;
+        height: initial;
+      }
     }
   }
   .profile-grid {
@@ -931,7 +909,7 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 618px) {
 
   .lookbook-item {
     width: 33.33333%;
@@ -962,6 +940,10 @@ $lookbookItemWidth: calc(100% / 6);
       padding: 0px 2px;
       font-size: 10px;
     }
+  }
+
+  video#bgvid {
+    display: none;
   }
 
 }
@@ -1048,8 +1030,10 @@ $lookbookItemWidth: calc(100% / 6);
       font-size: 10px;
     }
   }
+  
 
-  .profile-info, .profile-stats {
-    height: auto;
+  video#bgvid {
+    display: none;
   }
+
 }
