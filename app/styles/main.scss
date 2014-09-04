@@ -455,7 +455,6 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
-
 // Profiles Page Grid //
 .grid-item {
   cursor: pointer;
@@ -646,7 +645,6 @@ $lookbookItemWidth: calc(100% / 6);
   cursor: pointer;
 }
 
-
 .is-close-overlay {
   position: fixed;
   top: 0;
@@ -756,14 +754,13 @@ $lookbookItemWidth: calc(100% / 6);
 .vjs-control-bar {
   display: none;
 }
-#big-video-image {
-  max-height: 100%;
-}
+
 
 @media screen and (max-width: 1600px) {
   #splash .content-container .content-container-header header .logo  {
     font-size: 110px;
   }
+
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.95);
   }
@@ -773,6 +770,7 @@ $lookbookItemWidth: calc(100% / 6);
   #splash .content-container .content-container-header header .logo  {
     font-size: 80px;
   }
+
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.85);
   }
@@ -783,6 +781,7 @@ $lookbookItemWidth: calc(100% / 6);
   #splash .content-container .content-container-header header .logo  {
     font-size: 50px;
   }
+
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.75);
   }
@@ -837,6 +836,7 @@ $lookbookItemWidth: calc(100% / 6);
       }
     }
   }
+
   .profile-grid {
     width: 100%;
     margin-left: 0;
@@ -849,6 +849,7 @@ $lookbookItemWidth: calc(100% / 6);
     max-height: 50vh;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.15);
   }
+
   .contact-option.inactive {
     width: 100%;
     height: 25vh;
@@ -860,6 +861,7 @@ $lookbookItemWidth: calc(100% / 6);
       height: 25vh;
     }
   }
+
   .contact-option.active {
     width: 100%;
     height: auto;
@@ -903,18 +905,22 @@ $lookbookItemWidth: calc(100% / 6);
     overflow-x: hidden;
     overflow-y: auto;
   }
+
 }
 
 @media screen and (max-width: 618px) {
-    /* apply a natural box layout model to all elements, but allowing components to change */
+  /* apply a natural box layout model to all elements, but allowing components to change */
+
   html {
-  box-sizing: border-box;
-}
+    box-sizing: border-box;
+  }
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  // Profiles Page Grid //
+
   .profile_styles {
+
     .grid-item {
       cursor: pointer;
       display: block;
@@ -1042,6 +1048,7 @@ $lookbookItemWidth: calc(100% / 6);
         }
       }
     }
+
     .profile-stats {
       top: 15.85em;
       left: 0em;
@@ -1094,6 +1101,7 @@ $lookbookItemWidth: calc(100% / 6);
         font-weight: 700;
       }
     }
+
     .profile-grid {
       width: 100%;
       float: left;
@@ -1123,6 +1131,7 @@ $lookbookItemWidth: calc(100% / 6);
     &:nth-child(4) {
       display: none;
     }
+
   }
   .lookbook-item.active {
     width: calc(100% - (50px * 2));
@@ -1130,6 +1139,7 @@ $lookbookItemWidth: calc(100% / 6);
       left: -33.33333%;
     }
   }
+
   .grid-item, .profile-grid-item {
     width: 100%;
   }
@@ -1139,6 +1149,7 @@ $lookbookItemWidth: calc(100% / 6);
       font-size: 25px;
     }
   }
+
   .loader-content .inner {
     .logo {
       padding: 0px 2px;
@@ -1234,7 +1245,6 @@ $lookbookItemWidth: calc(100% / 6);
       font-size: 10px;
     }
   }
-
 
   video#bgvid {
     display: none;
