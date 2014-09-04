@@ -910,8 +910,13 @@ $lookbookItemWidth: calc(100% / 6);
 }
 
 @media screen and (max-width: 618px) {
-  /* apply a natural box layout model to all elements, but allowing components to change */
-
+    /* apply a natural box layout model to all elements, but allowing components to change */
+  html {
+  box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
   // Profiles Page Grid //
   .profile_styles {
     .grid-item {
