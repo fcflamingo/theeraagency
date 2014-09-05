@@ -63,32 +63,23 @@
                 </div>
             </div>
             <div class="profile-grid">
-                <div class="profile-grid-inner">
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson2.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson3.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson4.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson5.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson6.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson7.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson8.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson9.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson10.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson11.jpg') no-repeat; background-size: cover; background-position: center;"></div>
-                    <div data-toggle="modal" data-target="#myModal" class="profile-grid-item" style="background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;"></div>
+                    <a class="profile-grid-item" style="background: url('http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg') no-repeat; background-size: cover; background-position: center;" href="http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson2.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson2.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson3.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson3.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson4.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson4.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson5.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson5.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson6.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson6.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson7.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson7.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson8.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson8.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson9.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson9.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson10.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson10.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson11.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson11.jpg"></a>
+                    <a class="profile-grid-item" style="background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson12.jpg"></a>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content" style="height: calc(100vh - 60px); background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;">
-                <p style="width: 100%; position: absolute; bottom: -20px; color: #fff; text-align: center; font-size: 10px; margin-bottom: 0;">click anywhere to close</p>
-            </div>
-        </div>
-    </div>
 </script>
 
 <div id="js-body"></div>
@@ -98,6 +89,7 @@
 <!-- bower:js -->
 <script src="bower_components/jquery/jquery.js"></script>
 <script src="bower_components/handlebars/handlebars.js"></script>
+<script src="bower_components/colorbox/jquery.colorbox.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 
@@ -111,9 +103,11 @@
     ga('create','UA-XXXXX-X');ga('send','pageview');
 </script>
 
+
 <!-- build:js scripts/main.js -->
 <script src="scripts/main-hbs.js"></script>
 <script src="scripts/main.js"></script>
+<script src="scripts/modal.js"></script>
 <!-- endbuild -->
 
 <!-- build:js scripts/plugins.js -->
