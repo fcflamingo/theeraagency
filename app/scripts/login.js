@@ -18,9 +18,8 @@ $(document).ready(function () {
 
     login.on('click', function(e) {
         e.preventDefault();
-        window.location='profiles-home.html';
+        window.location='profile.html';
     });
-
 
 
     contactOption.on('click', function() {
