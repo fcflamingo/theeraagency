@@ -1,43 +1,51 @@
 $(document).ready(function() {
-    var $entryTemplate = $("#entry-template")
+    var $profilesTemplate = $("#profiles-template")
+    var $profileTemplate = $("#profile-template")
 
-    if ($entryTemplate.length > 0) {
-        var source   = $entryTemplate.html();
-        var template = Handlebars.compile(source);
+    var onProfilePage = $profileTemplate.length > 0
 
-        var models = [
-            {
-                pageName: 'riley-richardson',
-                modelName: 'Riley Richardson',
-                height: '5’7’’',
-                weight: '120',
-                shoe: '8',
-                dress: '2/4',
-                bust: '34C',
-                waist: '25',
-                hips: '34',
-                hair: 'Brown',
-                eyes: 'Blue',
-                instagram: 'thelifeof_ry'
+    if (onProfilePage) {
+
+        var renderProfilesPage = function () {
+            var source   = $profilesTemplate.html();
+            var template = Handlebars.compile(source);
+
+            renderPage(TheEraAgency, template)
+        }
+
+        var renderProfilePage = function (pageName) {
+            var source   = $profileTemplate.html();
+            var template = Handlebars.compile(source);
+
+            var findModelFromPage = function (models, pageName) {
+                return models.filter(function (item){
+                    return item.pageName == pageName
+                })[0]
             }
-        ]
+            var model = findModelFromPage(TheEraAgency.models, pageName)
 
-        var findModelFromPage = function (models, pageName) {
-            return models.filter(function (item){
-                return item.pageName == pageName
-            })[0]
+            renderPage(model, template)
         }
-        var getPageName = function () {
-            var hash = window.location.hash
-            return hash.slice(1, hash.length)
+
+        var renderPage = function (data, template) {
+            var html = template(data)
+            $('#js-body').html(html)
         }
 
 
-        var data = findModelFromPage(models, getPageName())
+        //handle hash changes
+        function handleChanges(newHash, oldHash){
+            if (newHash) {
+                renderProfilePage(newHash)
+            } else {
+                renderProfilesPage()
+            }
+        }
 
-        var html = template(data)
+        hasher.changed.add(handleChanges); //add hash change listener
+        hasher.initialized.add(handleChanges); //add initialized listener (to grab initial value in case it is already set)
+        hasher.init(); //initialize hasher (start listening for history changes)
 
-        $('#js-body').html(html)
 
     }
 

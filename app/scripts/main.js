@@ -14,81 +14,19 @@ $(document).ready(function() {
     }
 
     var windowHeight = $(window).height();
-    var lookBookItem = $('.lookbook-item');
     var gridItem = $('.grid-item');
     var profileGridItem = $('.profile-grid-item');
     var modelInfo = $('.model-info');
-    var splash = $('#splash');
-    var toggleLogin = $('a.is-toggle-login');
-    var loginContainer = $('#login-container');
-    var login = $('#login');
 
-    var deactivateLookBookItems = function () {
-        lookBookItem.removeClass('active');
-        lookBookItem.removeClass('inactive');
-    };
-
-    toggleLogin.on('click', function() {
-        loginContainer.toggleClass('active');
-        deactivateLookBookItems();
-        deactivateContactOptions();
-    });
-
-    lookBookItem.on('click', function() {
-
-        loginContainer.removeClass('active');
-
-        if($(this).hasClass('active')) {
-            deactivateLookBookItems();
-        }
-        else {
-            deactivateLookBookItems();
-            $(this).toggleClass('active');
-            lookBookItem.not(this).toggleClass('inactive');
-        }
-    });
-
-    var contactOption = $('.contact-option');
-
-    var deactivateContactOptions = function () {
-        contactOption.removeClass('active');
-        contactOption.removeClass('inactive');
-    };
-
-    contactOption.on('click', function() {
-
-        if($(this).hasClass('active')) {
-            deactivateContactOptions();
-        }
-        else {
-            deactivateContactOptions();
-            $(this).toggleClass('active');
-            contactOption.not(this).toggleClass('inactive');
-        }
-    });
-
-    $('.look').add('.overlay').on('click', function() {
-        splash.add('.navbar').add('body').addClass('active-look');
-        splash.removeClass('active-learn');
-        loginContainer.removeClass('hide');
-    });
-
-    $('.js-toggle-contact').on('click', function() {
-        splash.add('body').removeClass('active-look');
-        $('.navbar').addClass('active-look');
-        splash.add('body').addClass('active-learn');
-        $('.navbar').removeClass('hide');
-    });
 
     $('.js-toggle-social').on('click', function() {
         $('.navbar').toggleClass('active-look');
         $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
     });
 
+
+
     $('.back').on('click', function() {
-        splash.add('.navbar').add('body').removeClass('active-look');
-        splash.add('body').removeClass('active-learn');
-        deactivateLookBookItems();
         deactivateContactOptions();
         loginContainer.removeClass('active');
         $('#profiles-wrap').removeClass('active');
@@ -98,9 +36,7 @@ $(document).ready(function() {
     });
 
     $('.logo').on('click', function() {
-        splash.add('.navbar').add('body').removeClass('active-look');
-        splash.add('body').removeClass('active-learn');
-        deactivateLookBookItems();
+
         deactivateContactOptions();
         loginContainer.removeClass('active');
         $('#profiles-wrap').removeClass('active');
@@ -109,10 +45,7 @@ $(document).ready(function() {
         $('#lookbook').add(splash).removeClass('logged-in');
     });
 
-    login.on('click', function(e) {
-        e.preventDefault();
-        window.location='profiles-home.html';
-    });
+
 
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
@@ -223,18 +156,6 @@ $(document).ready(function() {
                 safariWindowHeight(this);
             }, 100);
         });
-    });
-
-    $('.loader-content').find('.line').addClass('active');
-
-    $(window).on('load', function() {
-        if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
-            setTimeout(function() {
-                $('.loader').addClass('is-loaded');
-            }, 2000);
-        } else {
-            $('.loader').addClass('is-loaded');
-        }
     });
 
 });

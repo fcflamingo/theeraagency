@@ -1,8 +1,12 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,25 +24,68 @@
 </head>
 <body class="profile_styles">
 <!--[if lt IE 10]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser.
+    Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+    your experience.</p>
 <![endif]-->
 
-<script id="entry-template" type="text/x-handlebars-template">
-    <div class="loader">
+ <div class="loader">
         <div class="loader-content">
             <div class="inner">
-                <div class="logo">the<span style="font-weight: 700; padding: 0 30px;">ERA</span>AGENCY</div>
+                <div class="logo">the<span
+                    style="font-weight: 700; padding: 0 30px;">ERA</span>AGENCY
+                </div>
                 <div class="line"></div>
             </div>
         </div>
     </div>
+<script id="profiles-template" type="text/x-handlebars-template">
+
+
+
+    <header class="navbar active-look">
+        <a class="logo back" href="index.html">the<span
+            style="font-weight: 700; padding: 0 6px;">ERA</span>AGENCY</a>
+    </header>
+    <section id="profiles-wrap" style="background: #fff; float: left;">
+        <div id="profiles">
+
+            <header>
+                <h1><span>BROWSE</span> MODEL PROFILES</h1>
+                <a class="back" href="./">BACK</a>
+            </header>
+
+            {{#each models}}
+            <a class="grid-item" href="#{{ pageName }}"
+               style="background-image: url({{ profilesThumbnail }});">
+                <div class="cover">
+                    <div class="inner">
+                        <div class="client-logo"></div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="inner">
+                        <div class="client-name">{{ name }}</div>
+                        <div class="is-view-more">view profile</div>
+                    </div>
+                </div>
+            </a>
+            {{/each}}
+        </div>
+    </section>
+
+</script>
+
+<script id="profile-template" type="text/x-handlebars-template">
 
     <div class="profile-overlay">
         <div class="inner">
             <a class="is-close-overlay" href="profiles-home.html">X</a>
+
             <div class="profile-info">
                 <div class="profile-headshot">
                     <img src="images/RileyRichardson3.jpg"/>
+
                     <div class="profile-stats">
                         <h1>{{ modelName }}</h1>
                         <ul>
@@ -53,31 +100,56 @@
                         </ul>
                         <ul>
                             <li><span>Hips:</span>{{ hips }}</li>
-                            <li><span>Hair:</span> {{ hair }}  </li>
+                            <li><span>Hair:</span> {{ hair }}</li>
                             <li><span>Eyes:</span>{{ eyes }}</li>
                         </ul>
-                        <a href="http://instagram.com/{{ instagram }}" target="_blank" class="instagram-link">
+                        <a href="http://instagram.com/{{ instagram }}"
+                           target="_blank" class="instagram-link">
                             <h3><span>Gram:</span>@{{ instagram }}</h3>
                         </a>
                     </div>
                 </div>
             </div>
             <div class="profile-grid">
-                    <a class="profile-grid-item" style="background: url('http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg') no-repeat; background-size: cover; background-position: center;" href="http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson2.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson2.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson3.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson3.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson4.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson4.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson5.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson5.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson6.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson6.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson7.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson7.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson8.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson8.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson9.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson9.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson10.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson10.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson11.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson11.jpg"></a>
-                    <a class="profile-grid-item" style="background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;" href="images/RileyRichardson12.jpg"></a>
-                </div>
+                <a class="profile-grid-item"
+                   style="background: url('http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson2.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson2.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson3.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson3.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson4.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson4.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson5.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson5.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson6.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson6.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson7.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson7.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson8.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson8.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson9.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson9.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson10.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson10.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson11.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson11.jpg"></a>
+                <a class="profile-grid-item"
+                   style="background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;"
+                   href="images/RileyRichardson12.jpg"></a>
             </div>
         </div>
+    </div>
     </div>
 
 </script>
@@ -90,22 +162,35 @@
 <script src="bower_components/jquery/jquery.js"></script>
 <script src="bower_components/handlebars/handlebars.js"></script>
 <script src="bower_components/colorbox/jquery.colorbox.js"></script>
+<script src="bower_components/js-signals/dist/signals.js"></script>
+<script src="bower_components/hasher/dist/js/hasher.js"></script>
+
 <!-- endbower -->
 <!-- endbuild -->
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
-    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-XXXXX-X');ga('send','pageview');
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
 </script>
 
 
 <!-- build:js scripts/main.js -->
+<script src="scripts/models.js"></script>
 <script src="scripts/main-hbs.js"></script>
+<script src="scripts/loader.js"></script>
 <script src="scripts/main.js"></script>
 <script src="scripts/modal.js"></script>
 <!-- endbuild -->
