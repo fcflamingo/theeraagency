@@ -237,5 +237,8 @@ $(document).ready(function() {
         }
     });
 
+    $('div.profile-grid-item').colorbox();
+
+
 });
 
