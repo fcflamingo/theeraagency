@@ -18,35 +18,6 @@ $(document).ready(function() {
     var profileGridItem = $('.profile-grid-item');
     var modelInfo = $('.model-info');
 
-
-    $('.js-toggle-social').on('click', function() {
-        $('.navbar').toggleClass('active-look');
-        $('html, body').animate({ scrollTop: $('body').offset().top}, 500);
-    });
-
-
-
-    $('.back').on('click', function() {
-        deactivateContactOptions();
-        loginContainer.removeClass('active');
-        $('#profiles-wrap').removeClass('active');
-        $('#social-wrap').removeClass('active');
-        loginContainer.removeClass('hide');
-        $('#lookbook').add(splash).removeClass('logged-in');
-    });
-
-    $('.logo').on('click', function() {
-
-        deactivateContactOptions();
-        loginContainer.removeClass('active');
-        $('#profiles-wrap').removeClass('active');
-        $('#social-wrap').removeClass('active');
-        loginContainer.addClass('hide');
-        $('#lookbook').add(splash).removeClass('logged-in');
-    });
-
-
-
     $('#profiles-wrap').addClass('active');
     $('.profile-overlay').addClass('active');
     $('#social-wrap').addClass('active');
