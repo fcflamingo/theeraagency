@@ -237,7 +237,7 @@ $(document).ready(function() {
         }
     });
 
-    $('a.profile-grid-item').colorbox({rel:'gal', transition:'fade', maxWidth:'95%', maxHeight:'95%'});
+    $('a.profile-grid-item').colorbox({rel:'gallery', transition:'fade', maxWidth:'95%', maxHeight:'95%'});
 
 });
 
