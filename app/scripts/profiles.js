@@ -11,10 +11,12 @@ $(document).ready(function() {
         $('.modal-content').css({'height': windowHeight - '60' + 'px'});
     };
 
-    var profileGridItemHeight = function() {
+    var setProfileGridItemHeight = function() {
         var $profile = $('.profile-grid-item')
-        var profileGridItemWidth = $profile.width();
-        $profile.css({'height': profileGridItemWidth + 'px'});
+        $("profile-grid").imagesLoaded(function () {
+            var profileGridItemWidth = $profile.width();
+            $profile.height(profileGridItemWidth);
+        })
     };
 
     var modelInfoHeight = function() {
@@ -23,7 +25,7 @@ $(document).ready(function() {
 
     $(window).resize(function() {
         gridItemHeight()
-        profileGridItemHeight()
+        setProfileGridItemHeight()
         modelInfoHeight()
     });
 
@@ -35,11 +37,11 @@ $(document).ready(function() {
             setTimeout(function() {
                 gridItemHeight()
                 modalHeight()
-                profileGridItemHeight()
+                setProfileGridItemHeight()
             }, 2000);
         } else {
             gridItemHeight()
-            profileGridItemHeight()
+            setProfileGridItemHeight()
         }
 
     }
