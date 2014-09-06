@@ -40,6 +40,10 @@ $(document).ready(function() {
             } else {
                 renderProfilesPage()
             }
+
+            TheEraAgency.sizeProfiles()
+            TheEraAgency.initProfiles()
+
         }
 
         hasher.changed.add(handleChanges); //add hash change listener
