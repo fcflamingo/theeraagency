@@ -1,35 +1,30 @@
 $(document).ready(function() {
 
-    var gridItemHeight = function(tag) {
-        var gridItemWidth = $('.grid-item').width();
-        $(tag).css({'height': gridItemWidth + 'px'});
+    var gridItemHeight = function() {
+        var $gridItem = $('.grid-item')
+        var gridItemWidth = $gridItem.width();
+        $gridItem.css({'height': gridItemWidth + 'px'});
     };
 
-    var modalHeight = function(tag) {
+    var modalHeight = function() {
         var windowHeight = $(window).height();
-        $(tag).css({'height': windowHeight - '60' + 'px'});
+        $('.modal-content').css({'height': windowHeight - '60' + 'px'});
     };
 
-    var profileGridItemHeight = function(tag) {
-        var profileGridItemWidth = $('.profile-grid-item').width();
-        $(tag).css({'height': profileGridItemWidth + 'px'});
+    var profileGridItemHeight = function() {
+        var $profile = $('.profile-grid-item')
+        var profileGridItemWidth = $profile.width();
+        $profile.css({'height': profileGridItemWidth + 'px'});
     };
 
-    var modelInfoHeight = function(tag) {
-        $(tag).css({'height': $(window).height() + 'px'});
+    var modelInfoHeight = function() {
+        $('.model-info').css({'height': $(window).height() + 'px'});
     };
 
     $(window).resize(function() {
-        $('.grid-item').each(function(){
-            gridItemHeight(this);
-        });
-
-        $('.profile-grid-item').each(function(){
-            profileGridItemHeight(this);
-        });
-        $('.model-info').each(function(){
-            modelInfoHeight(this);
-        });
+        gridItemHeight()
+        profileGridItemHeight()
+        modelInfoHeight()
     });
 
     TheEraAgency.sizeProfiles = function () {
@@ -38,34 +33,14 @@ $(document).ready(function() {
 
         if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
             setTimeout(function() {
-                $('.grid-item').each(function(){
-                    gridItemHeight(this);
-                });
-
-                $('.modal-content').each(function(){
-                    modalHeight(this);
-                });
-
-                $('.profile-grid-item').each(function(){
-                    profileGridItemHeight(this);
-                });
-
+                gridItemHeight()
+                modalHeight()
+                profileGridItemHeight()
             }, 2000);
         } else {
-            $('.grid-item').each(function(){
-                gridItemHeight(this);
-            });
-
-
-            $('.profile-grid-item').each(function(){
-                profileGridItemHeight(this);
-            });
+            gridItemHeight()
+            profileGridItemHeight()
         }
-
-        $('.model-info').each(function(){
-            modelInfoHeight(this);
-        });
-
 
     }
 
