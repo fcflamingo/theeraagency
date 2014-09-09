@@ -85,7 +85,7 @@ window.TheEraAgency = {
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209812/B4_msnbyn.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209812/B5_ernzca.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209812/B6_u3kqa5.jpg',
-                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209813/B7_eqlglg.png',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410298143/B7_eqlglg_cdgqoa.png',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209814/B10_hcsweo.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209815/B11_e4szbv.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209815/B3_ffrw10.jpg',
