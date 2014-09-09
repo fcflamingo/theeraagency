@@ -14,7 +14,7 @@ window.TheEraAgency = {
             hair: 'Dirty Blonde',
             eyes: 'Blue',
             instagram: 'smashharrell',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209809/Ashley_Harrell_11_mazdjb.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209809/Ashley_Harrell_8_j6tpyc.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209810/Ashley_Harrell_1_2_pffg8m.jpg',
@@ -44,7 +44,7 @@ window.TheEraAgency = {
             hair: 'Dirty Blonde',
             eyes: 'Green',
             instagram: 'autumnallenbach',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A5_c0rcgg.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A4_shlsf5.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A1_pditp0.jpg',
@@ -74,7 +74,7 @@ window.TheEraAgency = {
             hair: 'Light Brown',
             eyes: 'Brown',
             instagram: 'baybeachy',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209835/B9_bmonm6.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209828/B8_gmhllq.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209810/B1_dxet4d.jpg',
@@ -104,7 +104,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Green',
             instagram: 'bailey_raeeee',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209827/BH11_qq0sl2.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/BH10_uz3ylp.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209817/Bailey_MP_wqy6es.jpg',
@@ -133,7 +133,7 @@ window.TheEraAgency = {
             hair: 'Dirty Blonde',
             eyes: 'Hazel',
             instagram: 'cathymccarthy',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209821/Cathy_MC_1_cmq8cb.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/Cathy_MC_2_rjjvxj.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/Cathy_MC_4_l6abk9.jpg',
@@ -163,7 +163,7 @@ window.TheEraAgency = {
             hair: 'Blonde(short)',
             eyes: 'Green',
             instagram: 'dba_chelsek',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/CK15_jshhvr.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209850/CK10_vnlzeg.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209829/CK4_epyq61.jpg',
@@ -196,7 +196,7 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Brown',
             instagram: 'danilove888',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DH1_qbkdkm.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DH2_zhwso7.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DH3_e1azdd.jpg',
@@ -225,7 +225,7 @@ window.TheEraAgency = {
             hair: 'Blonde (long)',
             eyes: 'Brown',
             instagram: 'missdanimathers',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/Dani_M_ck8ztq.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/DaniMathers1_wlp1dr.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/DaniMathers2_hknhs7.jpg',
@@ -245,7 +245,7 @@ window.TheEraAgency = {
         {
             pageName: 'danielle-souza',
             modelName: 'Danielle S',
-            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png',
             height: '5’9’’',
             weight: '120',
             shoe: '7',
@@ -256,8 +256,8 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Brown',
             instagram: 'daniellensouza',
-            gallery: [
-                'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png.jpg'
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
             ]
         },
         {
@@ -274,7 +274,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Blue',
             instagram: 'emilyruthroche',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209848/Emily_2_m2f7ho.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209852/Emily_9_knbs20.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209845/Emily_3_jeg08f.jpg',
@@ -303,7 +303,7 @@ window.TheEraAgency = {
             hair: 'Dark Brown',
             eyes: 'Brown',
             instagram: 'hollyhollyhollly',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209857/Holly_Heitmann_6_kmyhcl.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209857/Holly_Heitmann_12_pc4jtq.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Holly_Heitmann_9_rznbje.jpg',
@@ -333,7 +333,7 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Brown',
             instagram: 'izzyisup',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Izzy_Poulin_MP_gnsqs4.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Izzy_Poulin_3_bpuxj6.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209859/Izzy_Poulin_11_lqpcme.jpg',
@@ -363,7 +363,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Blue',
             instagram: 'jadehataway',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_2_dlcica.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_3_n1ushi.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_4_xhez5c.jpg',
@@ -393,7 +393,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Brown',
             instagram: 'jenamsims',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_1_hxepca.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_2_wgyfao.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_3_lvh4fj.jpg',
@@ -422,7 +422,7 @@ window.TheEraAgency = {
             hair: 'Strawberry Blonde',
             eyes: 'Blue',
             instagram: 'kandyxo',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kandace_14_kvztk3.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kandace_9_ymkwvw.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209923/Kandace_MP_kaxymc.jpg',
@@ -455,7 +455,7 @@ window.TheEraAgency = {
             hair: 'Auburn',
             eyes: 'Hazel',
             instagram: 'kayveee',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Karina_V_12_upghle.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209910/Karina_V_11_qhnogk.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209909/Karina_V_1_pvij1y.jpg',
@@ -483,7 +483,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Green',
             instagram: 'kate_havness',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209913/Kate_13_ksy2ym.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209916/Kate_7_wvfsta.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209912/Kate_5_etdo6h.jpg',
@@ -514,7 +514,7 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Brown',
             instagram: 'kayleericciardi',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209914/Kaylee_2_vuuchi.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209914/Kaylee_1_hywagn.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209915/Kaylee_3_aqmano.jpg',
@@ -541,7 +541,7 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Blue',
             instagram: 'kelseysliwinski',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_3_r7bwu5.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_5_f0qsx2.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_6_hpki43.jpg',
@@ -568,7 +568,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Blue',
             instagram: 'kendallrainmusic',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209919/Kendall_4_ba4k6l.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_5_mfcypc.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_6_wcztr5.jpg',
@@ -597,7 +597,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Blue',
             instagram: 'laurensmolka',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
             ]
         },
@@ -615,7 +615,7 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Light Brown',
             instagram: 'theslizzard',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209922/Liz_1_znge5a.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209922/Liz_2_zdxh6j.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209923/Liz_5_toiaij.jpg',
@@ -644,7 +644,7 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Green/Hazel',
             instagram: 'misslabak',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209926/Melissa_5_bymj7s.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209928/Melissa_2_jnnqk2.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209929/Melissa_1_ks4kxw.jpg',
@@ -674,7 +674,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Blue',
             instagram: 'nataliekpaladiin',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_2_odonia.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_1_hcyqat.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_4_uksh5l.jpg',
@@ -704,7 +704,7 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Brown',
             instagram: 'oliviapaladin',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Olivia_1_nqywsp.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Olivia_2_r4q4y1.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Olivia_3_cqhacg.jpg',
@@ -734,7 +734,7 @@ window.TheEraAgency = {
             hair: 'Brown',
             eyes: 'Blue',
             instagram: 'thelifeof_ry',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson1_uv53k1.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson3_p1s1ix.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson2_upeyvj.jpg',
@@ -763,7 +763,7 @@ window.TheEraAgency = {
             hair: 'Light Brown',
             eyes: 'Brown',
             instagram: 'sammprescott',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
             ]
         },
@@ -781,14 +781,14 @@ window.TheEraAgency = {
             hair: 'Blonde',
             eyes: 'Brown',
             instagram: 'sammykayyyy',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
             ]
         },
         {
             pageName: 'sydney-maler',
             modelName: 'Sydney M',
-            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan .png',
             height: '5’7.5’’',
             weight: '130',
             shoe: '9',
@@ -799,7 +799,7 @@ window.TheEraAgency = {
             hair: 'Dirty Blonde',
             eyes: 'Hazel',
             instagram: 'sydney.a.maler',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
             ]
         },
@@ -817,7 +817,7 @@ window.TheEraAgency = {
             hair: 'Dark Brown',
             eyes: 'Brown',
             instagram: 'taliawilliamson',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209946/Talia_6_veeeyr.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209947/Talia_7_gfotxu.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209947/Talia_8_rue9lc.jpg',
@@ -845,7 +845,7 @@ window.TheEraAgency = {
             hair: 'n/a',
             eyes: 'n/a',
             instagram: 'n/a',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Megan_1_fhur43.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Megan_3_ftgoqm.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Megan_2_chuqbt.jpg'
@@ -865,7 +865,7 @@ window.TheEraAgency = {
             hair: 'n/a',
             eyes: 'n/a',
             instagram: 'n/a',
-            gallery: [
+            galleryImages: [
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_1_ptdhbg.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_2_uck9uj.jpg',
                 'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_4_tpuxhh.jpg',
