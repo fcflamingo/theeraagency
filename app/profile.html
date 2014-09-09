@@ -1,217 +1,169 @@
 <!doctype html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>The ERA AGENCY</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The ERA AGENCY</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body class="profile_styles">
+    <!--[if lt IE 10]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser.
+        Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.</p>
+    <![endif]-->
 
-</head>
-<body class="profile_styles">
-<!--[if lt IE 10]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser.
-    Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve
-    your experience.</p>
-<![endif]-->
+     <div class="loader">
+            <div class="loader-content">
+                <div class="inner">
+                    <div class="logo">the<span
+                        style="font-weight: 700; padding: 0 30px;">ERA</span>AGENCY
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    <script id="profiles-template" type="text/x-handlebars-template">
 
- <div class="loader">
-        <div class="loader-content">
+
+
+        <header class="navbar active-look">
+            <a class="logo back" href="index.html">the<span
+                style="font-weight: 700; padding: 0 6px;">ERA</span>AGENCY</a>
+        </header>
+        <section id="profiles-wrap" style="background: #fff; float: left;">
+            <div id="profiles">
+
+                <header>
+                    <h1><span>BROWSE</span> MODEL PROFILES</h1>
+                    <a class="back" href="./">BACK</a>
+                </header>
+
+                {{#each models}}
+                <a class="grid-item" href="#{{ pageName }}"
+                   style="background-image: url({{ profilesThumbnail }});">
+                    <div class="cover">
+                        <div class="inner">
+                            <div class="client-logo"></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="inner">
+                            <div class="client-name">{{ modelName }}</div>
+                            <div class="is-view-more">view profile</div>
+                        </div>
+                    </div>
+                </a>
+                {{/each}}
+            </div>
+        </section>
+
+    </script>
+
+    <script id="profile-template" type="text/x-handlebars-template">
+
+        <div class="profile-overlay">
             <div class="inner">
-                <div class="logo">the<span
-                    style="font-weight: 700; padding: 0 30px;">ERA</span>AGENCY
-                </div>
-                <div class="line"></div>
-            </div>
-        </div>
-    </div>
-<script id="profiles-template" type="text/x-handlebars-template">
+                <a class="is-close-overlay" href="#">X</a>
 
+                <div class="profile-info">
+                    <div class="profile-headshot">
+                        <img src="{{ profilesSplashImage }}"/>
 
-
-    <header class="navbar active-look">
-        <a class="logo back" href="index.html">the<span
-            style="font-weight: 700; padding: 0 6px;">ERA</span>AGENCY</a>
-    </header>
-    <section id="profiles-wrap" style="background: #fff; float: left;">
-        <div id="profiles">
-
-            <header>
-                <h1><span>BROWSE</span> MODEL PROFILES</h1>
-                <a class="back" href="./">BACK</a>
-            </header>
-
-            {{#each models}}
-            <a class="grid-item" href="#{{ pageName }}"
-               style="background-image: url({{ profilesThumbnail }});">
-                <div class="cover">
-                    <div class="inner">
-                        <div class="client-logo"></div>
+                        <div class="profile-stats">
+                            <h1>{{ modelName }}</h1>
+                            <ul>
+                                <li><span>Height:</span>{{ height }}</li>
+                                <li><span>Weight:</span>{{ weight }}</li>
+                                <li><span>Shoe:</span>{{ shoe }}</li>
+                            </ul>
+                            <ul>
+                                <li><span>Dress:</span>{{ dress }}</li>
+                                <li><span>Bust:</span>{{ bust }}</li>
+                                <li><span>Waist:</span>{{ waist }}</li>
+                            </ul>
+                            <ul>
+                                <li><span>Hips:</span>{{ hips }}</li>
+                                <li><span>Hair:</span>{{ hair }}</li>
+                                <li><span>Eyes:</span>{{ eyes }}</li>
+                            </ul>
+                            <a href="http://instagram.com/{{ instagram }}"
+                               target="_blank" class="instagram-link">
+                                <h3><span>Gram:</span>@{{ instagram }}</h3>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="content">
-                    <div class="inner">
-                        <div class="client-name">{{ modelName }}</div>
-                        <div class="is-view-more">view profile</div>
-                    </div>
-                </div>
-            </a>
-            {{/each}}
-        </div>
-    </section>
-
-</script>
-
-<script id="profile-template" type="text/x-handlebars-template">
-
-    <div class="profile-overlay">
-        <div class="inner">
-            <a class="is-close-overlay" href="#">X</a>
-
-            <div class="profile-info">
-                <div class="profile-headshot">
-                    <img src="images/RileyRichardson3.jpg"/>
-
-                    <div class="profile-stats">
-                        <h1>{{ modelName }}</h1>
-                        <ul>
-                            <li><span>Height:</span> {{ height }}</li>
-                            <li><span>Weight:</span>{{ weight }}</li>
-                            <li><span>Shoe:</span>{{ shoe }}</li>
-                        </ul>
-                        <ul>
-                            <li><span>Dress:</span>{{ dress }}</li>
-                            <li><span>Bust:</span>{{ bust }}</li>
-                            <li><span>Waist:</span>{{ waist }}</li>
-                        </ul>
-                        <ul>
-                            <li><span>Hips:</span>{{ hips }}</li>
-                            <li><span>Hair:</span> {{ hair }}</li>
-                            <li><span>Eyes:</span>{{ eyes }}</li>
-                        </ul>
-                        <a href="http://instagram.com/{{ instagram }}"
-                           target="_blank" class="instagram-link">
-                            <h3><span>Gram:</span>@{{ instagram }}</h3>
-                        </a>
-                    </div>
+                <div class="profile-grid">
+                    {{#each galleryImages}}
+                        <a class="profile-grid-item" style="background: url({{this}}) center top no-repeat; background-size: cover; " href="{{this}}"></a>
+                    {{/each}}
                 </div>
             </div>
-            <div class="profile-grid">
-                <a class="profile-grid-item"
-                   style="background: url('http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="http://res.cloudinary.com/fcflamingo/image/upload/v1409361609/RileyRichardson1_kicnkt.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson2.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson2.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson3.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson3.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson4.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson4.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson5.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson5.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson6.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson6.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson7.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson7.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson8.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson8.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson9.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson9.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson10.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson10.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson11.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson11.jpg"></a>
-                <a class="profile-grid-item"
-                   style="background: url('images/RileyRichardson12.jpg') no-repeat; background-size: cover; background-position: center;"
-                   href="images/RileyRichardson12.jpg"></a>
-            </div>
         </div>
-    </div>
 
-</script>
+    </script>
 
-<div id="js-body"></div>
-
-
-<!-- build:js scripts/vendor.js -->
-<!-- bower:js -->
-<script src="bower_components/jquery/jquery.js"></script>
-<script src="bower_components/handlebars/handlebars.js"></script>
-<script src="bower_components/colorbox/jquery.colorbox.js"></script>
-<script src="bower_components/js-signals/dist/signals.js"></script>
-<script src="bower_components/hasher/dist/js/hasher.js"></script>
-<script src="bower_components/imagesloaded/imagesloaded.pkgd.js"></script>
-
-<!-- endbower -->
-<!-- endbuild -->
-
-<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-<script>
-    (function (b, o, i, l, e, r) {
-        b.GoogleAnalyticsObject = l;
-        b[l] || (b[l] =
-            function () {
-                (b[l].q = b[l].q || []).push(arguments)
-            });
-        b[l].l = +new Date;
-        e = o.createElement(i);
-        r = o.getElementsByTagName(i)[0];
-        e.src = '//www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-</script>
+    <div id="js-body"></div>
 
 
-<!-- build:js scripts/main.js -->
-<script src="scripts/models.js"></script>
-<script src="scripts/profiles.js"></script>
-<script src="scripts/main-hbs.js"></script>
-<script src="scripts/loader.js"></script>
-<script src="scripts/main.js"></script>
-<!-- endbuild -->
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/handlebars/handlebars.js"></script>
+    <script src="bower_components/colorbox/jquery.colorbox.js"></script>
+    <script src="bower_components/js-signals/dist/signals.js"></script>
+    <script src="bower_components/hasher/dist/js/hasher.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.pkgd.js"></script>
 
-<!-- build:js scripts/plugins.js -->
-<script src="bower_components/sass-bootstrap/js/affix.js"></script>
-<script src="bower_components/sass-bootstrap/js/alert.js"></script>
-<script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
-<script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
-<script src="bower_components/sass-bootstrap/js/modal.js"></script>
-<script src="bower_components/sass-bootstrap/js/transition.js"></script>
-<script src="bower_components/sass-bootstrap/js/button.js"></script>
-<script src="bower_components/sass-bootstrap/js/popover.js"></script>
-<script src="bower_components/sass-bootstrap/js/carousel.js"></script>
-<script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
-<script src="bower_components/sass-bootstrap/js/collapse.js"></script>
-<script src="bower_components/sass-bootstrap/js/tab.js"></script>
-<!-- endbuild -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/models.js"></script>
+    <script src="scripts/profiles.js"></script>
+    <script src="scripts/main-hbs.js"></script>
+    <script src="scripts/loader.js"></script>
+    <script src="scripts/login.js"></script>
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+    <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+    <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+    <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+    <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+    <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+    <script src="bower_components/sass-bootstrap/js/button.js"></script>
+    <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+    <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+    <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+    <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+    <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+    <script src="bower_components/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="bower_components/fc-whatPage/fc-whatPage.js"></script>
+    <!-- endbuild -->
 </body>
 </html>
-
-
-
-
