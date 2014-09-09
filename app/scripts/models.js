@@ -3,7 +3,7 @@ window.TheEraAgency = {
         {
             pageName: 'ashley-harrell',
             modelName: 'Ashley H',
-            profilesThumbnail: 'images/AshleyHarrellProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199505/AshleyHarrellProfile_lngtzz.png',
             height: '5’6’’',
             weight: '110',
             shoe: '7',
@@ -13,12 +13,27 @@ window.TheEraAgency = {
             hips: '33',
             hair: 'Dirty Blonde',
             eyes: 'Blue',
-            instagram: 'smashharrell'
+            instagram: 'smashharrell',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209809/Ashley_Harrell_11_mazdjb.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209809/Ashley_Harrell_8_j6tpyc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209810/Ashley_Harrell_1_2_pffg8m.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209810/Ashley_Harrell_7_kwzh89.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209814/Ashley_Harrell_MP_sil8th.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209807/Ashley_Harrell_6_pe6q44.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209808/Ashley_Harrell_10_vlu8wc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209808/Ashley_Harrell_9_bppu2a.png',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209806/Ashley_Harrell_1_gceco4.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209806/Ashley_Harrell_2_vt4ijz.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209806/Ashley_Harrell_4_re5elx.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209807/Ashley_Harrell_3_a6iuwm.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209807/Ashley_Harrell_5_zaicv9.jpg'
+            ]
         },
         {
             pageName: 'autumn-allenbach',
             modelName: 'Autumn A',
-            profilesThumbnail: 'images/AutumnAllenbachProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199505/AutumnAllenbachProfile_i1g1x5.png',
             height: '5’9’’',
             weight: '110',
             shoe: '8.5',
@@ -28,12 +43,27 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Dirty Blonde',
             eyes: 'Green',
-            instagram: 'autumnallenbach'
+            instagram: 'autumnallenbach',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A5_c0rcgg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A4_shlsf5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A1_pditp0.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A3_lv78rq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209803/A2_nc193e.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209804/A9_l9ismn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209804/A_MP_ogjcve.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209804/A6_i2bxfi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209804/A10_c6juzf.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209804/A8_kqvzil.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209804/A7_sq1fuu.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209805/A13_i5kacg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209806/A11_z057v1.jpg'
+            ]
         },
         {
             pageName: 'bailee-beachy',
             modelName: 'Bailee B',
-            profilesThumbnail: 'images/BaileeBeachyProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199505/BaileeBeachyProfile_qx2ofg.png',
             height: '5’8’’',
             weight: '120',
             shoe: '8',
@@ -43,12 +73,27 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Light Brown',
             eyes: 'Brown',
-            instagram: 'baybeachy'
+            instagram: 'baybeachy',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209835/B9_bmonm6.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209828/B8_gmhllq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209810/B1_dxet4d.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209811/B2_lcnqcd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209812/B4_msnbyn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209812/B5_ernzca.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209812/B6_u3kqa5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209813/B7_eqlglg.png',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209814/B10_hcsweo.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209815/B11_e4szbv.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209815/B3_ffrw10.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209816/B12_jldsqy.png',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209816/B13_n4vj4c.jpg'
+            ]
         },
         {
             pageName: 'bailey-hall',
             modelName: 'Bailey H',
-            profilesThumbnail: 'images/BaileyHallProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199505/BaileyHallProfile_elyl93.png',
             height: '5’9’’',
             weight: '130',
             shoe: '9',
@@ -58,12 +103,26 @@ window.TheEraAgency = {
             hips: '35',
             hair: 'Blonde',
             eyes: 'Green',
-            instagram: 'bailey_raeeee'
+            instagram: 'bailey_raeeee',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209827/BH11_qq0sl2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/BH10_uz3ylp.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209817/Bailey_MP_wqy6es.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209817/BH1_ebirtj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209818/BH2_swon2d.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209818/BH3_r0i5g0.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209818/BH4_w3ixpg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209819/BH7_uollp6.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209819/BH8_wdjkf5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209819/BH6_peqbzx.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209820/BH5_hblymn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209821/BH12_c2ym9m.jpg'
+            ]
         },
         {
             pageName: 'cathy-mccarthy',
             modelName: 'Cathy M',
-            profilesThumbnail: 'images/CathyMcCarthyProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199505/CathyMcCarthyProfile_utygkf.png',
             height: '5’6’’',
             weight: '118',
             shoe: '6',
@@ -73,12 +132,27 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Dirty Blonde',
             eyes: 'Hazel',
-            instagram: 'cathymccarthy'
+            instagram: 'cathymccarthy',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209821/Cathy_MC_1_cmq8cb.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/Cathy_MC_2_rjjvxj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/Cathy_MC_4_l6abk9.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/Cathy_MC_3_npxlse.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209822/Cathy_MC_5_wgosbp.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209823/Cathy_MC_6_eytrhi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209823/Cathy_MC_7_wdrdmv.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209823/Cathy_MC_8_bki6lu.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209823/Cathy_MC_9_ckaild.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209823/Cathy_MC_10_a7pld4.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209823/Cathy_MC_11_wdahif.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209823/Cathy_MC_12_pbpuhf.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Cathy_McCarthy_MP_ahzoxc.jpg'
+            ]
         },
         {
             pageName: 'chelse-k',
             modelName: 'Chelse K',
-            profilesThumbnail: 'images/ChelseKProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/ChelseKProfile_z2chdc.png',
             height: '5’10.5’’',
             weight: '122',
             shoe: '9.5',
@@ -88,12 +162,30 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Blonde(short)',
             eyes: 'Green',
-            instagram: 'dba_chelsek'
+            instagram: 'dba_chelsek',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/CK15_jshhvr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209850/CK10_vnlzeg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209829/CK4_epyq61.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209831/CK5_gltad5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209831/CK8_tu4ud2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209831/CK3_selqnv.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209832/CK9_icuqe1.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209834/CK12_hlfcoo.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209838/CK13_lcmd0l.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209839/CK11_vkqjsk.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209839/CK7_l65xs2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209840/CK6_ho0gtk.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209840/CK14_gwgy95.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/CK16_uweacn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209825/CK1_j0ckmd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209825/CK2_zfpine.jpg'
+            ]
         },
         {
             pageName: 'dani-henricksen',
             modelName: 'Dani H',
-            profilesThumbnail: 'images/DaniHenricksenProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/DaniHenricksenProfile_qw8ehe.png',
             height: '5’10’’',
             weight: '130',
             shoe: '8',
@@ -103,12 +195,26 @@ window.TheEraAgency = {
             hips: '35',
             hair: 'Brown',
             eyes: 'Brown',
-            instagram: 'danilove888'
+            instagram: 'danilove888',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DH1_qbkdkm.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DH2_zhwso7.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DH3_e1azdd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DH4_ssrdaa.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209844/DH5_qzl0ff.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209844/DH6_g98xj5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209844/DH7_l1ux4j.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209844/DH9_yypyd9.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209845/DH12_cuvcue.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209845/DH11_m9u6bi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209845/DH10_zrtjns.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209848/DH8_mj2vto.jpg'
+            ]
         },
         {
             pageName: 'dani-mathers',
             modelName: 'Dani M',
-            profilesThumbnail: 'images/DaniMathersProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/DaniMathersProfile_yhuvy1.png',
             height: '5’3’’(shoot much taller/print)',
             weight: '98',
             shoe: '6',
@@ -118,12 +224,28 @@ window.TheEraAgency = {
             hips: '31',
             hair: 'Blonde (long)',
             eyes: 'Brown',
-            instagram: 'missdanimathers'
+            instagram: 'missdanimathers',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/Dani_M_ck8ztq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/DaniMathers1_wlp1dr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/DaniMathers2_hknhs7.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209841/DaniMathers3_dezyfc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209842/DaniMathers4_z6uczu.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209842/DaniMathers7_c86obt.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209842/DaniMathers6_jsqkqg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209842/DaniMathers5_wcxy6d.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209842/DaniMathers9_yf7yqq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209842/DaniMathers8_rf2pzl.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DaniMathers10_ybjrk4.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DaniMathers11_v8y2og.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209843/DaniMathers13_ae6vzn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209844/DaniMathers12_hcidyo.jpg'
+            ]
         },
         {
             pageName: 'danielle-souza',
             modelName: 'Danielle S',
-            profilesThumbnail: 'images/DanielleSouzaProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png',
             height: '5’9’’',
             weight: '120',
             shoe: '7',
@@ -133,12 +255,15 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Brown',
             eyes: 'Brown',
-            instagram: 'daniellensouza'
+            instagram: 'daniellensouza',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
+            ]
         },
         {
             pageName: 'emily-roche',
             modelName: 'Emily R',
-            profilesThumbnail: 'images/EmilyRocheProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/EmilyRocheProfile_bvm0rn.png',
             height: '5’6’’',
             weight: '110',
             shoe: '7',
@@ -148,12 +273,26 @@ window.TheEraAgency = {
             hips: '32',
             hair: 'Blonde',
             eyes: 'Blue',
-            instagram: 'emilyruthroche'
+            instagram: 'emilyruthroche',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209848/Emily_2_m2f7ho.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209852/Emily_9_knbs20.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209845/Emily_3_jeg08f.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209846/Emily_4_ljay4h.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209846/Emily_5_egurpd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209846/Emily_6_onkymv.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209846/Emily_1_cjacgh.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209846/Emily_7_ua44ub.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209847/Emily_8_txcddj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209847/Emily_10_g0dtqk.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209847/Emily_11_ucp6uz.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209847/Emily_MP_yaoohs.jpg'
+            ]
         },
         {
             pageName: 'holly-heitmann',
             modelName: 'Holly H',
-            profilesThumbnail: 'images/HollyHeitmannProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/HollyHeitmannProfile_wowuw4.png',
             height: '5’8’’',
             weight: '125',
             shoe: '8',
@@ -163,12 +302,27 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Dark Brown',
             eyes: 'Brown',
-            instagram: 'hollyhollyhollly'
+            instagram: 'hollyhollyhollly',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209857/Holly_Heitmann_6_kmyhcl.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209857/Holly_Heitmann_12_pc4jtq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Holly_Heitmann_9_rznbje.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209854/Holly_Heitmann_2_zuxflr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209856/Holly_Heitmann_10_qnd0q3.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209856/Holly_Heitmann_11_a5goyi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209856/Holly_Heitmann_MP_tdlfhy.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209856/Holly_Heitmann_5_z78e4n.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209852/Holly_Heitmann_3_m9st7c.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209853/Holly_Heitmann_4_tbxoee.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209854/Holly_Heitmann_8_mom6uf.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209854/Holly_Heitmann_7_fo3c0i.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209851/Holly_Heitmann_1_x99y87.jpg'
+            ]
         },
         {
             pageName: 'izzy-poulin',
             modelName: 'Izzy P',
-            profilesThumbnail: 'images/IzzyPoulinProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/IzzyPoulinProfile_dncm99.png',
             height: '5’7’’',
             weight: '115',
             shoe: '7',
@@ -178,12 +332,27 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Brown',
             eyes: 'Brown',
-            instagram: 'izzyisup'
+            instagram: 'izzyisup',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Izzy_Poulin_MP_gnsqs4.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Izzy_Poulin_3_bpuxj6.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209859/Izzy_Poulin_11_lqpcme.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209859/Izzy_Poulin_10_lr9auy.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Izzy_Poulin_12_ltspwe.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Izzy_Poulin_9_dmzoa6.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209857/Izzy_Poulin_2_oclrbo.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209857/Izzy_Poulin_1_byotcl.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209858/Izzy_Poulin_5_exwka9.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209858/Izzy_Poulin_6_lrlce0.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209858/Izzy_Poulin_4_bykw8d.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209858/Izzy_Poulin_8_bq01kk.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209859/Izzy_Poulin_7_foykba.jpg'
+            ]
         },
         {
             pageName: 'jade-hataway',
             modelName: 'Jade H',
-            profilesThumbnail: 'images/JadeHatawayProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/JadeHatawayProfile_fuvc4w.png',
             height: '5’9’’',
             weight: '110',
             shoe: '9',
@@ -193,12 +362,27 @@ window.TheEraAgency = {
             hips: '33',
             hair: 'Blonde',
             eyes: 'Blue',
-            instagram: 'jadehataway'
+            instagram: 'jadehataway',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_2_dlcica.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_3_n1ushi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_4_xhez5c.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_6_dhlke9.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_5_fuiloc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_7_abjo9l.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_8_kv9ivt.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_11_jtuska.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_9_clbg0k.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_10_ebxyhg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_12_fbkby8.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209861/Jade_Hataway_MP_gfdzi6.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209860/Jade_Hataway_1_gu3luz.jpg'
+            ]
         },
         {
             pageName: 'jena-sims',
             modelName: 'Jena S',
-            profilesThumbnail: 'images/JenaSimsProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/JenaSimsProfile_eczmm9.png',
             height: '5’8’’',
             weight: 'n/a',
             shoe: 'n/a',
@@ -208,12 +392,26 @@ window.TheEraAgency = {
             hips: 'n/a',
             hair: 'Blonde',
             eyes: 'Brown',
-            instagram: 'jenamsims'
+            instagram: 'jenamsims',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_1_hxepca.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_2_wgyfao.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_3_lvh4fj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_6_bza8sd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_4_rjdlm5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_7_srsb09.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_11_jxpnvk.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209862/Jena_5_dhs8sc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209863/Jena_12_ccnojs.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209863/Jena_10_khsit8.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209863/Jena_MP_fwbiry.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209863/Jena_8_udkmep.jpg'
+            ]
         },
         {
             pageName: 'kandace-schipper',
             modelName: 'Kandace S',
-            profilesThumbnail: 'images/KandaceSchipperProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/KandaceSchipperProfile_yep8ao.png',
             height: '5’10.5’’',
             weight: '130',
             shoe: '10',
@@ -223,12 +421,30 @@ window.TheEraAgency = {
             hips: '35',
             hair: 'Strawberry Blonde',
             eyes: 'Blue',
-            instagram: 'kandyxo'
+            instagram: 'kandyxo',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kandace_14_kvztk3.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kandace_9_ymkwvw.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209923/Kandace_MP_kaxymc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209881/Kandace_4_er1pgf.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209885/Kandace_2_h7wvke.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209886/Kandace_6_szyzpj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209886/Kandace_1_uhkheb.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209887/Kandace_5_qc7knd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209891/Kandace_3_jukqgr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209905/Kandace_10_sdv6xa.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209905/Kandace_7_mnq2vp.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209906/Kandace_8_tqmyna.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209907/Kandace_12_z7rn5f.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209908/Kandace_13_v9ybhq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209907/Kandace_11_fckfs4.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209909/Kandace_15_tnayn1.jpg'
+            ]
         },
         {
             pageName: 'karina-velez',
             modelName: 'Karina V',
-            profilesThumbnail: 'images/KarinaVelezProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/KarinaVelezProfile_uksgph.png',
             height: '5’7’’',
             weight: '102',
             shoe: '8',
@@ -238,12 +454,25 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Auburn',
             eyes: 'Hazel',
-            instagram: 'kayveee'
+            instagram: 'kayveee',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Karina_V_12_upghle.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209910/Karina_V_11_qhnogk.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209909/Karina_V_1_pvij1y.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209909/Karina_V_2_tes1cp.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209909/Karina_V_4_lx2nk2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209909/Karina_V_3_rkcudm.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209909/Karina_V_5_ks92vx.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209910/Karina_V_7_gmiojq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209910/Karina_V_6_g1doz4.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209910/Karina_V_8_wjrs6t.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209910/Karina_V_9_bygj68.jpg'
+            ]
         },
         {
             pageName: 'kate-haveness',
             modelName: 'Kate H',
-            profilesThumbnail: 'images/KateHavenessProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199506/KateHavenessProfile_zrzmmf.png',
             height: '5’10’’',
             weight: '125',
             shoe: '9',
@@ -253,12 +482,28 @@ window.TheEraAgency = {
             hips: '35',
             hair: 'Blonde',
             eyes: 'Green',
-            instagram: 'kate_havness'
+            instagram: 'kate_havness',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209913/Kate_13_ksy2ym.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209916/Kate_7_wvfsta.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209912/Kate_5_etdo6h.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209912/Kate_8_xr2qhq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209912/Kate_9_rd16cy.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209912/Kate_10_dokbkg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209912/Kate_11_dxlvrn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209913/Kate_12_zkgtw7.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209913/Kate_MP_vwtzwd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kate_1_qlrlo5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kate_6_ohspqr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kate_4_ujrfo1.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209910/Kate_2_gcjfkp.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209911/Kate_3_uwu2h2.jpg'
+            ]
         },
         {
             pageName: 'kaylee-ricciardi',
             modelName: 'Kaylee R',
-            profilesThumbnail: 'images/KayleeRicciardiProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/KayleeRicciardiProfile_yxrtzf.png',
             height: '5’9’’',
             weight: '110',
             shoe: '8',
@@ -268,12 +513,24 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Brown',
             eyes: 'Brown',
-            instagram: 'kayleericciardi'
+            instagram: 'kayleericciardi',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209914/Kaylee_2_vuuchi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209914/Kaylee_1_hywagn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209915/Kaylee_3_aqmano.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209915/Kaylee_6_cybeas.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209916/Kaylee_8_jlk5wx.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209916/Kaylee_4_tjposz.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209917/Kaylee_7_rsa8oi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209917/Kaylee_5_pvsvet.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kaylee_10_wnvnt2.jpga>',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209919/Kaylee_9_squx03.jpg'
+            ]
         },
         {
             pageName: 'kelsey-sliwinski',
             modelName: 'Kelsey S',
-            profilesThumbnail: 'images/KelseySliwinskiProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/KelseySliwinskiProfile_sll686.png',
             height: '5’11’’',
             weight: '128',
             shoe: '10.5',
@@ -283,12 +540,24 @@ window.TheEraAgency = {
             hips: '36',
             hair: 'Brown',
             eyes: 'Blue',
-            instagram: 'kelseysliwinski'
+            instagram: 'kelseysliwinski',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_3_r7bwu5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_5_f0qsx2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_6_hpki43.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_4_kollos.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209919/Kelsey_10_e6cnj1.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209919/Kelsey_9_uikbti.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209919/Kelsey_7_zrnnqn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209919/Kelsey_8_qcmi7q.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209917/Kelsey_1_ux6okc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209918/Kelsey_2_piopla.jpg'
+            ]
         },
         {
             pageName: 'kendall-mathers',
             modelName: 'Kendall M',
-            profilesThumbnail: 'images/KendallMathersProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/KendallMathersProfile_v3uthd.png',
             height: '5’9’’',
             weight: '110',
             shoe: '9',
@@ -298,12 +567,26 @@ window.TheEraAgency = {
             hips: '33',
             hair: 'Blonde',
             eyes: 'Blue',
-            instagram: 'kendallrainmusic'
+            instagram: 'kendallrainmusic',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209919/Kendall_4_ba4k6l.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_5_mfcypc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_6_wcztr5.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_3_eznkbx.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_7_vnwuyw.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_8_qympqc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_9_qiwysr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209920/Kendall_10_ds7mmv.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209921/Kendall_11_hjtrnj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209921/Kendall_2_ab3pvw.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209922/Kendall_1_m9a3kt.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209922/Kendall_12_dqplsw.jpg'
+            ]
         },
         {
             pageName: 'lauren-s',
             modelName: 'Lauren S',
-            profilesThumbnail: 'images/LaurenSProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png',
             height: '5’9’’',
             weight: '125',
             shoe: '8',
@@ -313,12 +596,15 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Blonde',
             eyes: 'Blue',
-            instagram: 'laurensmolka'
+            instagram: 'laurensmolka',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
+            ]
         },
         {
             pageName: 'liz-mule',
             modelName: 'Liz M',
-            profilesThumbnail: 'images/LizMuleProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/LizMuleProfile_zpricq.png',
             height: '5’7’’',
             weight: '110',
             shoe: '6',
@@ -328,12 +614,26 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Brown',
             eyes: 'Light Brown',
-            instagram: 'theslizzard'
+            instagram: 'theslizzard',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209922/Liz_1_znge5a.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209922/Liz_2_zdxh6j.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209923/Liz_5_toiaij.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209923/Liz_7_pmezy2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209924/Liz_6_emghqi.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209924/Liz_9_w0nic3.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209924/Liz_8_dgbo91.png',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209924/Liz_4_ltncrq.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209924/Liz_10_fatpp9.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Liz_11_rin5ng.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Liz_3_usgbkc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Liz_MP_sucufo.png'
+            ]
         },
         {
             pageName: 'melissa-lebak',
             modelName: 'Melissa L',
-            profilesThumbnail: 'images/MelissaLebakProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/MelissaLebakProfile_hq3kuq.png',
             height: '5’6.5’’',
             weight: '118',
             shoe: '8',
@@ -343,12 +643,27 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Brown',
             eyes: 'Green/Hazel',
-            instagram: 'misslabak'
+            instagram: 'misslabak',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209926/Melissa_5_bymj7s.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209928/Melissa_2_jnnqk2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209929/Melissa_1_ks4kxw.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209929/Melissa_4_kzgprn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209931/Melissa_3_igchva.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410211560/Melissa_6_dl8dvw.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209935/Melissa_7_hk1ffw.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209936/Melissa_10_kuj655.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209939/Melissa_MP_hgrps7.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209938/Melissa_8_jmbybu.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209939/Melissa_9_oirf5y.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209941/Melissa_11_o0zyyc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Melissa_12_pryp3n.jpg'
+            ]
         },
         {
             pageName: 'natalie-paladin',
             modelName: 'Natalie P',
-            profilesThumbnail: 'images/NataliePaladinProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199507/NataliePaladinProfile_wcsk7y.png',
             height: '5’8’’',
             weight: '120',
             shoe: '7',
@@ -358,12 +673,27 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Blonde',
             eyes: 'Blue',
-            instagram: 'nataliekpaladiin'
+            instagram: 'nataliekpaladiin',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_2_odonia.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_1_hcyqat.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_4_uksh5l.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_3_e4oews.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_5_bmyzfr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_6_gqg4px.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209940/Natalie_7_kivcm2.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209941/Natalie_9_smlv8y.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209941/Natalie_10_yhhq8j.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209941/Natalie_11_elcnbl.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209941/Natalie_12_wqfjkw.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209941/Natalie_8_ifbqlr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Natalie_13_tbjcgr.jpg'
+            ]
         },
         {
             pageName: 'olivia-paladin',
             modelName: 'Olivia P',
-            profilesThumbnail: 'images/OliviaPaladinProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199508/OliviaPaladinProfile_vyqztb.png',
             height: '5’9’’',
             weight: '117',
             shoe: '7',
@@ -373,12 +703,27 @@ window.TheEraAgency = {
             hips: '33',
             hair: 'Blonde',
             eyes: 'Brown',
-            instagram: 'oliviapaladin'
+            instagram: 'oliviapaladin',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Olivia_1_nqywsp.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Olivia_2_r4q4y1.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Olivia_3_cqhacg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209942/Olivia_5_tmlngn.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_6_h8md6p.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_7_caiaxh.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_8_ycjicy.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_9_fqodza.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_10_c9xrv8.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_11_jrluin.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_12_g7hz7a.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_13_bu5iv3.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209943/Olivia_4_cgofc2.jpg'
+            ]
         },
         {
             pageName: 'riley-richardson',
             modelName: 'Riley Richardson',
-            profilesThumbnail: 'images/RileyRichardson6.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199508/RileyRichardsonProfile_wvypap.png',
             height: '5’7’’',
             weight: '120',
             shoe: '8',
@@ -388,12 +733,26 @@ window.TheEraAgency = {
             hips: '34',
             hair: 'Brown',
             eyes: 'Blue',
-            instagram: 'thelifeof_ry'
+            instagram: 'thelifeof_ry',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson1_uv53k1.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson3_p1s1ix.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson2_upeyvj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson4_rbsxta.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson5_pqk3iv.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209945/RileyRichardson6_j8kozp.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209944/RileyRichardson7_mm7ua8.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209945/RileyRichardson8_hzx1th.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209945/RileyRichardson9_vhg2rz.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209946/RileyRichardson10_xgffam.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209945/RileyRichardson11_tjfxep.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209946/RileyRichardson12_jymuqh.jpg'
+            ]
         },
         {
             pageName: 'sam-prescott',
             modelName: 'Sam P',
-            profilesThumbnail: 'images/SamPrescottProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png',
             height: '5’7’’',
             weight: 'n/a',
             shoe: 'n/a',
@@ -403,12 +762,15 @@ window.TheEraAgency = {
             hips: 'n/a',
             hair: 'Light Brown',
             eyes: 'Brown',
-            instagram: 'sammprescott'
+            instagram: 'sammprescott',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
+            ]
         },
         {
             pageName: 'samantha-kimberlin',
             modelName: 'Samantha K',
-            profilesThumbnail: 'images/SamanthaKimberlinProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png',
             height: '5’8’’',
             weight: '115',
             shoe: '9',
@@ -418,12 +780,15 @@ window.TheEraAgency = {
             hips: '35',
             hair: 'Blonde',
             eyes: 'Brown',
-            instagram: 'sammykayyyy'
+            instagram: 'sammykayyyy',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
+            ]
         },
         {
             pageName: 'sydney-maler',
             modelName: 'Sydney M',
-            profilesThumbnail: 'images/SydneyMalerProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan .png',
             height: '5’7.5’’',
             weight: '130',
             shoe: '9',
@@ -433,12 +798,15 @@ window.TheEraAgency = {
             hips: '36',
             hair: 'Dirty Blonde',
             eyes: 'Hazel',
-            instagram: 'sydney.a.maler'
+            instagram: 'sydney.a.maler',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410200907/na_qqhxan.png'
+            ]
         },
         {
             pageName: 'talia-williamson',
             modelName: 'Talia W',
-            profilesThumbnail: 'images/TaliaWilliamsonProfile.jpg',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199508/TaliaWilliamsonProfile_xracil.png',
             height: '5’11’’',
             weight: '130',
             shoe: '9.5',
@@ -448,7 +816,66 @@ window.TheEraAgency = {
             hips: '36',
             hair: 'Dark Brown',
             eyes: 'Brown',
-            instagram: 'taliawilliamson'
+            instagram: 'taliawilliamson',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209946/Talia_6_veeeyr.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209947/Talia_7_gfotxu.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209947/Talia_8_rue9lc.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209948/Talia_9_enmysd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209947/Talia_10_pqr6hh.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209948/Talia_11_bkdcrd.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209946/Talia_2_eavu71.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209947/Talia_3_z1ucpl.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209946/Talia_4_pzirif.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209947/Talia_5_hfueju.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209946/Talia_1_jaojjr.jpg'
+            ]
+        },
+        {
+            pageName: 'megan',
+            modelName: 'Megan',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199508/MeganProfile_eutoau.png',
+            height: 'n/a’’',
+            weight: 'n/a',
+            shoe: 'n/a',
+            dress: 'n/a',
+            bust: 'n/a',
+            waist: 'n/a',
+            hips: 'n/a',
+            hair: 'n/a',
+            eyes: 'n/a',
+            instagram: 'n/a',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Megan_1_fhur43.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Megan_3_ftgoqm.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209925/Megan_2_chuqbt.jpg'
+            ]
+        },
+        {
+            pageName: 'chelsea',
+            modelName: 'Chelsea',
+            profilesThumbnail: 'http://res.cloudinary.com/fcflamingo/image/upload/v1410199505/ChelseaProfile_ujncqi.png',
+            height: 'n/a’’',
+            weight: 'n/a',
+            shoe: 'n/a',
+            dress: 'n/a',
+            bust: 'n/a',
+            waist: 'n/a',
+            hips: 'n/a',
+            hair: 'n/a',
+            eyes: 'n/a',
+            instagram: 'n/a',
+            galleryImages: [
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_1_ptdhbg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_2_uck9uj.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_4_tpuxhh.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_3_eitp14.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209824/Chelsea_5_pjnopg.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209825/Chelsea_7_qr5ez1.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209825/Chelsea_8_hhqcqv.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209825/Chelsea_6_khaxny.jpg',
+                'http://res.cloudinary.com/fcflamingo/image/upload/v1410209825/Chelsea_MP_grokex.jpg'
+            ]
         }
     ]
 }
