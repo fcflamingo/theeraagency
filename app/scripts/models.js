@@ -1,5 +1,5 @@
 var urlStart = 'http://res.cloudinary.com/fcflamingo/image/upload/'
-var s3Start = 'http://d3oq39syjcmy6p.cloudfront.net/'
+var s3Start = 'http://d31dy5w2rgbgqc.cloudfront.net/'
 
 window.TheEraAgency = {
     models: [
@@ -130,7 +130,7 @@ window.TheEraAgency = {
             pageName: 'caite-u',
             modelName: 'Caite U',
             profilesThumbnail: s3Start + 'CaiteUMP.jpg',
-            profilesSplashImage: s3Start + 'CaiteUMP.jpg',
+            profilesSplashImage: s3Start + 'CaiteUMP2.jpg',
             height: '5’7’’',
             weight: '115',
             shoe: '7',
@@ -142,7 +142,7 @@ window.TheEraAgency = {
             eyes: 'Brown',
             instagram: 'caiteupton',
             galleryImages: [
-                s3Start + 'CaiteUMP.jpg',
+                s3Start + 'CaiteUMP2.jpg',
                 s3Start + 'CaiteU3.jpg',
                 s3Start + 'CaiteU4.jpg',
                 s3Start + 'CaiteU5.jpg',
@@ -221,10 +221,10 @@ window.TheEraAgency = {
             ]
         },
         {
-            pageName: 'chelsea-k-s',
-            modelName: 'Chelsea K S',
+            pageName: 'chelsea-k',
+            modelName: 'Chelsea K',
             profilesThumbnail: s3Start + 'ChelseaKMP.jpg',
-            profilesSplashImage: s3Start + 'ChelseaKMP.jpg',
+            profilesSplashImage: s3Start + 'ChelseaKMP2.jpg',
             height: '5’7’',
             weight: '110',
             shoe: '8',
@@ -253,14 +253,14 @@ window.TheEraAgency = {
                     s3Start + 'ChelseaK16.jpg',
                     s3Start + 'ChelseaK17.jpg',
                     s3Start + 'ChelseaK18.jpg',
-                    s3Start + 'ChelseaKMP.jpg'
+                    s3Start + 'ChelseaKMP2.jpg'
             ]
         },
         {
-            pageName: 'chelse-k',
-            modelName: 'Chelse K',
-            profilesThumbnail: s3Start + 'CK_MP.jpg',
-            profilesSplashImage: s3Start + 'CK_MP.jpg',
+            pageName: 'chelse-k-s',
+            modelName: 'Chelse K S',
+            profilesThumbnail: s3Start + 'CKMP.jpg',
+            profilesSplashImage: s3Start + 'CKMP2.jpg',
             height: '5’10’’',
             weight: '122',
             shoe: '9.5',
@@ -430,7 +430,7 @@ window.TheEraAgency = {
             pageName: 'erika-t',
             modelName: 'Erika T',
             profilesThumbnail: s3Start + 'ErikaT1.jpg',
-            profilesSplashImage: s3Start + 'ErikaT1.jpg',
+            profilesSplashImage: s3Start + 'ErikaTMP2.jpg',
             height: '5’7’’',
             weight: '110',
             shoe: '9',
@@ -743,7 +743,7 @@ window.TheEraAgency = {
             pageName: 'kelsi-r',
             modelName: 'Kelsi R',
             profilesThumbnail: s3Start + 'KelsiRMP.jpeg',
-            profilesSplashImage: s3Start + 'KelsiRMP.jpeg',
+            profilesSplashImage: s3Start + 'KelsiRMP2.jpg',
             height: '5’7’’',
             weight: '110',
             shoe: '8',
@@ -1153,7 +1153,7 @@ window.TheEraAgency = {
             pageName: 'vanessa-g',
             modelName: 'Vanessa G',
             profilesThumbnail: s3Start + 'VanessaGMP.jpg',
-            profilesSplashImage: s3Start + 'VanessaGMP.jpg',
+            profilesSplashImage: s3Start + 'VanessaGMP2.jpg',
             height: '5’6’’',
             weight: '106',
             shoe: '6',
