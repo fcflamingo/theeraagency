@@ -1102,7 +1102,6 @@ window.TheEraAgency = {
             galleryImages: [
                 s3Start + 'SydneyM1.jpg',
                 s3Start + 'SydneyM2.jpg',
-                s3Start + 'SydneyM3.jpg',
                 s3Start + 'SydneyM4.jpg',
                 s3Start + 'SydneyM5.jpg',
                 s3Start + 'SydneyM6.jpg',
