@@ -756,12 +756,18 @@ $lookbookItemWidth: calc(100% / 6);
   display: none;
 }
 
+#contact {
+  margin-top: 5em;
+}
+
 
 @media screen and (max-width: 1600px) {
-  #splash .content-container .content-container-header header .logo  {
+  #splash .content-container .content-container-header header .logo {
     font-size: 110px;
   }
-
+  #contact  {
+    margin-top: 5em;
+  }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.95);
   }
@@ -771,7 +777,9 @@ $lookbookItemWidth: calc(100% / 6);
   #splash .content-container .content-container-header header .logo  {
     font-size: 80px;
   }
-
+  #contact {
+    margin-top: 5em;
+  }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.85);
   }
@@ -782,7 +790,9 @@ $lookbookItemWidth: calc(100% / 6);
   #splash .content-container .content-container-header header .logo  {
     font-size: 50px;
   }
-
+  #contact {
+    margin-top: 5em;
+  }
   #splash .content-container .content-header-nav .inner {
     -webkit-transform: scale(0.75);
   }
