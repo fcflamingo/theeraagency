@@ -4,6 +4,13 @@
 @import 'fonts';
 @import 'colorbox';
 
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .poster {
   display: none;
@@ -91,6 +98,7 @@ video#bgvid, #home_background {
 }
 
 .logo {
+  width: 100%;
   padding: 6px 20px 6px 26px;
   display: inline-block;
   color: #fff;
@@ -382,7 +390,6 @@ $lookbookItemWidth: calc(100% / 6);
       max-width: 400px;
     }
     #login {
-      height: 80px;
       position: relative;
       margin-left: -10px;
       background: #000;
