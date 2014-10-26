@@ -1231,7 +1231,7 @@ window.TheEraAgency = {
         {
             pageName: 'vanessa-g',
             modelName: 'Vanessa G',
-            profilesThumbnail: s3Start + 'VanessaGMP.jpg',
+            profilesThumbnail: s3Start + 'VanessaGMainSmall.jpg',
             profilesSplashImage: s3Start + 'VanessaGMP2.jpg',
             height: '5’6’’',
             weight: '106',
