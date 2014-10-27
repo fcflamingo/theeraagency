@@ -387,7 +387,7 @@ $lookbookItemWidth: calc(100% / 6);
       outline: none;
     }
     #password {
-      max-width: 400px;
+      max-width: 185px;
     }
     #login {
       position: relative;
@@ -673,22 +673,29 @@ $lookbookItemWidth: calc(100% / 6);
   }
 }
 
+.white-overlay {
+  background: rgba(255,255,255,0.9);
+}
+
 .contact-option {
+  padding-top: 5em;
   width: 50%;
   float: left;
-  height: 100vh;
   -webkit-transition: all 0.5s ease;
   cursor: pointer;
   font-weight: 100;
   overflow: hidden;
   font-family: 'Open Sans', sans-serif;
+  .inner {
+    float: left;
+    width: 100%;
+  }
   h1 {
     white-space: nowrap;
     text-overflow: ellipsis;
     font-size: 40px;
     font-weight: 100;
     cursor: pointer;
-    opacity: 0.25;
     -webkit-transition: opacity 0.15s ease;
     overflow: visible;
   }
@@ -696,9 +703,10 @@ $lookbookItemWidth: calc(100% / 6);
   }
   &.active {
     background: rgba(255, 255, 255, 0.85);
-    width: calc(100% - (250px));
     cursor: default;
     .contact-option-container {
+      max-width: 400px;
+      margin: 0 auto;
       &.contact-option-before {
         opacity: 0;
       }
@@ -728,11 +736,9 @@ $lookbookItemWidth: calc(100% / 6);
   width: 100%;
   height: 100vh;
 //  -webkit-transition: opacity 1s ease;
-  border-left: 1.5px solid rgba(0, 0, 0, 0.15);
   &.contact-option-form {
     padding: 20px;
     opacity: 0;
-    top: -100%;
     z-index: -1;
     p {
       max-width: 580px;
@@ -763,11 +769,6 @@ $lookbookItemWidth: calc(100% / 6);
 .vjs-control-bar {
   display: none;
 }
-
-#contact {
-  margin-top: 5em;
-}
-
 
 @media screen and (max-width: 1600px) {
   #splash .content-container .content-container-header header .logo {
@@ -866,10 +867,9 @@ $lookbookItemWidth: calc(100% / 6);
   }
 
   .contact-option {
+    padding: 3em 0em;
     width: 100%;
-    height: 50vh;
     -webkit-transition: max-height 0.5s ease, min-height 0.5s ease;
-    max-height: 50vh;
     border-bottom: 1.5px solid rgba(0, 0, 0, 0.15);
   }
 
@@ -888,11 +888,9 @@ $lookbookItemWidth: calc(100% / 6);
   .contact-option.active {
     width: 100%;
     height: auto;
-    min-height: 75vh;
-    max-height: 140vh;
+    min-height: 20em;
     .contact-option-container.contact-option-form {
       position: relative;
-      height: 75vh;
       display: table;
       .inner {
         display: table-cell;
@@ -1199,8 +1197,8 @@ $lookbookItemWidth: calc(100% / 6);
     height: 134vh;
   }
 
-  #login-container .login-screen #password {
-    height: 40px;
+  #password {
+    max-width: 180px;
   }
 
   #login-container .login-screen #login {
@@ -1220,6 +1218,7 @@ $lookbookItemWidth: calc(100% / 6);
   }
 
   .contact-option-container {
+
     height: 50vh;
     background: rgba(255,255,255,.75);
   }
@@ -1229,7 +1228,6 @@ $lookbookItemWidth: calc(100% / 6);
     padding-top: 15em;
     p, ul, h3 {
       font-size: 12px;
-      text-align: left;
     }
     ul {
       padding-bottom: 1em;
@@ -1252,6 +1250,7 @@ $lookbookItemWidth: calc(100% / 6);
   }
 
   .contact-option.active {
+    padding: .25em .5em;
     .contact-option-container.contact-option-form {
       margin-top: -231px;
       height: auto;
