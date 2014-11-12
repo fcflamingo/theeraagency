@@ -576,7 +576,17 @@ window.TheEraAgency = {
                     s3Start + 'ErikaT3.jpg',
                     s3Start + 'ErikaT4.jpg',
                     s3Start + 'ErikaT5.jpg',
-                    s3Start + 'ErikaT6.jpg'
+                    s3Start + 'ErikaT6.jpg',
+                    s3Start + 'ErikaT7.jpeg',
+                    s3Start + 'ErikaT8.png',
+                    s3Start + 'ErikaT9.jpeg',
+                    s3Start + 'ErikaT10.jpg',
+                    s3Start + 'ErikaT11.png',
+                    s3Start + 'ErikaT12.jpeg',
+                    s3Start + 'ErikaT13.jpeg',
+                    s3Start + 'ErikaT14.jpg',
+                    s3Start + 'ErikaT15.jpeg',
+                    s3Start + 'ErikaT16.jpeg'
             ]
         },
         {
