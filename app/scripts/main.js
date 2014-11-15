@@ -1,6 +1,14 @@
 $(document).ready(function() {
     'use strict';
 
+    mixpanel.track_links('.navbar a',"Click nav link", function (elem) {
+        var href = $(elem).attr('href');
+        var page = href.slice(0, href.length - 5);
+        return {
+            'Page': page
+        }
+    })
+
     // SCALE CORRECTLY IN LANDSCAPE MODE //
 
     if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {

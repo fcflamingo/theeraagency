@@ -24,6 +24,8 @@ $(document).ready(function() {
             }
             var model = findModelFromPage(TheEraAgency.models, pageName)
 
+            mixpanel.track("Open profile", model);
+
             renderPage(model, template)
         }
 
