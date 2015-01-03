@@ -361,7 +361,7 @@ module.exports = function (grunt) {
             },
             pages: {
                 options: {
-                    remote: 'https://github.com/fcflamingo/mymodelmgmt.git',
+                    remote: 'https://github.com/fcflamingo/theeraagency.git',
                     branch: 'gh-pages'
                 }
             },
