@@ -73,18 +73,7 @@ html, body {
   bottom: 0;
   padding: .5em;
   z-index: 1000;
-  transition: .1s;
-  text-align: right;
-  .hidden {
-    position: fixed;
-    bottom: -2em;
-    right: 2em;
-    transition: .5s;
-  }
-  .slide-out {
-    bottom: .5em;
-    transition: .5s;
-  }
+  cursor: pointer;
 }
 
 video#bgvid, #home_background {

@@ -1,14 +1,6 @@
 $(document).ready(function() {
     'use strict';
 
-    var $profile = $('#site-by')
-    $profile.on('mouseenter', function() {
-        $('.hidden').addClass('slide-out');
-    });
-    $profile.on('mouseleave', function() {
-        $('.hidden').removeClass('slide-out');
-    });
-
     mixpanel.track_links('.navbar a',"Click nav link", function (elem) {
         var href = $(elem).attr('href');
         var page = href.slice(0, href.length - 5);
