@@ -302,6 +302,7 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
+                        'CNAME',
                         'images/{,*/}*.webp',
                         'videos/{,*/}*.mp4',
                         '{,*/}*.html',
@@ -360,7 +361,7 @@ module.exports = function (grunt) {
             },
             pages: {
                 options: {
-                    remote: 'https://github.com/fcflamingo/mymodelmgmt.git',
+                    remote: 'https://github.com/fcflamingo/theeraagency.git',
                     branch: 'gh-pages'
                 }
             },
