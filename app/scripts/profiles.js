@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     var gridItemHeight = function() {
-        var $gridItem = $('.grid-item')
+        var $gridItem = $('.grid-item');
         var gridItemWidth = $gridItem.width();
         $gridItem.css({'height': gridItemWidth + 'px'});
     };
@@ -12,7 +12,7 @@ $(document).ready(function() {
     };
 
     var setProfileGridItemHeight = function() {
-        var $profile = $('.profile-grid-item')
+        var $profile = $('.profile-grid-item');
         $("profile-grid").imagesLoaded(function () {
             var profileGridItemWidth = $profile.width();
             $profile.height(profileGridItemWidth);
@@ -24,9 +24,9 @@ $(document).ready(function() {
     };
 
     $(window).resize(function() {
-        gridItemHeight()
-        setProfileGridItemHeight()
-        modelInfoHeight()
+        gridItemHeight();
+        setProfileGridItemHeight();
+        modelInfoHeight();
     });
 
     TheEraAgency.sizeProfiles = function () {
@@ -35,23 +35,23 @@ $(document).ready(function() {
 
         if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
             setTimeout(function() {
-                gridItemHeight()
-                modalHeight()
-                setProfileGridItemHeight()
+                gridItemHeight();
+                modalHeight();
+                setProfileGridItemHeight();
             }, 2000);
         } else {
-            gridItemHeight()
-            setProfileGridItemHeight()
+            gridItemHeight();
+            setProfileGridItemHeight();
         }
 
-    }
+    };
 
 
 
 
     TheEraAgency.initProfiles = function () {
 
-        var $profile = $('.profile-grid-item')
+        var $profile = $('.profile-grid-item');
         $profile.on('mouseenter', function() {
             $('.profile-grid-item').not(this).addClass('is-not-hovered');
         });
@@ -76,4 +76,4 @@ $(document).ready(function() {
 
 
 
-})
+});

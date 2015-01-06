@@ -1,5 +1,5 @@
-var urlStart = 'http://res.cloudinary.com/fcflamingo/image/upload/'
-var s3Start = 'http://d31dy5w2rgbgqc.cloudfront.net/'
+var urlStart = 'http://res.cloudinary.com/fcflamingo/image/upload/';
+var s3Start = 'http://d31dy5w2rgbgqc.cloudfront.net/';
 
 window.TheEraAgency = {
     models: [
