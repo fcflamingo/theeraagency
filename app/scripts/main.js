@@ -7,7 +7,7 @@ $(document).ready(function() {
         return {
             'Page': page
         }
-    })
+    });
 
     // SCALE CORRECTLY IN LANDSCAPE MODE //
 

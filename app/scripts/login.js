@@ -1,17 +1,19 @@
 $(document).ready(function () {
     var loginContainer = $('#login-container');
-    var login = $('#login');
     var toggleLogin = $('a.is-toggle-login');
 
-    toggleLogin.on('click', function() {
+    toggleLogin.on('click', function () {
         loginContainer.toggleClass('active');
 
     });
 
-    login.on('click', function(e) {
+    var $form = $('#js-login-form');
+    var $confirmCodeInput = $('#js-password');
+    var $password = 'models2015';
+    $form.on('submit', function (e) {
         e.preventDefault();
-        window.location='profile.html';
+        if ($confirmCodeInput.val() == $password) {
+            window.location = 'profile.html';
+        }
     });
-
-
-})
+});

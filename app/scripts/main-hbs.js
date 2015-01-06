@@ -1,8 +1,8 @@
 $(document).ready(function() {
-    var $profilesTemplate = $("#profiles-template")
-    var $profileTemplate = $("#profile-template")
+    var $profilesTemplate = $("#profiles-template");
+    var $profileTemplate = $("#profile-template");
 
-    var onProfilePage = $profileTemplate.length > 0
+    var onProfilePage = $profileTemplate.length > 0;
 
     if (onProfilePage) {
 
@@ -11,7 +11,7 @@ $(document).ready(function() {
             var template = Handlebars.compile(source);
 
             renderPage(TheEraAgency, template)
-        }
+        };
 
         var renderProfilePage = function (pageName) {
             var source   = $profileTemplate.html();
@@ -21,18 +21,18 @@ $(document).ready(function() {
                 return models.filter(function (item){
                     return item.pageName == pageName
                 })[0]
-            }
-            var model = findModelFromPage(TheEraAgency.models, pageName)
+            };
+            var model = findModelFromPage(TheEraAgency.models, pageName);
 
             mixpanel.track("Open profile", model);
 
             renderPage(model, template)
-        }
+        };
 
         var renderPage = function (data, template) {
-            var html = template(data)
+            var html = template(data);
             $('#js-body').html(html)
-        }
+        };
 
 
         //handle hash changes
@@ -43,8 +43,8 @@ $(document).ready(function() {
                 renderProfilesPage()
             }
 
-            TheEraAgency.sizeProfiles()
-            TheEraAgency.initProfiles()
+            TheEraAgency.sizeProfiles();
+            TheEraAgency.initProfiles();
 
         }
 
@@ -55,5 +55,5 @@ $(document).ready(function() {
 
     }
 
-})
+});
 

@@ -4,28 +4,6 @@
 @import 'fonts';
 @import 'colorbox';
 
-/*FLAMINGO ICON*/
-@font-face {
-  font-family: 'icomoon-icons';
-  src:url('fonts/icomoon-icons.eot?h1ksp8');
-  src:url('fonts/icomoon-icons.eot?#iefixh1ksp8') format('embedded-opentype'),
-  url('fonts/icomoon-icons.woff?h1ksp8') format('woff'),
-  url('fonts/icomoon-icons.ttf?h1ksp8') format('truetype'),
-  url('fonts/icomoon-icons.svg?h1ksp8#icomoon-icons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-[class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon-icons';
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.icon-flamingo:before {
-  content: "\e600";
-}
-/*FLAMINGO ICON END*/
-
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -71,9 +49,14 @@ html, body {
   position: fixed;
   right: 0;
   bottom: 0;
-  padding: .5em;
+  padding: .5em .5em 0 .5em;
   z-index: 1000;
   cursor: pointer;
+}
+
+#site-by img {
+  float: left;
+  width: 14px;
 }
 
 video#bgvid, #home_background {
@@ -423,7 +406,7 @@ $lookbookItemWidth: calc(100% / 6);
     #password {
       max-width: 185px;
     }
-    #login {
+    #js-login {
       position: relative;
       margin-left: -10px;
       background: #000;
