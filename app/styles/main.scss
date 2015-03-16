@@ -68,8 +68,7 @@ video#bgvid, #home_background {
   width: auto;
   height: auto;
   z-index: -100;
-  background: url(../images/mobile_background.jpg) top center no-repeat;
-  background-size: cover;
+  background: #fff;
 }
 
 .loader {
@@ -890,6 +889,10 @@ $lookbookItemWidth: calc(100% / 6);
 }
 
 @media screen and (max-width: 618px) {
+  #home_background {
+    background: url(../images/mobile_background.jpg) top center no-repeat;
+    background-size: cover;
+  }
   /* apply a natural box layout model to all elements, but allowing components to change */
 
   html {
@@ -1143,6 +1146,10 @@ $lookbookItemWidth: calc(100% / 6);
 }
 
 @media screen and (max-device-width: 480px) {
+  #home_background {
+    background: url(../images/mobile_background.jpg) top center no-repeat;
+    background-size: cover;
+  }
   .poster {
     display: block;
   }
