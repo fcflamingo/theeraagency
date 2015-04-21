@@ -1249,8 +1249,8 @@ window.TheEraAgency = {
         {
             pageName: 'talia-w',
             modelName: 'Talia W',
-            profilesThumbnail: s3Start + 'TaliaW_Icon.jpg',
-            profilesSplashImage: s3Start + 'TaliaW_Icon.jpg',
+            profilesThumbnail: s3Start + 'TaliaW_Icon.jpeg',
+            profilesSplashImage: s3Start + 'TaliaW_Icon.jpeg',
             height: 'N/A',
             weight: 'N/A',
             shoe: 'N/A',
@@ -1287,8 +1287,8 @@ window.TheEraAgency = {
         {
             pageName: 'whitney-n',
             modelName: 'Whitney N',
-            profilesThumbnail: s3Start + 'WhitneyN_Icon.jpg',
-            profilesSplashImage: s3Start + 'WhitneyN_Icon.jpg',
+            profilesThumbnail: s3Start + 'WhitneyN_Icon.jpeg',
+            profilesSplashImage: s3Start + 'WhitneyN_Icon.jpeg',
             height: 'N/A',
             weight: 'N/A',
             shoe: 'N/A',
@@ -1300,7 +1300,7 @@ window.TheEraAgency = {
             eyes: 'N/A',
             instagram: 'N/A',
             galleryImages: [
-                    s3Start + 'WhitneyN_Icon.jpg'
+                    s3Start + 'WhitneyN_Icon.jpeg'
             ]
         },
         {
