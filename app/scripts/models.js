@@ -7,7 +7,7 @@ window.TheEraAgency = {
             pageName: 'ana-o',
             modelName: 'Ana O',
             profilesThumbnail: s3Start + 'AnaO1.jpg',
-            profilesSplashImage: s3Start + 'AnaOMain.jpg',
+            profilesSplashImage: s3Start + 'Ana_O_SidePhoto.jpg',
             height: '5’9’’',
             weight: '120',
             shoe: '8',
@@ -27,10 +27,11 @@ window.TheEraAgency = {
                     s3Start + 'AnaO6.jpg',
                     s3Start + 'AnaO7.JPG',
                     s3Start + 'AnaO8.png',
-                    s3Start + 'AnaO9.jpg',
-                    s3Start + 'AnaO10.jpg',
-                    s3Start + 'AnaO11.jpg',
-                    s3Start + 'AnaO12.jpg'
+                    s3Start + 'Ana_O_13.jpg',
+                    s3Start + 'Ana_O_14.jpg',
+                    s3Start + 'Ana_O_15.jpg',
+                    s3Start + 'Ana_O_16.jpg',
+                    s3Start + 'Ana_O_17.jpg'
             ]
         },
         {
@@ -63,7 +64,9 @@ window.TheEraAgency = {
                     s3Start + 'AshleighC12.jpg',
                     s3Start + 'AshleighC13.jpg',
                     s3Start + 'AshleighC14.jpg',
-                    s3Start + 'AshleighC15.jpg'
+                    s3Start + 'AshleighC15.jpg',
+                    s3Start + 'Ashleigh_16.jpg',
+                    s3Start + 'Ashleigh_17.jpg'
             ]
         },
         {
@@ -94,7 +97,10 @@ window.TheEraAgency = {
                 urlStart + 'v1410209806/Ashley_Harrell_2_vt4ijz.jpg',
                 urlStart + 'v1410209806/Ashley_Harrell_4_re5elx.jpg',
                 urlStart + 'v1410209807/Ashley_Harrell_3_a6iuwm.jpg',
-                urlStart + 'v1410209807/Ashley_Harrell_5_zaicv9.jpg'
+                urlStart + 'v1410209807/Ashley_Harrell_5_zaicv9.jpg',
+                s3Start + 'Ashley_12.jpg',
+                s3Start + 'Ashley_13.jpg',
+                s3Start + 'Ashley_14.jpg'
             ]
         },
         {
@@ -125,7 +131,13 @@ window.TheEraAgency = {
                 urlStart + 'v1410209804/A8_kqvzil.jpg',
                 urlStart + 'v1410209804/A7_sq1fuu.jpg',
                 urlStart + 'v1410209805/A13_i5kacg.jpg',
-                urlStart + 'v1410209806/A11_z057v1.jpg'
+                urlStart + 'v1410209806/A11_z057v1.jpg',
+                s3Start + 'Autumn_19.jpg',
+                s3Start + 'Autumn_20.jpg',
+                s3Start + 'Autumn_21.jpg',
+                s3Start + 'Autumn_22.jpg',
+                s3Start + 'Autumn_23.jpg',
+                s3Start + 'Autumn_24.jpg'
             ]
         },
         {
@@ -190,39 +202,6 @@ window.TheEraAgency = {
             ]
         },
         {
-            pageName: 'bella-c',
-            modelName: 'Bella C',
-            profilesThumbnail: s3Start + 'BellaCMainPic.png',
-            profilesSplashImage: s3Start + 'BellaCMainTall.jpg',
-            height: '5’8’’',
-            weight: '105',
-            shoe: '7',
-            dress: '0',
-            bust: '32A',
-            waist: '23',
-            hips: '33',
-            hair: 'Blonde',
-            eyes: 'Blue',
-            instagram: 'bellacirnski',
-            galleryImages: [
-                    s3Start + 'BellaC1.jpg',
-                    s3Start + 'BellaC2.png',
-                    s3Start + 'BellaC3.png',
-                    s3Start + 'BellaC4.png',
-                    s3Start + 'BellaC5.png',
-                    s3Start + 'BellaC6.png',
-                    s3Start + 'BellaC7.png',
-                    s3Start + 'BellaC8.png',
-                    s3Start + 'BellaC9.png',
-                    s3Start + 'BellaC10.png',
-                    s3Start + 'BellaC11.png',
-                    s3Start + 'BellaC12.jpg',
-                    s3Start + 'BellaC13.png',
-                    s3Start + 'BellaC14.png',
-                    s3Start + 'BellaC15.png'
-            ]
-        },
-        {
             pageName: 'caite-u',
             modelName: 'Caite U',
             profilesThumbnail: s3Start + 'CaiteUMP.jpg',
@@ -259,16 +238,73 @@ window.TheEraAgency = {
             ]
         },
         {
+            pageName: 'brittany-g',
+            modelName: 'Brittany G',
+            profilesThumbnail: s3Start + 'BrittanyG_Icon.jpg',
+            profilesSplashImage: s3Start + 'BrittanyG_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'BrittanyG_Icon.jpg'
+            ]
+        },
+        {
+            pageName: 'brittany-w',
+            modelName: 'Brittany W',
+            profilesThumbnail: s3Start + 'BrittanW_Icon.jpg',
+            profilesSplashImage: s3Start + 'BrittanW_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'BrittanW_Icon.jpg'
+            ]
+        },
+        {
+            pageName: 'caitlin-d',
+            modelName: 'Caitlin D',
+            profilesThumbnail: s3Start + 'CaitlinD_Icon.jpg',
+            profilesSplashImage: s3Start + 'CaitlinD_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'CaitlinD_Icon.jpg'
+            ]
+        },
+        {
             pageName: 'callan-o',
             modelName: 'Callan O',
             profilesThumbnail: s3Start + 'CallanOMainPic.jpg',
-            profilesSplashImage: s3Start + 'CallanOMainOther.jpg',
+            profilesSplashImage: s3Start + 'Callan_SidePhoto.jpg',
             height: '5’8’’',
             weight: '103',
             shoe: '7',
             dress: '0',
             bust: '32C',
-            waist: '23',
+            waist: '22',
             hips: '33',
             hair: 'Blonde',
             eyes: 'Hazel',
@@ -278,9 +314,6 @@ window.TheEraAgency = {
                     s3Start + 'CallanO2.jpg',
                     s3Start + 'CallanO3.jpg',
                     s3Start + 'CallanO4.jpg',
-                    s3Start + 'CallanO5.jpg',
-                    s3Start + 'CallanO6.jpg',
-                    s3Start + 'CallanO7.jpg',
                     s3Start + 'CallanO8.jpg',
                     s3Start + 'CallanO9.jpg',
                     s3Start + 'CallanO10.png',
@@ -288,7 +321,14 @@ window.TheEraAgency = {
                     s3Start + 'CallanO12.png',
                     s3Start + 'CallanO13.png',
                     s3Start + 'CallanO14.jpg',
-                    s3Start + 'CallanO15.png'
+                    s3Start + 'CallanO15.png',
+                    s3Start + 'Callan_16.jpg',
+                    s3Start + 'Callan_17.jpg',
+                    s3Start + 'Callan_18.jpg',
+                    s3Start + 'Callan_19.jpg',
+                    s3Start + 'Callan_20.jpg',
+                    s3Start + 'Callan_21.jpg',
+                    s3Start + 'Callan_22.jpg'
             ]
         },
         {
@@ -319,34 +359,8 @@ window.TheEraAgency = {
                 urlStart + 'v1410209823/Cathy_MC_10_a7pld4.jpg',
                 urlStart + 'v1410209823/Cathy_MC_11_wdahif.jpg',
                 urlStart + 'v1410209823/Cathy_MC_12_pbpuhf.jpg',
-                urlStart + 'v1410209824/Cathy_McCarthy_MP_ahzoxc.jpg'
-            ]
-        },
-        {
-            pageName: 'chelsea-s',
-            modelName: 'Chelsea S',
-            profilesThumbnail: urlStart + 'v1410199505/ChelseaProfile_ujncqi.png',
-            profilesSplashImage: urlStart + 'v1410289768/ChelseaSplashImage_lqhhfk.png',
-            height: '5’3’',
-            weight: '110',
-            shoe: '7',
-            dress: '2',
-            bust: '32DD',
-            waist: '24',
-            hips: '33',
-            hair: 'Brown',
-            eyes: 'Brown',
-            instagram: 'n/a',
-            galleryImages: [
-                urlStart + 'v1410209824/Chelsea_1_ptdhbg.jpg',
-                urlStart + 'v1410209824/Chelsea_2_uck9uj.jpg',
-                urlStart + 'v1410209824/Chelsea_4_tpuxhh.jpg',
-                urlStart + 'v1410209824/Chelsea_3_eitp14.jpg',
-                urlStart + 'v1410209824/Chelsea_5_pjnopg.jpg',
-                urlStart + 'v1410209825/Chelsea_7_qr5ez1.jpg',
-                urlStart + 'v1410209825/Chelsea_8_hhqcqv.jpg',
-                urlStart + 'v1410209825/Chelsea_6_khaxny.jpg',
-                urlStart + 'v1410209825/Chelsea_MP_grokex.jpg'
+                urlStart + 'v1410209824/Cathy_McCarthy_MP_ahzoxc.jpg',
+                s3Start + 'Cathy_McCarthy14.jpg'
             ]
         },
         {
@@ -428,6 +442,25 @@ window.TheEraAgency = {
             ]
         },
         {
+            pageName: 'cierra-j',
+            modelName: 'Cierra J',
+            profilesThumbnail: s3Start + 'CierraJ_Icon.jpg',
+            profilesSplashImage: s3Start + 'CierraJ_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'CierraJ_Icon.jpg'
+            ]
+        },
+        {
             pageName: 'dani-h',
             modelName: 'Dani H',
             profilesThumbnail: s3Start + 'DaniHMP.jpg',
@@ -459,73 +492,6 @@ window.TheEraAgency = {
             ]
         },
         {
-            pageName: 'dani-m',
-            modelName: 'Dani M',
-            profilesThumbnail: urlStart + 'v1410199506/DaniMathersProfile_yhuvy1.png',
-            profilesSplashImage: urlStart + 'v1410289769/DaniMathersSplashImage_f2khtr.png',
-            height: '5’3’’',
-            weight: '98',
-            shoe: '6',
-            dress: '00',
-            bust: '33D',
-            waist: '23',
-            hips: '31',
-            hair: 'Blonde',
-            eyes: 'Brown',
-            instagram: 'missdanimathers',
-            galleryImages: [
-                urlStart + 'v1410209841/Dani_M_ck8ztq.jpg',
-                urlStart + 'v1410209841/DaniMathers1_wlp1dr.jpg',
-                urlStart + 'v1410209841/DaniMathers2_hknhs7.jpg',
-                urlStart + 'v1410209841/DaniMathers3_dezyfc.jpg',
-                urlStart + 'v1410209842/DaniMathers4_z6uczu.jpg',
-                urlStart + 'v1410209842/DaniMathers7_c86obt.jpg',
-                urlStart + 'v1410209842/DaniMathers6_jsqkqg.jpg',
-                urlStart + 'v1410209842/DaniMathers5_wcxy6d.jpg',
-                urlStart + 'v1410209842/DaniMathers9_yf7yqq.jpg',
-                urlStart + 'v1410209842/DaniMathers8_rf2pzl.jpg',
-                urlStart + 'v1410209843/DaniMathers10_ybjrk4.jpg',
-                urlStart + 'v1410209843/DaniMathers11_v8y2og.jpg',
-                urlStart + 'v1410209843/DaniMathers13_ae6vzn.jpg',
-                urlStart + 'v1410209844/DaniMathers12_hcidyo.jpg'
-            ]
-        },
-        {
-            pageName: 'danielle-s',
-            modelName: 'Danielle S',
-            profilesThumbnail: s3Start + 'DanielleSMP.jpg',
-            profilesSplashImage: s3Start + 'DanielleS7.jpg',
-            height: '5’9’’',
-            weight: '120',
-            shoe: '7',
-            dress: '2',
-            bust: '32B',
-            waist: '24',
-            hips: '34',
-            hair: 'Brown',
-            eyes: 'Brown',
-            instagram: 'daniellensouza',
-            galleryImages: [
-                s3Start + 'DanielleS1.jpg',
-                s3Start + 'DanielleS2.jpg',
-                s3Start + 'DanielleS3.jpg',
-                s3Start + 'DanielleS4.jpg',
-                s3Start + 'DanielleS5.jpg',
-                s3Start + 'DanielleS6.jpg',
-                s3Start + 'DanielleS7.jpg',
-                s3Start + 'DanielleS8.jpg',
-                s3Start + 'DanielleS9.jpg',
-                s3Start + 'DanielleS10.jpg',
-                s3Start + 'DanielleS11.jpg',
-                s3Start + 'DanielleS12.jpg',
-                s3Start + 'DanielleS13.jpg',
-                s3Start + 'DanielleS14.jpg',
-                s3Start + 'DanielleS15.jpg',
-                s3Start + 'DanielleS16.jpg',
-                s3Start + 'DanielleSMP.jpg'
-            ]
-        },
-        {
             pageName: 'emily-r',
             modelName: 'Emily R',
             profilesThumbnail: s3Start + 'EmilyRMainSmall.jpg',
@@ -543,50 +509,60 @@ window.TheEraAgency = {
             galleryImages: [
                 urlStart + 'v1410209848/Emily_2_m2f7ho.jpg',
                 urlStart + 'v1410209852/Emily_9_knbs20.jpg',
-                urlStart + 'v1410209845/Emily_3_jeg08f.jpg',
                 urlStart + 'v1410209846/Emily_4_ljay4h.jpg',
-                urlStart + 'v1410209846/Emily_5_egurpd.jpg',
                 urlStart + 'v1410209846/Emily_6_onkymv.jpg',
                 urlStart + 'v1410209846/Emily_1_cjacgh.jpg',
                 urlStart + 'v1410209846/Emily_7_ua44ub.jpg',
                 urlStart + 'v1410209847/Emily_8_txcddj.jpg',
                 urlStart + 'v1410209847/Emily_10_g0dtqk.jpg',
                 urlStart + 'v1410209847/Emily_11_ucp6uz.jpg',
-                urlStart + 'v1410209847/Emily_MP_yaoohs.jpg'
+                s3Start + 'Emily_12.jpg',
+                s3Start + 'Emily_13.jpg',
+                s3Start + 'Emily_14.jpg',
+                s3Start + 'Emily_15.jpg',
+                s3Start + 'Emily_16.jpg',
+                s3Start + 'Emily_17.jpg',
+                s3Start + 'Emily_18.jpg',
+                s3Start + 'Emily_19.jpg'
             ]
         },
         {
             pageName: 'erika-t',
             modelName: 'Erika T',
             profilesThumbnail: s3Start + 'ErikaT1.jpg',
-            profilesSplashImage: s3Start + 'ErikaTMP2.jpg',
+            profilesSplashImage: s3Start + 'Erika_T_SidePhoto.jpg',
             height: '5’7’’',
             weight: '110',
             shoe: '9',
-            dress: '0',
+            dress: '2',
             bust: '32B',
             waist: '24',
-            hips: '33',
+            hips: '35',
             hair: 'Brown',
             eyes: 'Brown',
             instagram: 'erikathom',
             galleryImages: [
                     s3Start + 'ErikaT1.jpg',
-                    s3Start + 'ErikaT2.jpg',
-                    s3Start + 'ErikaT3.jpg',
                     s3Start + 'ErikaT4.jpg',
-                    s3Start + 'ErikaT5.jpg',
-                    s3Start + 'ErikaT6.jpg',
                     s3Start + 'ErikaT7.jpeg',
                     s3Start + 'ErikaT8.png',
-                    s3Start + 'ErikaT9.jpeg',
                     s3Start + 'ErikaT10.jpg',
                     s3Start + 'ErikaT11.png',
                     s3Start + 'ErikaT12.jpeg',
                     s3Start + 'ErikaT13.jpeg',
                     s3Start + 'ErikaT14.jpg',
                     s3Start + 'ErikaT15.jpeg',
-                    s3Start + 'ErikaT16.jpeg'
+                    s3Start + 'ErikaT16.jpeg',
+                    s3Start + 'Erika_T_1.jpg',
+                    s3Start + 'Erika_T_2.jpg',
+                    s3Start + 'Erika_T_3.jpg',
+                    s3Start + 'Erika_T_4.jpg',
+                    s3Start + 'Erika_T_5.jpg',
+                    s3Start + 'Erika_T_6.jpg',
+                    s3Start + 'Erika_T_7.jpg',
+                    s3Start + 'Erika_T_8.jpg',
+                    s3Start + 'Erika_T_9.jpg',
+                    s3Start + 'Erika_T_10.jpg'
             ]
         },
         {
@@ -623,8 +599,8 @@ window.TheEraAgency = {
         {
             pageName: 'izzy-p',
             modelName: 'Izzy P',
-            profilesThumbnail: urlStart + 'v1410199506/IzzyPoulinProfile_dncm99.png',
-            profilesSplashImage: urlStart + 'v1410289915/IzzyPoulinSplashImage_oeigix.png    ',
+            profilesThumbnail: s3Start + 'Izzy_P_IconPhoto.jpg',
+            profilesSplashImage: s3Start + 'Izzy_P_SidePhoto.jpg',
             height: '5’7’’',
             weight: '115',
             shoe: '7',
@@ -637,10 +613,15 @@ window.TheEraAgency = {
             instagram: 'izzyisup',
             galleryImages: [
                 s3Start + 'IzzyP1.jpg',
-                s3Start + 'IzzyP2.jpg',
                 s3Start + 'IzzyP3.jpg',
                 s3Start + 'IzzyP4.jpg',
-                urlStart + 'v1410209860/Izzy_Poulin_MP_gnsqs4.jpg',
+                s3Start + 'Izzy_P_.jpg',
+                s3Start + 'Izzy_P_1.jpg',
+                s3Start + 'Izzy_P_2.jpg',
+                s3Start + 'Izzy_P_3.jpg',
+                s3Start + 'Izzy_P_4.png',
+                s3Start + 'Izzy_P_5.jpg',
+                s3Start + 'Izzy_P_6.jpg',
                 urlStart + 'v1410209862/Izzy_Poulin_3_bpuxj6.jpg',
                 urlStart + 'v1410209859/Izzy_Poulin_10_lr9auy.jpg',
                 urlStart + 'v1410209860/Izzy_Poulin_12_ltspwe.jpg',
@@ -978,6 +959,25 @@ window.TheEraAgency = {
             ]
         },
         {
+            pageName: 'kenzie-g',
+            modelName: 'Kenzie G',
+            profilesThumbnail: s3Start + 'KenzieG_Icon.png',
+            profilesSplashImage: s3Start + 'KenzieG_Icon.png',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'KenzieG_Icon.png'
+            ]
+        },
+        {
             pageName: 'lauren-s',
             modelName: 'Lauren S',
             profilesThumbnail: s3Start + 'LaurenSMP.jpg',
@@ -1010,6 +1010,25 @@ window.TheEraAgency = {
                 s3Start + 'LaurenS15.jpg',
                 s3Start + 'LaurenS16.jpg',
                 s3Start + 'LaurenSMP.jpg'
+            ]
+        },
+        {
+            pageName: 'lindsey-h',
+            modelName: 'Lindsey H',
+            profilesThumbnail: s3Start + 'LindseyH_Icon.png',
+            profilesSplashImage: s3Start + 'LindseyH_Icon.png',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'LindseyH_Icon.png'
             ]
         },
         {
@@ -1174,33 +1193,22 @@ window.TheEraAgency = {
             ]
         },
         {
-            pageName: 'samantha-k',
-            modelName: 'Samantha K',
-            profilesThumbnail: s3Start + 'SamanthaKMP.jpg',
-            profilesSplashImage: s3Start + 'SamanthaKMP2.jpg',
-            height: '5’8’’',
-            weight: '115',
-            shoe: '8',
-            dress: '2',
-            bust: '34C',
-            waist: '24',
-            hips: '33',
-            hair: 'Blonde',
-            eyes: 'Brown',
-            instagram: 'sammykayyyy',
+            pageName: 'Sara-m',
+            modelName: 'Sara M',
+            profilesThumbnail: s3Start + 'SaraM_Icon.jpg',
+            profilesSplashImage: s3Start + 'SaraM_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
             galleryImages: [
-                s3Start + 'SamanthaK1.jpg',
-                s3Start + 'SamanthaK3.jpg',
-                s3Start + 'SamanthaK4.jpg',
-                s3Start + 'SamanthaK5.jpg',
-                s3Start + 'SamanthaK6.jpg',
-                s3Start + 'SamanthaK7.jpg',
-                s3Start + 'SamanthaK8.jpg',
-                s3Start + 'SamanthaK9.jpg',
-                s3Start + 'SamanthaK10.jpg',
-                s3Start + 'SamanthaK11.jpg',
-                s3Start + 'SamanthaK12.jpg',
-                s3Start + 'SamanthaKMP.jpg'
+                    s3Start + 'SaraM_Icon.jpg'
             ]
         },
         {
@@ -1236,6 +1244,63 @@ window.TheEraAgency = {
                 s3Start + 'SydneyM16.jpg',
                 s3Start + 'SydneyM17.jpg',
                 s3Start + 'SydneyMMP.jpg'
+            ]
+        },
+        {
+            pageName: 'talia-w',
+            modelName: 'Talia W',
+            profilesThumbnail: s3Start + 'TaliaW_Icon.jpg',
+            profilesSplashImage: s3Start + 'TaliaW_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'TaliaW_Icon.jpg'
+            ]
+        },
+        {
+            pageName: 'tayler-h',
+            modelName: 'Tayler H',
+            profilesThumbnail: s3Start + 'TaylerH_Icon.jpg',
+            profilesSplashImage: s3Start + 'TaylerH_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'TaylerH_Icon.jpg'
+            ]
+        },
+        {
+            pageName: 'whitney-n',
+            modelName: 'Whitney N',
+            profilesThumbnail: s3Start + 'WhitneyN_Icon.jpg',
+            profilesSplashImage: s3Start + 'WhitneyN_Icon.jpg',
+            height: 'N/A',
+            weight: 'N/A',
+            shoe: 'N/A',
+            dress: 'N/A',
+            bust: 'N/A',
+            waist: 'N/A',
+            hips: 'N/A',
+            hair: 'N/A',
+            eyes: 'N/A',
+            instagram: 'N/A',
+            galleryImages: [
+                    s3Start + 'WhitneyN_Icon.jpg'
             ]
         },
         {
